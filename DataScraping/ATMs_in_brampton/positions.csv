@@ -58,9 +58,16 @@ latitude,longitude,name,desc,color,source,precision
 43.685015,-79.524118,"140 La Rose Ave, Etobicoke","140 La Rose Avenue, Toronto, ON, CA",,MapQuest Open,address
 43.682561,-79.731923,"7995 Kennedy Rd S, Brampton","Kennedy Road South, Brampton, ON, CA",,MapQuest Open,street
 43.682561,-79.731923,"1 Kennedy Road South, Brampton","Kennedy Road South, Brampton, ON, CA",,MapQuest Open,street
+43.682129,-79.467941,"500 Rogers Rd, Toronto","500 Rogers Road, Toronto, ON, CA",,MapQuest Open,address
 43.680989,-79.682551,"7280 Dixie Road, Mississauga","7280 Dixie Road, Mississauga, ON, CA",,MapQuest Open,address
 43.680806,-79.509302,"280 Scarlett Rd, Toronto","280 Scarlett Road, Toronto, ON, CA",,MapQuest Open,address
 43.67783,-79.748829,"160 Main St S, Brampton","160 Main Street South, Brampton, ON, CA",,MapQuest Open,address
+43.669751,-79.389352,"972 Bloor St W, Toronto","Bloor Street West, Toronto, ON, CA",,MapQuest Open,street
+43.669751,-79.389352,"2947 Bloor St W, Toronto","Bloor Street West, Toronto, ON, CA",,MapQuest Open,street
+43.669751,-79.389352,"2485 Bloor St W, Toronto","Bloor Street West, Toronto, ON, CA",,MapQuest Open,street
+43.669751,-79.389352,"2329 Bloor St W, Toronto","Bloor Street West, Toronto, ON, CA",,MapQuest Open,street
+43.669751,-79.389352,"2290 Bloor Street W, Toronto","Bloor Street West, Toronto, ON, CA",,MapQuest Open,street
+43.664972,-79.468592,"384 Pacific Ave, Toronto","384 Pacific Avenue, Toronto, ON, CA",,MapQuest Open,address
 43.664349,-79.722653,"209 County Court Blvd, Brampton","County Court Boulevard, Brampton, ON, CA",,MapQuest Open,street
 43.661834,-79.519841,"270 The Kingsway, Etobicoke","270 The Kingsway, Toronto, ON, CA",,MapQuest Open,address
 43.661525,-79.821863,"9495 Mississauga Rd, Brampton","9495 Mississauga Road, Brampton, ON, CA",,MapQuest Open,address
@@ -70,31 +77,55 @@ latitude,longitude,name,desc,color,source,precision
 43.658316,-79.77033,"8978 Chinguacousy Rd, Brampton","Chinguacousy Road, Brampton, ON, CA",,MapQuest Open,street
 43.658316,-79.77033,"8965 Chinguacousy Rd, Brampton","Chinguacousy Road, Brampton, ON, CA",,MapQuest Open,street
 43.655622,-79.695813,"480 Derry Rd E, Mississauga","480 Derry Road East, Brampton, ON, CA",,MapQuest Open,address
+43.654215,-79.422874,"833 College St, Toronto","833 College Street, Toronto, ON, CA",,MapQuest Open,address
+43.652718,-79.398944,"4869 Dundas St West, Toronto","Dundas Street West, Toronto, ON, CA",,MapQuest Open,street
+43.652718,-79.398944,"3446 Dundas St W, Toronto","Dundas Street West, Toronto, ON, CA",,MapQuest Open,street
+43.652718,-79.398944,"1421 Dundas St W, Toronto","Dundas Street West, Toronto, ON, CA",,MapQuest Open,street
 43.651608,-79.526387,"2291 Islington Ave, Toronto","Islington Avenue, Toronto, ON, CA",,MapQuest Open,street
 43.649614,-79.902132,"232 Guelph St, Georgetown","232 Guelph Street, Halton Hills, ON, CA",,MapQuest Open,address
 43.649496,-79.925849,"83 Main St S, Georgetown","83 Main Street South, Halton Hills, ON, CA",,MapQuest Open,address
+43.645506,-79.566175,"401 The West Mall, Etobicoke","401 The West Mall, Toronto, ON, CA",,MapQuest Open,address
+43.644744,-79.448252,"179 Roncesvalles Ave, Toronto","179 Roncesvalles Avenue, Toronto, ON, CA",,MapQuest Open,address
 43.643202,-79.725807,"10098 Mclaughlin Rd, Brampton","McLaughlin Road, Brampton, ON, CA",,MapQuest Open,street
 43.643202,-79.725807,"10010 Mclaughlin Rd, Brampton","McLaughlin Road, Brampton, ON, CA",,MapQuest Open,street
 43.643009,-79.57326,"632 Burnhamthorpe Rd, Mississauga","632 Burnhamthorpe Road, Toronto, ON, CA",,MapQuest Open,address
+43.642999,-79.418577,"1001 Queen St W, Toronto","1001 Queen Street West, Toronto, ON, CA",,MapQuest Open,address
 43.642823,-79.723329,"7020 St Barbara Blvd, Mississauga","Saint Barbara Boulevard, Brampton, ON, CA",,MapQuest Open,street
+43.642643,-79.427382,"2 Gladstone Ave, Toronto","2 Gladstone Avenue, Toronto, ON, CA",,MapQuest Open,address
 43.642588,-79.575462,"2126 Burnhamthorpe Rd, Mississauga","Burnhamthorpe Road, Toronto, ON, CA",,MapQuest Open,street
 43.641889,-79.746894,"7970 Mavis Rd, Brampton","Mavis Road, Brampton, ON, CA",,MapQuest Open,street
+43.64135,-79.414724,"1005 King St W, Toronto","1005 King Street West, Toronto, ON, CA",,MapQuest Open,address
+43.638841,-79.419563,"51 Hanna Ave, Toronto","51 Hanna Avenue, Toronto, ON, CA",,MapQuest Open,address
 43.63821,-80.027147,"370 Queen St, Acton","370 Queen Street, Halton Hills, ON, CA",,MapQuest Open,address
+43.638116,-79.430679,"1265 King Street W, Toronto","1265 King Street West, Toronto, ON, CA",,MapQuest Open,address
+43.637975,-79.538439,"4860 Dundas St W, Etobicoke","Dundas Street West, Toronto, ON, CA",,MapQuest Open,street
+43.635519,-79.562356,"290 The West Mall, Etobicoke","290 The West Mall, Toronto, ON, CA",,MapQuest Open,address
+43.635459,-79.541397,"5322 Dundas St W, Etobicoke","5322 Dundas Street West, Toronto, ON, CA",,MapQuest Open,address
 43.632845,-79.878212,"333 Mountainview Rd S, Georgetown","333 Mountainview Road South, Halton Hills, ON, CA",,MapQuest Open,address
+43.632217,-79.545282,"5470 Dundas St W, Etobicoke","5470 Dundas Street West, Toronto, ON, CA",,MapQuest Open,address
+43.630916,-79.481184,"125 The Queensway, Etobicoke","125 The Queensway, Toronto, ON, CA",,MapQuest Open,address
 43.629369,-79.68424,"5033 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
 43.629369,-79.68424,"4557 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
 43.629369,-79.68424,"3445 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
 43.629369,-79.68424,"2325 Hurontario St,, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
 43.629369,-79.68424,"2100 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
+43.628882,-79.490453,"515 The Queensway, Etobicoke","515 The Queensway, Toronto, ON, CA",,MapQuest Open,address
 43.628178,-79.775954,"1990 Steeles Ave W, Brampton","1990 Steeles Avenue West, Brampton, ON, CA",,MapQuest Open,address
+43.62693,-79.47851,"16 Brookers Lane, Toronto","16 Brookers Lane, Toronto, ON, CA",,MapQuest Open,address
 43.626095,-79.679468,"5980 Hurontario St, Mississauga","5980 Hurontario Street, Mississauga, ON, CA",,MapQuest Open,address
 43.626076,-79.607004,"4141 Dixie Rd, Mississauga","4141 Dixie Road, Mississauga, ON, CA",,MapQuest Open,address
 43.623221,-79.602714,"4011 Dixie Rd, Mississauga","4011 Dixie Road, Mississauga, ON, CA",,MapQuest Open,address
 43.621133,-79.695941,"7070 Mclaughlin Rd, Mississauga","McLaughlin Road, Mississauga, ON, CA",,MapQuest Open,street
 43.621133,-79.695941,"7030 Mclaughlin Rd, Mississauga","McLaughlin Road, Mississauga, ON, CA",,MapQuest Open,street
+43.621065,-79.524775,"1233 The Queensway, Etobicoke","1233 The Queensway, Toronto, ON, CA",,MapQuest Open,address
+43.619565,-79.485329,"2275 Lake Shore Blvd W, Etobicoke","2275 Lake Shore Boulevard West, Toronto, ON, CA",,MapQuest Open,address
 43.619021,-79.676694,"25 Milverton Dr, Mississauga","25 Milverton Drive, Mississauga, ON, CA",,MapQuest Open,address
+43.61418,-79.556478,"30 The Queensway, Toronto","The Queensway, Toronto, ON, CA",,MapQuest Open,street
+43.61418,-79.556478,"250 The Queensway, Toronto","The Queensway, Toronto, ON, CA",,MapQuest Open,street
+43.61418,-79.556478,"1000 The Queensway, Toronto","The Queensway, Toronto, ON, CA",,MapQuest Open,street
 43.614051,-79.744627,"10615 Creditview Rd, Brampton","Creditview Road, Brampton, ON, CA",,MapQuest Open,street
 43.614015,-79.705234,"780 Bancroft Drive, Mississauga","Bancroft Drive, Mississauga, ON, CA",,MapQuest Open,street
+43.612321,-79.542204,"540 Evans Ave, Etobicoke","540 Evans Avenue, Toronto, ON, CA",,MapQuest Open,address
 43.611542,-79.558414,"25 The West Mall, Etobicoke","25 The West Mall, Toronto, ON, CA",,MapQuest Open,address
 43.610042,-79.747489,"6880 Financial Dr, Mississauga","6880 Financial Drive, Mississauga, ON, CA",,MapQuest Open,address
 43.609594,-79.583172,"1404 Dundas St E, Mississauga","1404 Dundas Street East, Mississauga, ON, CA",,MapQuest Open,address
@@ -102,9 +133,11 @@ latitude,longitude,name,desc,color,source,precision
 43.607793,-79.654877,"5008 Hurontario St, Mississauga","5008 Hurontario Street, Mississauga, ON, CA",,MapQuest Open,address
 43.597457,-79.783714,"2980 Argentia Rd, Mississauga","2980 Argentia Road, Brampton, ON, CA",,MapQuest Open,address
 43.597426,-79.761633,"7025 Millcreek Dr, Mississauga","7025 Millcreek Drive, Mississauga, ON, CA",,MapQuest Open,address
+43.597114,-79.52107,"3199 Lake Shore Blvd W, Toronto","3199 Lake Shore Boulevard West, Toronto, ON, CA",,MapQuest Open,address
 43.59691,-79.744832,"2965 Argentia Rd, Mississauga","Argentia Road, Mississauga, ON, CA",,MapQuest Open,street
 43.596322,-79.568514,"5014 Dixie Rd, Mississauga","Dixie Road, Mississauga, ON, CA",,MapQuest Open,street
 43.594917,-79.639038,"33 City Centre Dr, Mississauga","33 City Centre Drive, Mississauga, ON, CA",,MapQuest Open,address
+43.594252,-79.516231,29 Colonel Samuel Smith Park Dr...,"29 Colonel Samuel Smith Park Drive, Toronto, ON, CA",,MapQuest Open,address
 43.593005,-79.765413,"2760 Derry Rd W, Mississauga","2760 Derry Road West, Mississauga, ON, CA",,MapQuest Open,address
 43.592891,-79.643381,"100 City Centre Dr, Mississauga","100 City Centre Drive, Mississauga, ON, CA",,MapQuest Open,address
 43.592274,-79.668767,"4885 Mavis Rd, Mississauga","4885 Mavis Road, Mississauga, ON, CA",,MapQuest Open,address
