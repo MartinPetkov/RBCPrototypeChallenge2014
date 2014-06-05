@@ -1,5 +1,4 @@
 latitude,longitude,name,desc,color,source,precision
-53.04592,-2.993562,"296 Queen Street, Acton","Queen Street, Wrexham, Wrexham, Wales, GB",,MapQuest Open,street
 44.080173,-80.195955,"516 Main St E, Shelburne","516 Main Street East, Shelburne, ON, CA",,MapQuest Open,address
 44.022208,-79.805847,"2 Queen St S, Tottenham","2 Queen Street South, Tottenham, ON, CA",,MapQuest Open,address
 43.919466,-80.095728,"136 Broadway, Orangeville","136 Broadway, Orangeville, ON, CA",,MapQuest Open,address
@@ -102,7 +101,7 @@ latitude,longitude,name,desc,color,source,precision
 43.643202,-79.725807,"10010 Mclaughlin Rd, Brampton","McLaughlin Road, Brampton, ON, CA",,MapQuest Open,street
 43.643009,-79.57326,"632 Burnhamthorpe Rd, Mississauga","632 Burnhamthorpe Road, Toronto, ON, CA",,MapQuest Open,address
 43.642999,-79.418577,"1001 Queen St W, Toronto","1001 Queen Street West, Toronto, ON, CA",,MapQuest Open,address
-43.642823,-79.723329,"7020 St Barbara Blvd, Mississauga","Saint Barbara Boulevard, Brampton, ON, CA",,MapQuest Open,street
+43.6396506,-79.7143429,"7020 St Barbara Blvd, Mississauga","Saint Barbara Boulevard, Brampton, ON, CA",,MapQuest Open,street
 43.642643,-79.427382,"2 Gladstone Ave, Toronto","2 Gladstone Avenue, Toronto, ON, CA",,MapQuest Open,address
 43.642588,-79.575462,"2126 Burnhamthorpe Rd, Mississauga","Burnhamthorpe Road, Toronto, ON, CA",,MapQuest Open,street
 43.641889,-79.746894,"7970 Mavis Rd, Brampton","Mavis Road, Brampton, ON, CA",,MapQuest Open,street
@@ -178,15 +177,40 @@ latitude,longitude,name,desc,color,source,precision
 43.542438,-79.870236,"1240 Steeles Ave E, Milton","1240 Steeles Avenue East, Milton, ON, CA",,MapQuest Open,address
 43.538989,-79.663835,"2 Dundas St W, Mississauga","Dundas Street West, Mississauga, ON, CA",,MapQuest Open,street
 43.53817,-79.856206,"1515 Main St E, Milton","1515 Main Street East, Milton, ON, CA",,MapQuest Open,address
+43.53192,-79.833699,"6788 Derry Rd W, Milton","Derry Road West, Milton, ON, CA",,MapQuest Open,street
 43.529097,-79.648289,"1910 Fowler Dr, Mississauga","Fowler Drive, Mississauga, ON, CA",,MapQuest Open,street
 43.526164,-79.653206,"2185 Leanne Blvd, Mississauga","2185 Leanne Boulevard, Mississauga, ON, CA",,MapQuest Open,address
+43.522741,-79.896699,"640 Martin Street, Milton","Martin Street, Milton, ON, CA",,MapQuest Open,street
 43.522355,-79.681433,"2460 Winston Churchill Blvd, Oakville","2460 Winston Churchill Boulevard, Oakville, ON, CA",,MapQuest Open,address
+43.518458,-79.872817,"75 Nipissing Road, Milton","75 Nipissing Road, Milton, ON, CA",,MapQuest Open,address
+43.518174,-79.875869,"55 Ontario St S, Milton","55 Ontario Street South, Milton, ON, CA",,MapQuest Open,address
 43.517238,-79.622988,"1730 Lakeshore Rd W, Mississauga","1730 Lakeshore Road West, Mississauga, ON, CA",,MapQuest Open,address
 43.516528,-79.63727,"920 Southdown Road, Mississauga","Southdown Road, Mississauga, ON, CA",,MapQuest Open,street
 43.507926,-79.83889,"1020 Kennedy Circle, Milton","1020 Kennedy Circle, Milton, ON, CA",,MapQuest Open,address
+43.496154,-79.872849,"6911 Derry Rd, Milton","6911 Derry Road, Milton, ON, CA",,MapQuest Open,address
 43.48922,-79.880392,"1580 Derry Road, Milton","Derry Road, Milton, ON, CA",,MapQuest Open,street
+43.485773,-79.716728,"562 Trafalgar Rd, Oakville","Trafalgar Road, Oakville, ON, CA",,MapQuest Open,street
 43.481036,-79.722456,"309 Hays Blvd, Oakville","Hays Boulevard, Oakville, ON, CA",,MapQuest Open,street
 43.479749,-79.658298,"541 Maple Grove Dr, Oakville","541 Maple Grove Drive, Oakville, ON, CA",,MapQuest Open,address
 43.472906,-79.736052,"520 Dundas St W, Oakville","Dundas Street West, Oakville, ON, CA",,MapQuest Open,street
 43.470911,-79.738489,"305 Dundas St W, Oakville","305 Dundas Street West, Oakville, ON, CA",,MapQuest Open,address
+43.461531,-79.686714,"240 Leighland Ave, Oakville","240 Leighland Avenue, Oakville, ON, CA",,MapQuest Open,address
+43.458169,-79.677441,"361 Cornwall Rd, Oakville","361 Cornwall Road, Oakville, ON, CA",,MapQuest Open,address
+43.450284,-79.7606,"2501 Third Line, Oakville","2501 Third Line, Oakville, ON, CA",,MapQuest Open,address
+43.447349,-79.666823,"279 Lakeshore Rd E, Oakville","279 Lakeshore Road East, Oakville, ON, CA",,MapQuest Open,address
+43.447124,-79.686462,"1005 Speers Rd, Oakville","Speers Road, Oakville, ON, CA",,MapQuest Open,street
+43.443053,-79.68046,"520 Kerr St, Oakville","Kerr Street, Oakville, ON, CA",,MapQuest Open,street
+43.441339,-79.692927,"345 Speers Road, Oakville","345 Speers Road, Oakville, ON, CA",,MapQuest Open,address
+43.438618,-79.710019,"220 North Service Rd W, Oakville","North Service Road West, Oakville, ON, CA",,MapQuest Open,street
+43.418413,-79.71737,"624 Third Line, Oakville","624 Third Line, Oakville, ON, CA",,MapQuest Open,address
+43.411079,-79.706046,"1515 Rebecca St, Oakville","1515 Rebecca Street, Oakville, ON, CA",,MapQuest Open,address
+43.407458,-79.772939,"1499 Upper Middle Rd, Oakville","1499 Upper Middle Road, Oakville, ON, CA",,MapQuest Open,address
+43.397626,-79.708512,"2329 Lakeshore Rd W, Oakville","2329 Lakeshore Road West, Oakville, ON, CA",,MapQuest Open,address
+43.393708,-79.789672,"1989 Appleby Line, Burlington","1989 Appleby Line, Burlington, ON, CA",,MapQuest Open,address
+43.391954,-79.752533,"5539 Harvester Rd, Burlington","5539 Harvester Road, Burlington, ON, CA",,MapQuest Open,address
+43.384441,-79.802838,"2025 William O`Connell Blvd, Burlington","2025 William O'Connell Boulevard, Burlington, ON, CA",,MapQuest Open,address
+43.378127,-79.767966,"875 Appleby Line, Burlington","875 Appleby Line, Burlington, ON, CA",,MapQuest Open,address
+43.367778,-79.7544,"2495 Appleby Line, Burlington","Appleby Line, Burlington, ON, CA",,MapQuest Open,street
+43.367778,-79.7544,"2080 Appleby Line, Burlington","Appleby Line, Burlington, ON, CA",,MapQuest Open,street
+43.36695,-79.753722,"4524 New St, Burlington","4524 New Street, Burlington, ON, CA",,MapQuest Open,address
 
