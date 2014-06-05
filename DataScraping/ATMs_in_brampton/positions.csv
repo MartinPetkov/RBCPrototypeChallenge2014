@@ -75,19 +75,58 @@ latitude,longitude,name,desc,color,source,precision
 43.649496,-79.925849,"83 Main St S, Georgetown","83 Main Street South, Halton Hills, ON, CA",,MapQuest Open,address
 43.643202,-79.725807,"10098 Mclaughlin Rd, Brampton","McLaughlin Road, Brampton, ON, CA",,MapQuest Open,street
 43.643202,-79.725807,"10010 Mclaughlin Rd, Brampton","McLaughlin Road, Brampton, ON, CA",,MapQuest Open,street
+43.643009,-79.57326,"632 Burnhamthorpe Rd, Mississauga","632 Burnhamthorpe Road, Toronto, ON, CA",,MapQuest Open,address
 43.642823,-79.723329,"7020 St Barbara Blvd, Mississauga","Saint Barbara Boulevard, Brampton, ON, CA",,MapQuest Open,street
+43.642588,-79.575462,"2126 Burnhamthorpe Rd, Mississauga","Burnhamthorpe Road, Toronto, ON, CA",,MapQuest Open,street
 43.641889,-79.746894,"7970 Mavis Rd, Brampton","Mavis Road, Brampton, ON, CA",,MapQuest Open,street
 43.63821,-80.027147,"370 Queen St, Acton","370 Queen Street, Halton Hills, ON, CA",,MapQuest Open,address
 43.632845,-79.878212,"333 Mountainview Rd S, Georgetown","333 Mountainview Road South, Halton Hills, ON, CA",,MapQuest Open,address
+43.629369,-79.68424,"5033 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
+43.629369,-79.68424,"4557 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
+43.629369,-79.68424,"3445 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
+43.629369,-79.68424,"2325 Hurontario St,, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
+43.629369,-79.68424,"2100 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
 43.628178,-79.775954,"1990 Steeles Ave W, Brampton","1990 Steeles Avenue West, Brampton, ON, CA",,MapQuest Open,address
 43.626095,-79.679468,"5980 Hurontario St, Mississauga","5980 Hurontario Street, Mississauga, ON, CA",,MapQuest Open,address
+43.626076,-79.607004,"4141 Dixie Rd, Mississauga","4141 Dixie Road, Mississauga, ON, CA",,MapQuest Open,address
+43.623221,-79.602714,"4011 Dixie Rd, Mississauga","4011 Dixie Road, Mississauga, ON, CA",,MapQuest Open,address
 43.621133,-79.695941,"7070 Mclaughlin Rd, Mississauga","McLaughlin Road, Mississauga, ON, CA",,MapQuest Open,street
 43.621133,-79.695941,"7030 Mclaughlin Rd, Mississauga","McLaughlin Road, Mississauga, ON, CA",,MapQuest Open,street
+43.619021,-79.676694,"25 Milverton Dr, Mississauga","25 Milverton Drive, Mississauga, ON, CA",,MapQuest Open,address
 43.614051,-79.744627,"10615 Creditview Rd, Brampton","Creditview Road, Brampton, ON, CA",,MapQuest Open,street
 43.614015,-79.705234,"780 Bancroft Drive, Mississauga","Bancroft Drive, Mississauga, ON, CA",,MapQuest Open,street
+43.611542,-79.558414,"25 The West Mall, Etobicoke","25 The West Mall, Toronto, ON, CA",,MapQuest Open,address
 43.610042,-79.747489,"6880 Financial Dr, Mississauga","6880 Financial Drive, Mississauga, ON, CA",,MapQuest Open,address
+43.609594,-79.583172,"1404 Dundas St E, Mississauga","1404 Dundas Street East, Mississauga, ON, CA",,MapQuest Open,address
+43.608106,-79.690255,"700 Matheson Blvd W, Mississauga","Matheson Boulevard West, Mississauga, ON, CA",,MapQuest Open,street
+43.607793,-79.654877,"5008 Hurontario St, Mississauga","5008 Hurontario Street, Mississauga, ON, CA",,MapQuest Open,address
 43.597457,-79.783714,"2980 Argentia Rd, Mississauga","2980 Argentia Road, Brampton, ON, CA",,MapQuest Open,address
 43.597426,-79.761633,"7025 Millcreek Dr, Mississauga","7025 Millcreek Drive, Mississauga, ON, CA",,MapQuest Open,address
 43.59691,-79.744832,"2965 Argentia Rd, Mississauga","Argentia Road, Mississauga, ON, CA",,MapQuest Open,street
+43.596322,-79.568514,"5014 Dixie Rd, Mississauga","Dixie Road, Mississauga, ON, CA",,MapQuest Open,street
+43.594917,-79.639038,"33 City Centre Dr, Mississauga","33 City Centre Drive, Mississauga, ON, CA",,MapQuest Open,address
 43.593005,-79.765413,"2760 Derry Rd W, Mississauga","2760 Derry Road West, Mississauga, ON, CA",,MapQuest Open,address
+43.592891,-79.643381,"100 City Centre Dr, Mississauga","100 City Centre Drive, Mississauga, ON, CA",,MapQuest Open,address
+43.592274,-79.668767,"4885 Mavis Rd, Mississauga","4885 Mavis Road, Mississauga, ON, CA",,MapQuest Open,address
+43.592024,-79.602982,"1530 Dundas St E, Mississauga","Dundas Street East, Mississauga, ON, CA",,MapQuest Open,street
+43.585072,-79.550104,"579 Lakeshore Rd E, Mississauga","Lakeshore Road East, Mississauga, ON, CA",,MapQuest Open,street
+43.581739,-79.713568,"189 Queen St S, Mississauga","189 Queen Street South, Mississauga, ON, CA",,MapQuest Open,address
+43.581561,-79.648861,"3980 Grand Park Dr, Mississauga","3980 Grand Park Drive, Mississauga, ON, CA",,MapQuest Open,address
+43.579658,-79.681699,"1240 Eglinton Ave W, Mississauga","1240 Eglinton Avenue West, Mississauga, ON, CA",,MapQuest Open,address
+43.575296,-79.739213,"6040 Glen Erin Dr, Mississauga","6040 Glen Erin Drive, Mississauga, ON, CA",,MapQuest Open,address
+43.574297,-79.614498,"4175 Confederation Pkwy, Mississauga","Confederation Parkway, Mississauga, ON, CA",,MapQuest Open,street
+43.574297,-79.614498,"4056 Confederation Parkway, Mississauga","Confederation Parkway, Mississauga, ON, CA",,MapQuest Open,street
+43.571559,-79.6291,"3029 Clayhill Rd, Mississauga","3029 Clayhill Road, Mississauga, ON, CA",,MapQuest Open,address
+43.569225,-79.601364,"1 Hurontario St, Mississauga","Hurontario Street, Mississauga, ON, CA",,MapQuest Open,street
+43.562332,-79.7113,"4530 Erin Mills Pkwy, Mississauga","Erin Mills Parkway, Mississauga, ON, CA",,MapQuest Open,street
+43.557397,-79.642878,"1224 Dundas St W, Mississauga","Dundas Street West, Mississauga, ON, CA",,MapQuest Open,street
+43.553383,-79.717764,"2955 Hazelton Place, Mississauga","2955 Hazelton Place, Mississauga, ON, CA",,MapQuest Open,address
+43.553227,-79.584142,"92 Lakeshore Rd East, Mississauga","92 Lakeshore Road East, Mississauga, ON, CA",,MapQuest Open,address
+43.547627,-79.589574,"181 Lakeshore Rd W, Mississauga","181 Lakeshore Road West, Mississauga, ON, CA",,MapQuest Open,address
+43.546914,-79.591113,"220 Lakeshore Rd W, Mississauga","220 Lakeshore Road West, Mississauga, ON, CA",,MapQuest Open,address
+43.543997,-79.593517,"321 Lakeshore Road W, Mississauga","321 Lakeshore Road West, Mississauga, ON, CA",,MapQuest Open,address
+43.538989,-79.663835,"2 Dundas St W, Mississauga","Dundas Street West, Mississauga, ON, CA",,MapQuest Open,street
+43.529097,-79.648289,"1910 Fowler Dr, Mississauga","Fowler Drive, Mississauga, ON, CA",,MapQuest Open,street
+43.526164,-79.653206,"2185 Leanne Blvd, Mississauga","2185 Leanne Boulevard, Mississauga, ON, CA",,MapQuest Open,address
+43.522355,-79.681433,"2460 Winston Churchill Blvd, Oakville","2460 Winston Churchill Boulevard, Oakville, ON, CA",,MapQuest Open,address
 
