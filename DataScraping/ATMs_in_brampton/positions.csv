@@ -1,4 +1,14 @@
 latitude,longitude,name,desc,color,source,precision
+53.04592,-2.993562,"296 Queen Street, Acton","Queen Street, Wrexham, Wrexham, Wales, GB",,MapQuest Open,street
+44.080173,-80.195955,"516 Main St E, Shelburne","516 Main Street East, Shelburne, ON, CA",,MapQuest Open,address
+44.022208,-79.805847,"2 Queen St S, Tottenham","2 Queen Street South, Tottenham, ON, CA",,MapQuest Open,address
+43.919466,-80.095728,"136 Broadway, Orangeville","136 Broadway, Orangeville, ON, CA",,MapQuest Open,address
+43.916008,-80.112387,"489 Broadway, Orangeville","Broadway, Orangeville, ON, CA",,MapQuest Open,street
+43.900678,-80.315508,"43 Main St, Grand Valley","43 Main Street, Grand Valley, ON, CA",,MapQuest Open,address
+43.879698,-79.738651,"8 Queen St N, Bolton","8 Queen Street North, Bolton, ON, CA",,MapQuest Open,address
+43.870056,-79.721913,"1 Queensgate Blvd, Bolton","1 Queensgate Boulevard, Bolton, ON, CA",,MapQuest Open,address
+43.865499,-79.860649,"15771 Airport Road, Caledon East","15771 Airport Road, Caledon East, ON, CA",,MapQuest Open,address
+43.861323,-79.713057,"12612 Highway 50, Bolton","12612 Highway 50, Bolton, ON, CA",,MapQuest Open,address
 43.803218,-79.669351,"8940 Highway 50, Brampton","Highway 50, Brampton, ON, CA",,MapQuest Open,street
 43.800279,-79.500005,"3300 Highway 7, Concord","Highway 7, Vaughan, ON, CA",,MapQuest Open,street
 43.784725,-79.59279,"131 Woodbridge Ave, Woodbridge","131 Woodbridge Avenue, Vaughan, ON, CA",,MapQuest Open,address
@@ -9,6 +19,8 @@ latitude,longitude,name,desc,color,source,precision
 43.77722,-79.603507,"6161 Hwy 7, Vaughan","Highway 7, Vaughan, York Region, ON, CA",,MapQuest Open,street
 43.773216,-79.493803,"4700 Keele St, Toronto","4700 Keele Street, Toronto, ON, CA",,MapQuest Open,address
 43.772642,-79.735112,"9115 Airport Rd, Brampton","Airport Road, Brampton, ON, CA",,MapQuest Open,street
+43.770652,-80.064718,"152 Main St, Erin","152 Main Street, Erin, Wellington County, ON, CA",,MapQuest Open,address
+43.764784,-79.676979,"9980 Mcvean Dr, Brampton","McVean Drive, Brampton, ON, CA",,MapQuest Open,street
 43.764438,-79.73467,"51 Mountainash Rd, Brampton","Mountainash Road, Brampton, ON, CA",,MapQuest Open,street
 43.758906,-79.518276,"4000 Jane St, North York","4000 Jane Street, Toronto, ON, CA",,MapQuest Open,address
 43.75809,-79.730179,"43 Mountainash Rd, Brampton","43 Mountainash Road, Brampton, ON, CA",,MapQuest Open,address
@@ -101,6 +113,7 @@ latitude,longitude,name,desc,color,source,precision
 43.637975,-79.538439,"4860 Dundas St W, Etobicoke","Dundas Street West, Toronto, ON, CA",,MapQuest Open,street
 43.635519,-79.562356,"290 The West Mall, Etobicoke","290 The West Mall, Toronto, ON, CA",,MapQuest Open,address
 43.635459,-79.541397,"5322 Dundas St W, Etobicoke","5322 Dundas Street West, Toronto, ON, CA",,MapQuest Open,address
+43.633649,-80.031356,"252 Queen Street, Acton","252 Queen Street, Halton Hills, ON, CA",,MapQuest Open,address
 43.632845,-79.878212,"333 Mountainview Rd S, Georgetown","333 Mountainview Road South, Halton Hills, ON, CA",,MapQuest Open,address
 43.632217,-79.545282,"5470 Dundas St W, Etobicoke","5470 Dundas Street West, Toronto, ON, CA",,MapQuest Open,address
 43.630916,-79.481184,"125 The Queensway, Etobicoke","125 The Queensway, Toronto, ON, CA",,MapQuest Open,address
