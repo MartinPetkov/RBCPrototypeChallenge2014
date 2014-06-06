@@ -1,0 +1,34 @@
+Main event page:
+http://www.rbc.com/innovator/home.html
+
+Git repo:
+https://github.com/MartinPetkov/RBCPrototypeChallenge2014
+
+Git repo Wiki:
+https://github.com/MartinPetkov/RBCPrototypeChallenge2014/wiki
+
+List of Credit Unions and Banks in Canada:
+http://en.m.wikipedia.org/wiki/List_of_banks_and_credit_unions_in_Canada
+
+Visualization of GPS Coordinates:
+http://www.gpsvisualizer.com/map_input?convert_format=gpx&form=geocoder&special=geocoder&wpt_list=names
+Paste this url into "Or provide a url of static data on the web" https://raw.githubusercontent.com/MartinPetkov/RBCPrototypeChallenge2014/master/DataScraping/ATMs_in_brampton/master_positions.csv
+
+Various Map API Links:
+http://mapnik.org/
+https://pypi.python.org/pypi/basemap/1.0.7
+http://danieljlewis.org/2010/09/15/drawing-maps-with-python/
+http://www.openstreetmap.org/#map=5/51.500/-0.100
+http://pythonhosted.org/Shelley/
+
+RBC Website:
+https://maps.rbcroyalbank.com/
+
+Django Info:
+https://docs.djangoproject.com/en/1.6/
+
+Fun:
+http://www.dernwerks.com/HWC/comics/2010-04-26-Garfield.jpg
+
+Python Documentation:
+https://docs.python.org/2/index.html
