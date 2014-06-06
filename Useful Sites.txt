@@ -29,6 +29,7 @@ https://docs.djangoproject.com/en/1.6/
 
 Fun:
 http://www.dernwerks.com/HWC/comics/2010-04-26-Garfield.jpg
+http://bit.ly/1iCg5Sc
 
 Python Documentation:
 https://docs.python.org/2/index.html
