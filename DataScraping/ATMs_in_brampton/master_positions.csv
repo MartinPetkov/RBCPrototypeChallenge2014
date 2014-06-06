@@ -1,0 +1,479 @@
+latitude,longitude,name,desc,color,source,precision
+43.9317665,-80.1007538,"150 First Street, Orangeville, ON, L6W3T7","150 1st St, Orangeville, ON L9W, Canada",teal,Bing Maps,address
+43.9118614,-79.4472122,"11680 YONGE ST, RICHMOND HILL, ON, L4E0K4","11680 Yonge St, Richmond Hill, ON L4E 0K4, Canada",teal,Bing Maps,address
+43.8763542,-79.4140854,"1070 MAJOR MACKENZIE DRIVE EAST UNIT 116, RICHMOND HILL, ON, L4S1P3","1070 Major MacKenzie Dr E, Richmond Hill, ON L4S 1P3, Canada",teal,Bing Maps,address
+43.8718758,-79.7271805,"405 QUEEN ST S, BOLTON, ON, L7E2B5","405 Queen St S, Bolton, ON L7E 2B5, Canada",teal,Bing Maps,address
+43.8709412,-79.7258682,"475 QUEEN ST S, BOLTON, ON, L7E2B5","475 Queen St S, Bolton, ON L7E 2B5, Canada",teal,Bing Maps,address
+43.8611717,-79.3951797,"1 SPADINA ROAD, RICHMOND HILL, ON, L4B3M2","1 Spadina Rd, Richmond Hill, ON L4B 3M2, Canada",teal,Bing Maps,address
+43.8610725,-79.7127533,"12684 Hwy 50, Bolton, ON L7E 1L9","12684 HWY-50, Bolton, ON L7E 1L9, Canada",green,Bing Maps,address
+43.8548088,-79.4341965,"9350 YONGE ST, RICHMOND HILL, ON, L4C5G2","9350 Yonge St, Richmond Hill, ON L4C 5G2, Canada",teal,Bing Maps,address
+43.8528175,-79.5217133,"2535 MAJOR MACKENZIE DR, MAPLE, ON, L6A1C6","2535 Major MacKenzie Dr, Maple, ON L6A 1C6, Canada",teal,Bing Maps,address
+43.8465042,-79.4585724,"9200 BATHURST STREET, MAPLE, ON, L4J8W1","9200 Bathurst St, Vaughan, ON L4J 8W1, Canada",teal,Bing Maps,address
+43.8456421,-79.4692612,"1076 RUTHERFORD ROAD, 5, MAPLE, ON, L6A1S2","1076 Rutherford Rd, Maple, ON L6A, Canada",teal,Bing Maps,address
+43.8448181,-79.5599213,"3737 MAJOR MACKENZIE DR, WOODBRIDGE, ON, L4H0A2","3737 Major MacKenzie Dr, Woodbridge, ON L4H 0A2, Canada",teal,Bing Maps,address
+43.8440399,-79.3844376,"550 HWY 7 EAST, RICHMOND HILL, ON, L4B3Z4","550 HWY-7 E, Richmond Hill, ON L4B 3Z4, Canada",teal,Bing Maps,address
+43.8416786,-79.4849777,"1621 RUTHERFORD RD, VAUGHAN, ON, L4K0C6","1621 Rutherford Rd, Concord, ON L4K 0C6, Canada",teal,Bing Maps,address
+43.8325043,-79.4047699,"8218 BAYVIEW AVE N, THORNHILL, ON, L3T2S2","8218 Bayview Ave, Thornhill, ON L3T 2S2, Canada",teal,Bing Maps,address
+43.8262634,-79.5564499,"9200 Weston Rd, Woodbridge, ON L4H 2P8","9200 Weston Rd, Woodbridge, ON L4H 2P8, Canada",green,Bing Maps,address
+43.8248482,-79.6088257,"9600 Islington Ave, Woodbridge, ON, L4H2T1","9600 Islington Ave, Woodbridge, ON L4H 2T1, Canada",teal,Bing Maps,address
+43.8194122,-79.3976746,"300 John Street, Thornhill, ON, L3T5W4","300 John St, Thornhill, ON L3T 5W4, Canada",teal,Bing Maps,address
+43.8165855,-79.6028137,"5100 Rutherford Rd, Vaughan, ON L4H 2J2","5100 Rutherford Rd, Woodbridge, ON L4H, Canada",green,Bing Maps,address
+43.810791,-79.5289307,"8400 JANE STREET, CONCORD, ON, L4K4L8","8400 Jane St, Concord, ON L4K 4L8, Canada",teal,Bing Maps,address
+43.8091469,-79.4530029,"1 PROMENADE CIR, THORNHILL, ON, L4J4P8","1 Promenade Cir, Thornhill, ON L4J 4P8, Canada",teal,Bing Maps,address
+43.8088074,-79.4539642,"1 PROMENADE, 183, THORNHILL, ON, L4J4P8","183 Promenade Cir, Thornhill, ON L4J, Canada",teal,Bing Maps,address
+43.8047409,-79.4379272,"441 CLARK AVENUE WEST, THORNHILL, ON, L4J6W7","441 Clark Ave W, Thornhill, ON L4J 6W7, Canada",teal,Bing Maps,address
+43.7963753,-79.4198151,"6468 YONGE ST, TORONTO, ON, M2M3X4","6468 Yonge St, North York, ON M2M 3X4, Canada",teal,Bing Maps,address
+43.7912216,-79.7610703,"12016 Airport Road Caledon, ON, L7C2W1","12016 Airport Rd, Caledon, ON L7C 2W1, Canada",red,Bing Maps,address
+43.7900314,-79.4462509,"6172 BATHURST ST, WILLOWDALE, ON, M2R2A2","6172 Bathurst St, North York, ON M2R, Canada",teal,Bing Maps,address
+43.7881584,-79.5452423,"30 FAMOUS AVENUE UNIT 139A, VAUGHAN, ON, L4L9M3","30 Famous Ave, Woodbridge, ON L4L 9M3, Canada",teal,Bing Maps,address
+43.7863083,-79.4168091,"5915 Yonge Street, North York, ON, M2M3T9","5915 Yonge St, North York, ON M2M 3T9, Canada",teal,Bing Maps,address
+43.7854691,-79.6247864,"8270 Highway 27, Vaughan, ON L4H 0R9","8270 HWY-27, Woodbridge, ON L4H 0R9, Canada",green,Bing Maps,address
+43.7845955,-79.6600723,"3978 Cottrelle Blvd, Brampton, ON L6P 2R1","3978 Cottrelle Blvd, Brampton, ON L6P 2R1, Canada",green,Bing Maps,address
+43.7845001,-79.5932693,"145 WOODBRIDGE AVE, WOODBRIDGE, ON, L4L2S6","145 Woodbridge Ave, Woodbridge, ON L4L 2S6, Canada",teal,Bing Maps,address
+43.7841301,-79.6620102,"3938 COTTRELLE BLVD, BRAMPTON, ON, L6P2R1","3938 Cottrelle Blvd, Brampton, ON L6P 2R1, Canada",teal,Bing Maps,address
+43.7840385,-79.5728683,"4499 Highway 7, Woodbridge, ON L4L 9A9","4499 HWY-7, Woodbridge, ON L4L, Canada",green,Bing Maps,address
+43.7827301,-79.7489014,"10990 Airport Rd, Brampton, ON L6R 0E1","10990 Airport Rd, Brampton, ON L6R 0E1, Canada",green,Bing Maps,address
+43.7795105,-79.4158173,"5600 YONGE STREET, NORTH YORK, ON, M2N5S2","5600 Yonge St, North York, ON M2N 5S2, Canada",teal,Bing Maps,address
+43.77900,-79.36546,"4797 LESLIE ST, WILLOWDALE, ON, M2J2K8","4797 Leslie Street, North York, ON M2J 2K8, Canada",teal,Google Maps,address
+43.7787514,-79.4700699,"4800 DUFFERIN ST, DOWNSVIEW, ON, M3H5S8","4800 Dufferin St, North York, ON M3H, Canada",teal,Bing Maps,address
+43.7786102,-79.4156876,"5522 YONGE ST, NORTH YORK, ON, M2N7L3","5522 Yonge St, North York, ON M2N 7L3, Canada",teal,Bing Maps,address
+43.7780609,-79.7443695,"160 Yellow Avens Blvd Brampton, ON, L6M0R5","160 Yellow Avens Blvd, Brampton, ON L6R 0M5, Canada",red,Bing Maps,address
+43.7767982,-79.6541595,"8950 HWY 50, BRAMPTON, ON, L6P3A3","8950 HWY-50, Brampton, ON L6P, Canada",teal,Bing Maps,address
+43.7749901,-79.6126556,"5731 Highway 7 Unit 26, Woodbridge, ON L4L 4Y9","5731 HWY-7, Woodbridge, ON L4L 4Y9, Canada",green,Bing Maps,address
+43.7744026,-79.4940643,"4700 KEELE STREET, TORONTO, ON, M3J1P3","4700 Keele St, North York, ON M3J 1P3, Canada",teal,Bing Maps,address
+43.7742195,-79.4131088,"20 CHURCH AVENUE, NORTH YORK, ON, M2N0B7","20 Church Ave, North York, ON M2N 0B7, Canada",teal,Bing Maps,address
+43.7741165,-79.6165771,"5869 Hwy 7 Woodbridge, ON","5869 HWY-7, Woodbridge, ON L4L, Canada",gold,Bing Maps,address
+43.7723808,-79.6263809,"2 Vaughan Valley Road Vaughan, ON, L4K3C4","2 Vaughan Valley Blvd, Woodbridge, ON L4H 0B1, Canada",red,Bing Maps,address
+43.7714882,-79.5414581,"3700 STEELES AVENUE WEST, WOODBRIDGE, ON, L4L8K8","3700 Steeles Ave W, Woodbridge, ON L4L, Canada",teal,Bing Maps,address
+43.7712402,-79.7563324,"140 Father Tobin Road Brampton, ON, L6R0E3","140 Father Tobin Rd, Brampton, ON L6R 3P1, Canada",red,Bing Maps,address
+43.7710457,-79.7560959,"135 Father Tobin Rd, Brampton, ON L6R 0W9","135 Father Tobin Rd, Brampton, ON L6R 0W9, Canada",green,Bing Maps,address
+43.7707329,-79.7796173,"11825 Bramalea Road Unit 1 Brampton, ON","11825 Bramalea Rd, Brampton, ON L6R 3S9, Canada",gold,Bing Maps,address
+43.770649,-79.7795029,"11815 Bramalea Road Brampton, ON, L6R3S9","11815 Bramalea Rd, Brampton, ON L6R 3S9, Canada",red,Bing Maps,address
+43.7697906,-79.5459518,"4999 Steeles Ave W, North York, ON M9L 1R4","4999 Steeles Ave W, North York, ON M9L 1R4, Canada",green,Bing Maps,address
+43.7686996,-79.3704605,"57 PROVOST DRIVE, NORTH YORK, ON, M2K0B7","57 Provost Dr, North York, ON M2K 0B7, Canada",teal,Bing Maps,address
+43.7684898,-79.4131012,"5140 YONGE ST, WILLOWDALE, ON, M2N6L7","5140 Yonge St, North York, ON M2N, Canada",teal,Bing Maps,address
+43.767381,-79.7752954,"11805 Bramalea Rd, Brampton, ON, L6R 3S9","11805 Bramalea Road, Brampton, ON L6R 0B8, Canada",blue,Google Maps,address
+43.7646484,-79.3979721,"288 SHEPPARD AVE E, TORONTO, ON, M2N3B1","288 Sheppard Ave E, North York, ON M2N, Canada",teal,Bing Maps,address
+43.7629166,-79.7221603,"9990 AIRPORT RD, BRAMPTON, ON, L6S0C5","9990 Airport Rd, Brampton, ON L6S 0C5, Canada",teal,Bing Maps,address
+43.7622604,-79.4107895,"4841 YONGE ST., NORTH YORK, ON, M2N5X2","4841 Yonge St, North York, ON M2N 5X2, Canada",teal,Bing Maps,address
+43.7615356,-79.7197418,"9919 Airport Road Brampton, ON, L6S0A2","9919 Airport Rd, Brampton, ON L6S 0A2, Canada",red,Bing Maps,address
+43.7608185,-79.4109802,"4800 YONGE STREET, NORTH YORK, ON, M2N5X2","4800 Yonge St, North York, ON M2N 6G5, Canada",teal,Bing Maps,address
+43.759613,-79.7313766,"55 Mountainash Rd, Brampton, ON L6R 1W4","55 Mountainash Rd, Brampton, ON L6R 1W4, Canada",green,Bing Maps,address
+43.759613,-79.7313766,"55 Mountainash Blvd. Brampton, ON","55 Mountainash Rd, Brampton, ON L6R 0K8, Canada",gold,Bing Maps,address
+43.7592697,-79.7311707,"51 Mountainash Rd, Brampton","51 Mountainash Rd, Brampton, ON L6R 3G8, Canada",blue,Bing Maps,address
+43.7591629,-79.7311096,"47 Mountainash Road Brampton, ON, L6R1W4","47 Mountainash Rd, Brampton, ON L6R 1W4, Canada",red,Bing Maps,address
+43.7590561,-79.7310486,"43 Mountainash Rd, Brampton","43 Mountainash Rd, Brampton, ON L6R 3K1, Canada",blue,Bing Maps,address
+43.7573242,-79.5207672,"1 YORKGATE BLVD, NORTH YORK, ON, M3N3A1","1 York Gate Blvd, North York, ON M3N, Canada",teal,Bing Maps,address
+43.756691,-79.5892715,"2700 Kipling Ave N, Etobicoke, ON M9V 4P2","2700 Kipling Ave, Etobicoke, ON M9V, Canada",green,Bing Maps,address
+43.7550545,-79.4413986,"648 SHEPPARD AVE W, NORTH YORK, ON, M3H2S1","648 Sheppard Ave W, North York, ON M3H 2S1, Canada",teal,Bing Maps,address
+43.7545433,-79.757637,"10511 Bramalea Road Brampton, ON, L6R3P4","10511 Bramalea Rd, Brampton, ON L6R 3P4, Canada",red,Bing Maps,address
+43.7540245,-79.6836853,"3550 Queen Street East Brampton, ON, L6P3L2","3550 Queen St E, Brampton, ON L6P 3L2, Canada",red,Bing Maps,address
+43.7507477,-79.5854416,"2687 Kipling Ave, Toronto","2687 Kipling Ave, Etobicoke, ON M9V 5G6, Canada",blue,Bing Maps,address
+43.7496605,-79.7400589,"7 Sunny Meadow Blvd, Brampton","7 Sunny Meadow Blvd, Brampton, ON L6R 0N8, Canada",blue,Bing Maps,address
+43.7490692,-79.5601196,"2546 FINCH AVE W, WESTON, ON, M9M2G3","2546 Finch Ave W, North York, ON M9M, Canada",teal,Bing Maps,address
+43.7490311,-79.5603333,"2550 Finch Ave W, North York","2550 Finch Ave W, North York, ON M9M, Canada",blue,Bing Maps,address
+43.7488785,-79.5612183,"2574 Finch Ave W, North York, ON M9M 2G3","2574 Finch Ave W, North York, ON M9M, Canada",green,Bing Maps,address
+43.7479935,-79.7278061,"2001 North Park Drive Brampton, ON, L6S5Z9","2001 N Park Dr, Brampton, ON L6S 5Z9, Canada",red,Bing Maps,address
+43.7466202,-79.6995544,"9115 Airport Rd, Brampton","9115 Airport Rd, Brampton, ON L6S 0B8, Canada",blue,Bing Maps,address
+43.7461319,-79.6988983,"9085 Airport Rd, Brampton, ON L6S 0B8","9085 Airport Rd, Brampton, ON L6S 0B8, Canada",green,Bing Maps,address
+43.7451668,-79.6975937,"9025 Airport Road Unit 1 Brampton, ON","9025 Airport Rd, Brampton, ON L6S 0B8, Canada",gold,Bing Maps,address
+43.7451591,-79.6146088,"1839 Albion Road Etobicoke, ON, M9W5S8","1839 Albion Rd, Etobicoke, ON M9W, Canada",red,Bing Maps,address
+43.7436467, -79.60403,"11 Westmore Dr, Toronto","11 Westmore Dr, Etobicoke, ON M9V 1C3, Canada",blue,Bing Maps,address
+43.7422791,-79.6971207,"2963 Queen St E, Brampton","2963 Queen St E, Brampton, ON L6T 5J1, Canada",blue,Bing Maps,address
+43.7411537,-79.7735367,"490 Great Lakes Drive Brampton, ON, L6R0R2","490 Great Lakes Dr, Brampton, ON L6R 0R2, Canada",red,Bing Maps,address
+43.7405739,-79.5849304,"1530 ALBION RD, REXDALE, ON, M9V1B4","1530 Albion Rd, Etobicoke, ON M9V, Canada",teal,Bing Maps,address
+43.7402077,-79.7586136,"630 Peter Robertson Boulevard Brampton, ON","630 Peter Robertson Blvd, Brampton, ON L6R 1T4, Canada",gold,Bing Maps,address
+43.7398529,-79.7592545,"620 Peter Roberston, Brampton","620 Peter Robertson Blvd, Brampton, ON L6R 1T5, Canada",blue,Bing Maps,address
+43.7393265,-79.5129471,"1951 SHEPPARD AVE W, DOWNSVIEW, ON, M3L1Y8","1951 Sheppard Ave W, North York, ON M3L 1Y8, Canada",teal,Bing Maps,address
+43.7375488,-79.5661469,"1104 Albion Rd, Etobicoke","1104 Albion Rd, Etobicoke, ON M9V 1A8, Canada",blue,Bing Maps,address
+43.737414,-79.565876,"1688 Albion Rd, Rexdale, ON","Albion Road, Toronto, ON, CA",gold,MapQuest Open,street
+43.736351,-79.5620117,"972 Albion Rd, Etobicoke, ON M9V 1A7","972 Albion Rd, Etobicoke, ON M9V 1A7, Canada",green,Bing Maps,address
+43.7363358,-79.7810516,"10606 Heartlake Rd, Brampton","10606 Heart Lake Rd, Brampton, ON L6Z 0B3, Canada",blue,Bing Maps,address
+43.7353516,-79.5593033,"900 Albion Road, Toronto","900 Albion Rd, Etobicoke, ON M9V, Canada",blue,Bing Maps,address
+43.7353516,-79.5593033,"900 Albion Road, Etobicoke, ON, M9V1A5","900 Albion Rd, Etobicoke, ON M9V, Canada",teal,Bing Maps,address
+43.7352028,-79.8236542,"3068 Mayfield Rd, Brampton","3068 Mayfield Rd, Brampton, ON L6Z 0E3, Canada",blue,Bing Maps,address
+43.734581,-79.6172714,"6897 Finch Ave W, Toronto","6897 Finch Ave W, Toronto, ON M9W, Canada",blue,Bing Maps,address
+43.7344551,-79.7430191,"930 NORTH PARK DRIVE, BRAMPTON, ON, L6S3Y5","930 N Park Dr, Brampton, ON L6S 3Y5, Canada",teal,Bing Maps,address
+43.7344551,-79.7430191,"930 North Park Drive, Brampton, ON","930 N Park Dr, Brampton, ON L6S 3Y5, Canada",gold,Bing Maps,address
+43.7344551,-79.7430191,"930 North Park Drive Brampton, ON","930 N Park Dr, Brampton, ON L6S 3Y5, Canada",gold,Bing Maps,address
+43.7335472,-79.824585,"11965 HURONTARIO STREET, BRAMPTON, ON, L7A1E6","11965 Hurontario St, Brampton, ON L6Z 4P7, Canada",teal,Bing Maps,address
+43.7335472,-79.824585,"11965 Hurontario St, Brampton","11965 Hurontario St, Brampton, ON L6Z 4P7, Canada",blue,Bing Maps,address
+43.733181,-79.588707,"1701 Martingrove Rd, Etobicoke, ON M9V 5P5","1701 Martin Grove Rd, Etobicoke, ON M9V 4N4, Canada",green,Bing Maps,address
+43.7321892,-79.7090988,"2200 Queen St E Brampton, ON","2200 Queen St E, Brampton, ON L6S 4G9, Canada",gold,Bing Maps,address
+43.7318649,-79.7628632,"90 Great Lakes Dr, Brampton, ON L6R 2K7","90 Great Lakes Dr, Brampton, ON L6R 2K7, Canada",green,Bing Maps,address
+43.7315292,-79.7617188,"25 Great Lakes Dr, Brampton","25 Great Lakes Dr, Brampton, ON L6R 2S5, Canada",blue,Bing Maps,address
+43.7315102,-79.7622604,"50 Great Lakes Drive Brampton, ON, L6R2K7","50 Great Lakes Dr, Brampton, ON L6R 2K7, Canada",red,Bing Maps,address
+43.7312469,-79.7618027,"20 GREAT LAKES DRIVE, BRAMPTON, ON, L6R2K7","20 Great Lakes Dr, Brampton, ON L6R 2K7, Canada",teal,Bing Maps,address
+43.7312012,-79.6005707,"106 Humber College Blvd Rexdale, ON","106 Humber College Blvd, Etobicoke, ON M9V 4E4, Canada",gold,Bing Maps,address
+43.7311783,-79.5973282,"89 Humber College Boulevard Etobicoke, ON","89 Humber College Blvd, Etobicoke, ON M9V 4B8, Canada",gold,Bing Maps,address
+43.7311401,-79.4040833,"3320 YONGE ST, TORONTO, ON, M4N2M4","3320 Yonge St, Toronto, ON M4N 2M4, Canada",teal,Bing Maps,address
+43.7306595,-79.7602234,"5 Great Lakes Drive Brampton, ON, L6R2R8","5 Great Lakes Dr, Brampton, ON L6R 2S5, Canada",red,Bing Maps,address
+43.7299156,-79.7906036,"230 Sandalwood Pkwy E, Brampton, ON L6Z 1R3","230 Sandalwood Pkwy E, Brampton, ON L6Z 1R3, Canada",green,Bing Maps,address
+43.729866,-79.7484512,"860 NORTH PARK DRIVE, BRAMPTON, ON, L6S4N5","860 N Park Dr, Brampton, ON L6S 4N5, Canada",teal,Bing Maps,address
+43.7297401,-79.6045456,"205 Humber College B, Toronto","205 Humber College Blvd, Etobicoke, ON M9W, Canada",blue,Bing Maps,address
+43.7297401,-79.6045456,"205 HUMBER COLLEGE BOULEVARD, TORONTO, ON, M9W5L7","205 Humber College Blvd, Etobicoke, ON M9W, Canada",teal,Bing Maps,address
+43.7297249,-79.604393,"203 Humber College B, Toronto","203 Humber College Blvd, Etobicoke, ON M9W, Canada",blue,Bing Maps,address
+43.7280884,-79.4177017,"1705 AVENUE ROAD, TORONTO, ON, M5M3Y5","1705 Avenue Rd, North York, ON M5M 3Y5, Canada",teal,Bing Maps,address
+43.7280312,-79.4812622,"1090 Wilson Avenue, North York, ON, M3K1G6","1090 Wilson Ave, North York, ON M3K 1G6, Canada",teal,Bing Maps,address
+43.7276459,-79.7944336,"180 SANDALWOOD PKWY, BRAMPTON, ON, L6Z1Y4","180 Sandalwood Pkwy E, Brampton, ON L6Z 1Y4, Canada",teal,Bing Maps,address
+43.7276459,-79.7944336,"180 Sandalwood Parkway East, Brampton, ON, L6Z1Y4","180 Sandalwood Pkwy E, Brampton, ON L6Z 1Y4, Canada",teal,Bing Maps,address
+43.7268181,-79.7956009,"164 Sandalwood Parkway E, Brampton","164 Sandalwood Pkwy E, Brampton, ON L6Z 1Y5, Canada",blue,Bing Maps,address
+43.7261963,-79.4834976,"1115 WILSON AVE, TORONTO, ON, M3M1H2","1115 Wilson Ave, North York, ON M3M 1H2, Canada",teal,Bing Maps,address
+43.7261162,-79.7962646,"150 Sandalwood Parkway East, Brampton, ON L6Z 1Y5","150 Sandalwood Pkwy E, Brampton, ON L6Z 1Y5, Canada",green,Bing Maps,address
+43.7248917,-79.7425079,"1235 Williams Parkway,  Brampton, ON, L6S4S4","1235 Williams Pkwy E, Brampton, ON L6S, Canada",red,Bing Maps,address
+43.7248917,-79.7425079,"1235 Williams Parkway  Brampton, ON, L6S4S4","1235 Williams Pkwy E, Brampton, ON L6S, Canada",red,Bing Maps,address
+43.7239876,-79.8118286,"10908 Hurontario St Unit F1, Brampton, ON L7A 3R9","10908 Hurontario St, Brampton, ON L7A 3R9, Canada",green,Bing Maps,address
+43.7237396,-79.6687088,"2645 Steeles Ave E, Brampton","2645 Steeles Ave E, Brampton, ON L6T 4L7, Canada",blue,Bing Maps,address
+43.7235107,-79.5598984,"2428 ISLINGTON AVE, ETOBICOKE, ON, M9W3X8","2428 Islington Ave, Etobicoke, ON M9W 3X7, Canada",teal,Bing Maps,address
+43.7215805,-79.5960007,"330 Queen's Plate Dr. Etobicoke, ON","330 Queens Plate Dr, Etobicoke, ON M9W 7J7, Canada",gold,Bing Maps,address
+43.7212181,-79.6968842,"700 Balmoral Drive Brampton, ON, L6T1X2","700 Balmoral Dr, Brampton, ON L6T 1X2, Canada",red,Bing Maps,address
+43.7212181,-79.6968842,"700 Balmoral Ave Brampton, ON","700 Balmoral Dr, Brampton, ON L6T 1X2, Canada",gold,Bing Maps,address
+43.7206192,-79.5945816,"600 Queens Plate Dr, Etobicoke","Queens Plate Dr, Etobicoke, ON M9W, Canada",blue,Bing Maps,street
+43.7202606,-79.5128021,"1700 WILSON AVE, DOWNSVIEW, ON, M3L1B2","1700 Wilson Ave, North York, ON M3L, Canada",teal,Bing Maps,address
+43.7201729,-79.7154312,"17 Kings Cross Rd, Brampton","17 Kings Cross Rd, Brampton, ON L6T 3V5, Canada",blue,Bing Maps,address
+43.719594,-79.772623,"281 Richvale Dr, Brampton","281 Richvale Drive South, Brampton, ON L6Z 4W5, Canada",blue,Google Maps,address
+43.7195816,-79.7735291,"281 Richvale Dr, Brampton","281 Richvale Dr S, Brampton, ON L6Z 4W5, Canada",blue,Bing Maps,address
+43.7194786,-79.6379929,"7205 Goreway Dr, Mississauga, ON L4T 2T9","7205 Goreway Dr, Mississauga, ON L4T 2T9, Canada",green,Bing Maps,address
+43.7194786,-79.6379929,"7205 Goreway Dr, Mississauga","7205 Goreway Dr, Mississauga, ON L4T 2T9, Canada",blue,Bing Maps,address
+43.7194786,-79.6379929,"7205 Goreway Drive Mississauga, ON, L4T2T9","7205 Goreway Dr, Mississauga, ON L4T 2T9, Canada",red,Bing Maps,address
+43.7194786,-79.6379929,"7205 Goreway Drive Mississauga, ON","7205 Goreway Dr, Mississauga, ON L4T 2T9, Canada",gold,Bing Maps,address
+43.7193985,-79.4301682,"3090 Bathurst Street, North York, ON, M6A2A2","3090 Bathurst St, North York, ON M6A 2A1, Canada",teal,Bing Maps,address
+43.7183189,-79.6852646,"8155 Torbram Road, Brampton","8155 Torbram Rd, Brampton, ON L6T 5C5, Canada",blue,Bing Maps,address
+43.7178116,-79.5970154,"500 Rexdale Blvd, Etobicoke, ON M9W 6K5","500 Rexdale Blvd, Etobicoke, ON M9W 6K5, Canada",green,Bing Maps,address
+43.7175484,-79.4550171,"3169 DUFFERIN ST, TORONTO, ON, M6A2S9","3169 Dufferin St, North York, ON M6A, Canada",teal,Bing Maps,address
+43.7172623,-79.7234192,"25 Peel Centre Drive, Brampton, ON, L6T3R5","25 Peel Centre Dr, Brampton, ON L6T, Canada",teal,Bing Maps,address
+43.7172623,-79.7234192,"25 PEEL CENTRE DRIVE, BRAMPTON, ON, L6T3R5","25 Peel Centre Dr, Brampton, ON L6T, Canada",teal,Bing Maps,address
+43.7172623,-79.7234192,"25 Peel Centre Dr Brampton, ON, L6T3R5","25 Peel Centre Dr, Brampton, ON L6T, Canada",red,Bing Maps,address
+43.7172623,-79.7234192,"25 Peel Centre Dr, Brampton, ON L6T 3R5","25 Peel Centre Dr, Brampton, ON L6T, Canada",green,Bing Maps,address
+43.7172623,-79.7234192,"25 Peel Centre Dr, Brampton","25 Peel Centre Dr, Brampton, ON L6T, Canada",blue,Bing Maps,address
+43.7167282,-79.4287796,"2953 BATHURST ST, TORONTO, ON, M6B3B2","2953 Bathurst St, North York, ON M6B, Canada",teal,Bing Maps,address
+43.7166481,-79.724556,"52 PEEL CENTRE DR, BRAMPTON, ON, L6T0E2","52 Peel Centre Dr, Brampton, ON L6T 0E2, Canada",teal,Bing Maps,address
+43.7166252,-79.7245789,"54 Peel Centre Drive Brampton, ON, L6T0E2","54 Peel Centre Dr, Brampton, ON L6T 0E2, Canada",red,Bing Maps,address
+43.7164688,-79.6347809,"7145 GOREWAY DR, MISSISSAUGA, ON, L4T2T5","7145 Goreway Dr, Mississauga, ON L4T 2T5, Canada",teal,Bing Maps,address
+43.7159309,-79.5550537,"2291 Islington Ave, Toronto","2291 Islington Ave, Etobicoke, ON M9W 3W6, Canada",blue,Bing Maps,address
+43.7158623,-79.7254028,"100 Peel Ctr Dr Bramalea City, Brampton, ON L6T 4G8","100 Peel Centre Dr, Brampton, ON L6T 4G8, Canada",green,Bing Maps,address
+43.7158623,-79.7254028,"100 PEEL CENTRE DR., BRAMPTON, ON, L6T4G8","100 Peel Centre Dr, Brampton, ON L6T 4G8, Canada",teal,Bing Maps,address
+43.7157135,-79.6272202,"6990 Rexwood Road Mississauga, ON, L4T4E6","6990 Rexwood Rd, Mississauga, ON L4V, Canada",red,Bing Maps,address
+43.7156105,-79.6273193,"6998 Rexwood Blvd, Mississauga","6998 Rexwood Rd, Mississauga, ON L4V, Canada",blue,Bing Maps,address
+43.715229,-79.5546417,"2251 Islington Avenue North Etobicoke, ON, M9W3W6","2251 Islington Ave, Etobicoke, ON M9W 3W6, Canada",red,Bing Maps,address
+43.7137299,-79.6329269,"3427 Derry Rd E Mississauga, ON","3427 Derry Rd E, Mississauga, ON L4T 1A8, Canada",gold,Bing Maps,address
+43.7132378,-79.7453918,"456 Vodden St E, Brampton","456 Vodden St E, Brampton, ON L6S 5Y7, Canada",blue,Bing Maps,address
+43.7125397,-79.5678635,"2038 Kipling Ave, Rexdale, ON M9W 4K1","2038 Kipling Ave, Etobicoke, ON M9W, Canada",green,Bing Maps,address
+43.7122269,-79.7273254,"16 Lisa Street Brampton, ON","16 Lisa St, Brampton, ON L6T 5R2, Canada",gold,Bing Maps,address
+43.7116051,-79.3751678,"660 EGLINTON AVE E, TORONTO, ON, M4G2K2","660 Eglinton Ave E, East York, ON M4G 2K2, Canada",teal,Bing Maps,address
+43.71138,-79.5652008,"123 Rexdale Blvd, Etobicoke","123 Rexdale Blvd, Etobicoke, ON M9W 1P1, Canada",blue,Bing Maps,address
+43.711319,-79.5661087,"129 Rexdale Blvd, Etobicoke","129 Rexdale Blvd, Etobicoke, ON M9W 1P4, Canada",blue,Bing Maps,address
+43.7112312,-79.3786087,"656 Eglinton Avenue East, Toronto, ON, M4P1P1","656 Eglinton Ave E, Toronto, ON M4P 1P1, Canada",teal,Bing Maps,address
+43.7111282,-79.5684128,"155 REXDALE BLVD, REXDALE, ON, M9W5Z8","155 Rexdale Blvd, Etobicoke, ON M9W 5Z8, Canada",teal,Bing Maps,address
+43.7110786,-79.5670013,"135 Rexdale Blvd Rexdale, ON, M9W1P7","135 Rexdale Blvd, Etobicoke, ON M9W 1P7, Canada",red,Bing Maps,address
+43.7106895,-79.3994598,"2444 YONGE STREET, TORONTO, ON, M4P2H4","2444 Yonge St, Toronto, ON M4P 2H4, Canada",teal,Bing Maps,address
+43.7085419,-79.4777374,"1411 Lawrence Avenue West, North York, ON, M6L1A4","1411 Lawrence Ave W, North York, ON M6L 1A4, Canada",teal,Bing Maps,address
+43.7080193,-79.6946793,"69 BRAMALEA RD, BRAMALEA, ON, L6T2W9","69 Bramalea Rd, Brampton, ON L6T 2W9, Canada",teal,Bing Maps,address
+43.707489,-79.3761673,"1670 BAYVIEW AVE, TORONTO, ON, M4G3C2","1670 Bayview Ave, Toronto, ON M4G 3C2, Canada",teal,Bing Maps,address
+43.7073593,-79.6985931,"36 Avondale Boulevard Brampton, ON, L6T1H3","36 Avondale Blvd, Brampton, ON L6T 1H3, Canada",red,Bing Maps,address
+43.7071609,-79.3990402,"2300 Yonge Street, Toronto, ON, M4P1E4","2300 Yonge St, Toronto, ON M4P 1E4, Canada",teal,Bing Maps,address
+43.7070313,-79.7882996,"10035 HURONTARIO ST, BRAMPTON, ON, L6Z0E6","10035 Hurontario St, Brampton, ON L6Z 0E6, Canada",teal,Bing Maps,address
+43.7069206,-79.6949615,"60 Bramalea Road Brampton, ON","60 Bramalea Rd, Brampton, ON L6T 2W8, Canada",gold,Bing Maps,address
+43.7068291,-79.6472168,"7164 Airport Rd Mississauga, ON","7164 Airport Rd, Mississauga, ON L4T 2H2, Canada",gold,Bing Maps,address
+43.70644,-79.3984833,"2210 YONGE ST, TORONTO, ON, M4S2B8","2210 Yonge St, Toronto, ON M4S 2B8, Canada",teal,Bing Maps,address
+43.7061615,-79.6938629,"50 Bramalea Rd, Brampton","50 Bramalea Rd, Brampton, ON L6T 2W8, Canada",blue,Bing Maps,address
+43.7058792,-79.8352814,"10998 Chinguacousy Rd, Brampton, ON L7A 0P1","10998 Chinguacousy Rd, Brampton, ON L7A 0P1, Canada",green,Bing Maps,address
+43.7058487,-79.7823105,"66 Quarry Edge Drive Brampton, ON, L6V4K2","66 Quarry Edge Dr, Brampton, ON L6V 4K2, Canada",red,Bing Maps,address
+43.7056503,-79.7823792,"60 Quarry Edge Dr. Brampton, ON","60 Quarry Edge Dr, Brampton, ON L6V 4K2, Canada",gold,Bing Maps,address
+43.7054443,-79.7870483,"9 Bovaird Dr, Brampton","9 Bovaird Dr W, Brampton, ON L6X, Canada",blue,Bing Maps,address
+43.7052078,-79.7863617,"675 Main St N Brampton, ON","675 Main St N, Brampton, ON L6X 0G6, Canada",gold,Bing Maps,address
+43.7046394,-79.4062881,"500 ORIOLE PARKWAY, TORONTO, ON, M5P2H8","500 Oriole Pkwy, Toronto, ON M5P 2H8, Canada",teal,Bing Maps,address
+43.704422,-79.7271881,"145 Clark Blvd, Brampton","145 Clark Blvd, Brampton, ON L6T 4G6, Canada",blue,Bing Maps,address
+43.7042313,-79.5043716,"1732 Jane St, Toronto","1732 Jane St, Toronto, ON M9N 2S4, Canada",blue,Bing Maps,address
+43.7042236,-79.7607346,"140 Kennedy Rd N, Brampton","140 Kennedy Rd N, Brampton, ON L6V 2N4, Canada",blue,Bing Maps,address
+43.703846,-79.7572861,"227 VODDEN ST EAST, BRAMPTON, ON, L6V1N2","227 Vodden St E, Brampton, ON L6V 1N2, Canada",teal,Bing Maps,address
+43.7038193,-79.4111862,"419 EGLINTON AVE WEST, TORONTO, ON, M5N1A4","419 Eglinton Ave W, Toronto, ON M5N 1A4, Canada",teal,Bing Maps,address
+43.7035789,-79.7403183,"295a Queen St E, Brampton, ON L6W 3W9","295 Queen St E, Brampton, ON L6W 3W9, Canada",green,Bing Maps,address
+43.7032585,-79.4409866,"145 MARLEE AVENUE, TORONTO, ON, M6B3H3","145 Marlee Ave, York, ON M6B 3H3, Canada",teal,Bing Maps,address
+43.7031822,-79.7598343,"131 Kennedy Rd N Brampton, ON, L6V1X9","131 Kennedy Rd N, Brampton, ON L6V 1X9, Canada",red,Bing Maps,address
+43.7016106,-79.7789078,"130 Brickyard Way, Brampton, ON L6V 4N1","130 Brickyard Way, Brampton, ON L6V 4N1, Canada",green,Bing Maps,address
+43.7008286,-79.5177612,"1939 WESTON RD, WESTON, ON, M9N1W8","1939 Weston Rd, York, ON M9N 1W8, Canada",teal,Bing Maps,address
+43.7008209,-79.4274063,"898 EGLINTON AVE. W., TORONTO, ON, M6C2B6","898 Eglinton Ave W, Toronto, ON M6C 2B6, Canada",teal,Bing Maps,address
+43.7006226,-79.7087555,"8125 Dixie Road, Brampton, ON L6T 2J9","8125 Dixie Rd, Brampton, ON L6T 2J9, Canada",green,Bing Maps,address
+43.7004814,-79.4274597,"901 EGLINTON AVE, 899, TORONTO, ON, M6C2C1","901 Eglinton Ave W, York, ON M6C 2C1, Canada",teal,Bing Maps,address
+43.7001495,-79.5170822,"1906 Weston Rd, Toronto","1906 Weston Rd, York, ON M9N 1W2, Canada",blue,Bing Maps,address
+43.6991653,-79.7457657,"284 Queen Street East Brampton, ON, L6V1C2","284 Queen St E, Brampton, ON L6V 1C2, Canada",red,Bing Maps,address
+43.6987,-79.6343994,"6725 Airport Road Mississauga, ON, L4V1V2","6725 Airport Rd, Mississauga, ON L4V 1V2, Canada",red,Bing Maps,address
+43.698761,-79.7944489,"380 Bovaird Drive Unit 1 Brampton, ON","380 Bovaird Dr W, Brampton, ON L7A, Canada",gold,Bing Maps,address
+43.6976738,-79.8236847,"10631 Chinguacousy Drive Brampton, ON, L7A0N5","10631 Chinguacousy Rd, Brampton, ON L7A 0N5, Canada",red,Bing Maps,address
+43.6975822,-79.7998428,"10098 Mclaughlin Rd, Brampton","10098 McLaughlin Rd N, Brampton, ON L7A 2X6, Canada",blue,Bing Maps,address
+43.6975288,-79.4506836,"2409 DUFFERIN ST, TORONTO, ON, M6E3X7","2409 Dufferin St, York, ON M6E, Canada",teal,Bing Maps,address
+43.6969948,-79.7477722,"235 Queen St E, Brampton","235 Queen St E, Brampton, ON L6W 2B5, Canada",blue,Bing Maps,address
+43.6968307,-79.5459213,"261 Dixon Road, Toronto","261 Dixon Rd, Etobicoke, ON M9P 2M4, Canada",blue,Bing Maps,address
+43.6966782,-79.543869,"235 Dixon Rd, Etobicoke","235 Dixon Rd, Etobicoke, ON M9P, Canada",blue,Bing Maps,address
+43.6963005,-79.5452271,"245 Dixon Rd. Etobicoke, ON","245 Dixon Rd, Etobicoke, ON M9P 2M4, Canada",gold,Bing Maps,address
+43.6961365,-79.7979584,"10010 Mclaughlin Rd, Brampton","10010 McLaughlin Rd N, Brampton, ON L7A 2X6, Canada",blue,Bing Maps,address
+43.6952934,-79.7493286,"1 Kennedy Road South, Brampton","1 Kennedy Rd S, Brampton, ON L6W 3C9, Canada",blue,Bing Maps,address
+43.6951218,-79.6296921,"6543 Airport Road Mississauga, ON","6543 Airport Rd, Mississauga, ON L4V 1E4, Canada",gold,Bing Maps,address
+43.6950798,-79.4519806,"1901 EGLINTON AVE W, TORONTO, ON, M6E2J5","1901 Eglinton Ave W, York, ON M6E 2J5, Canada",teal,Bing Maps,address
+43.6949463,-79.7718353,"370 Main St N, Brampton, ON L6V 4A4","370 Main St N, Brampton, ON L6V 4A4, Canada",green,Bing Maps,address
+43.6916199,-79.5318069,"1500 ROYAL YORK RD, ETOBICOKE, ON, M9P3B6","1500 Royal York Rd, Etobicoke, ON M9P 3B6, Canada",teal,Bing Maps,address
+43.6909981,-79.6952438,"199 Advance Boulevard Brampton, ON, L6T4N2","199 Advance Blvd, Brampton, ON L6T 4N2, Canada",red,Bing Maps,address
+43.6903114,-79.5617676,"5 LAVINGTON DR, ETOBICOKE, ON, M9R2H1","5 Lavington Dr, Etobicoke, ON M9R 2H1, Canada",teal,Bing Maps,address
+43.6899796,-79.5761871,"627 Dixon Road Rexdale, ON, M9W1H7","627 Dixon Rd, Etobicoke, ON M9W 1H7, Canada",red,Bing Maps,address
+43.6897888,-79.620079,"6205 Airport Rd, Mississauga","6205 Airport Rd, Mississauga, ON L4V 1E1, Canada",blue,Bing Maps,address
+43.6897659,-79.3949585,"1560 YONGE STREET, TORONTO, ON, M4T2S9","1560 Yonge St, Toronto, ON M4T 2S9, Canada",teal,Bing Maps,address
+43.6893616,-79.5779419,"655 Dixon Rd, Toronto","655 Dixon Rd, Etobicoke, ON M9W, Canada",blue,Bing Maps,address
+43.6891289,-79.4125824,"437 SPADINA RD, TORONTO, ON, M5P2W3","437 Spadina Rd, Toronto, ON M5P 2W3, Canada",teal,Bing Maps,address
+43.688736,-79.8352127,"10615 Creditview Rd, Brampton","10615 Creditview Rd, Brampton, ON L7A 0T4, Canada",blue,Bing Maps,address
+43.6886902,-79.3905487,"81 ST CLAIR AVENUE EAST, TORONTO, ON, M4T1M7","81 St Clair Ave E, Toronto, ON M4T 1M7, Canada",teal,Bing Maps,address
+43.6884995,-79.7632065,"150 Main St N Brampton, ON, L6V1N9","150 Main St N, Brampton, ON L6V 1N9, Canada",red,Bing Maps,address
+43.6878929,-79.7628708,"135 MAIN ST N, BRAMPTON, ON, L6X1M9","135 Main St N, Brampton, ON L6X 1M9, Canada",teal,Bing Maps,address
+43.687767,-79.6221237,"6300 Silver Dart Dr. Mississauga, ON","6300 Silver Dart Dr, Mississauga, ON L5P, Canada",gold,Bing Maps,address
+43.6875458,-79.7649536,"31 Church St, Brampton, ON L6X 1H2","31 Church St W, Brampton, ON L6X 1H2, Canada",green,Bing Maps,address
+43.687233,-79.7586899,"56 QUEEN ST. EAST, BRAMPTON, ON, L6V4M8","56 Queen St E, Brampton, ON L6V 4M8, Canada",teal,Bing Maps,address
+43.686451,-79.7603073,"28 Main Street N Brampton, ON","28 Main St N, Brampton, ON L6V 1N6, Canada",gold,Bing Maps,address
+43.6858597,-79.7601242,"1 Main St N, Brampton","1 Main St N, Brampton, ON L6X 1M8, Canada",blue,Bing Maps,address
+43.6857796,-79.7598038,"1 Queen St E, Brampton, ON L6W 2A7","1 Queen St E, Brampton, ON L6W 2A7, Canada",green,Bing Maps,address
+43.6856995,-79.6099319,"5980 Airport Rd. Mississauga, ON","5980 Airport Rd, Mississauga, ON L4V, Canada",gold,Bing Maps,address
+43.6856537,-79.7598419,"1 Main Street South Brampton, ON, L6Y1M8","1 Main St S, Brampton, ON L6Y 1M8, Canada",red,Bing Maps,address
+43.6856308,-79.5239105,"140 La Rose Ave, Etobicoke","140 La Rose Ave, Etobicoke, ON M9P 1B2, Canada",blue,Bing Maps,address
+43.6850739,-79.8071365,"9950 Chinguacousy Road Brampton, ON, L6X0H6","9950 Chinguacousy Rd, Brampton, ON L6X 0H6, Canada",red,Bing Maps,address
+43.6838818,-79.5648424,"415 The Westway, Etobicoke","415 The Westway, Etobicoke, ON M9R 3R4, Canada",blue,Google Maps,address
+43.6836815,-79.8128204,"20 BRISDALE DR, BRAMPTON, ON, L7A2G8","20 Brisdale Dr, Brampton, ON L7A 3T9, Canada",teal,Bing Maps,address
+43.6833801,-79.7633133,"130 Queen St Brampton, ON","130 Queen St W, Brampton, ON L6X 1A6, Canada",gold,Bing Maps,address
+43.6827431,-79.803421,"9825 CHINGUACOUSY ROAD, BRAMPTON, ON, L6X0V1","9825 Chinguacousy Rd, Brampton, ON L6X 0V1, Canada",teal,Bing Maps,address
+43.6824379,-79.8169632,"35 Worthington Ave Brampton, ON","35 Worthington Ave, Brampton, ON L7A 2Y7, Canada",gold,Bing Maps,address
+43.6820641,-79.8029022,"9800 Chinguacousy Rd, Brampton","9800 Chinguacousy Rd, Brampton, ON L6X 5E9, Canada",blue,Bing Maps,address
+43.6816101,-79.474472,"605 ROGERS ROAD, TORONTO, ON, M6M1B9","605 Rogers Rd, York, ON M6M 1B9, Canada",teal,Bing Maps,address
+43.6808815,-79.8149796,"5 Worthington Ave, Brampton, ON L7A 2Y7","5 Worthington Ave, Brampton, ON L7A 2Y7, Canada",green,Bing Maps,address
+43.6808815,-79.5093689,"280 Scarlett Rd, Toronto","280 Scarlett Rd, Etobicoke, ON M9A 4S4, Canada",blue,Bing Maps,address
+43.6805038,-79.6819229,"7280 Dixie Road, Mississauga","7280 Dixie Rd, Mississauga, ON L5S, Canada",blue,Bing Maps,address
+43.680069,-79.7148666,"20 Biscayne Crescent Brampton, ON, L4G7J1","20 Biscayne Cres, Brampton, ON L6W 4S1, Canada",red,Bing Maps,address
+43.6785431,-79.7623367,"51 Mcmurchy Ave S Brampton, ON","51 McMurchy Ave S, Brampton, ON L6Y 1Y5, Canada",gold,Bing Maps,address
+43.6777611,-79.4449768,"1226 ST CLAIR AVE W, TORONTO, ON, M6E1B4","1226 St Clair Ave W, Toronto, ON M6E 1B4, Canada",teal,Bing Maps,address
+43.6776886,-79.7486725,"160 Main St S, Brampton","160 Main St S, Brampton, ON L6W 2C9, Canada",blue,Bing Maps,address
+43.6772881,-79.7206802,"543 Steeles Avenue East Brampton, ON, L6W4S2","543 Steeles Ave E, Brampton, ON L6W 4S2, Canada",red,Bing Maps,address
+43.6765251,-79.4956207,"853 JANE STREET, TORONTO, ON, M6N4C4","853 Jane St, York, ON M6N 4C4, Canada",teal,Bing Maps,address
+43.6761208,-79.7708893,"398 QUEEN ST W, BRAMPTON, ON, L6X1B3","398 Queen St W, Brampton, ON L6X, Canada",teal,Bing Maps,address
+43.6756287,-79.5576935,"230 Lloydmanor Road And Eglinton Etobicoke, ON, M9B5K7","Lloyd Manor Rd & Eglinton Ave W, Etobicoke, ON M9B, Canada",red,Bing Maps,intersection
+43.6756096,-79.7218933,"7995 Kennedy Rd S, Brampton","7995 Kennedy Rd S, Brampton, ON L6W 0A2, Canada",blue,Bing Maps,address
+43.6749077,-79.7219315,"7980 KENNEDY ROAD SOUTH, BRAMPTON, ON, L6W0B2","7980 Kennedy Rd S, Brampton, ON L6W 0B2, Canada",teal,Bing Maps,address
+43.6719513,-79.5964813,"3111 Convair Dr. Mississauga, ON","3111 Convair Dr, Mississauga, ON L5P, Canada",gold,Bing Maps,address
+43.6714211,-79.4216003,"659 DUPONT ST, TORONTO, ON, M6G1Z5","659 Dupont St, Toronto, ON M6G 1Z5, Canada",teal,Bing Maps,address
+43.6703491,-79.4734879,"2155 St. Clair Avenue West, Toronto, ON, M6N1K5","2155 St Clair Ave W, Toronto, ON M6N 1K5, Canada",teal,Bing Maps,address
+43.6683083,-79.3972092,"242 BLOOR STREET WEST, TORONTO, ON, M5S1T8","242 Bloor St W, Toronto, ON M5S 1T8, Canada",teal,Bing Maps,address
+43.6682205,-79.4843979,"2471 ST.CLAIR AVE W, TORONTO, ON, M6N4Z5","2471 St Clair Ave W, Toronto, ON M6N 4Z5, Canada",teal,Bing Maps,address
+43.6676407,-79.7350616,"1 Bartley Bull Pkwy, Brampton, ON L6W 3T7","1 Bartley Bull Pkwy, Brampton, ON L6W, Canada",green,Bing Maps,address
+43.667511,-79.4417191,"1245 DUPONT ST, TORONTO, ON, M6H2A5","1245 Dupont St, Toronto, ON M6H 2A5, Canada",teal,Bing Maps,address
+43.6675034,-79.7356796,"499 MAIN ST S, BRAMPTON, ON, L6Y1N7","499 Main St S, Brampton, ON L6Y 1N6, Canada",teal,Bing Maps,address
+43.6664772,-79.7811279,"8995 Chinguacousy Rd, Brampton, ON L6Y 0J2","8995 Chinguacousy Rd, Brampton, ON L6Y 0J2, Canada",green,Bing Maps,address
+43.666153,-79.7806702,"8975 CHINGUACOUSY ROAD, BRAMPTON, ON, L6Y0J2","8975 Chinguacousy Rd, Brampton, ON L6Y 0J2, Canada",teal,Bing Maps,address
+43.6659889,-79.7804413,"8965 Chinguacousy Rd, Brampton","8965 Chinguacousy Rd, Brampton, ON L6Y 0J2, Canada",blue,Bing Maps,address
+43.6659775,-79.7809296,"8978 Chinguacousy Rd, Brampton","8978 Chinguacousy Rd, Brampton, ON L6Y 5X6, Canada",blue,Bing Maps,address
+43.6659508,-79.4509735,"1502 DUPONT ST, TORONTO, ON, M6P3S1","1502 Dupont St, Toronto, ON M6P, Canada",teal,Bing Maps,address
+43.6659126,-79.780838,"8974 Chinguacousy Rd Brampton, ON, L6Y5X6","8974 Chinguacousy Rd, Brampton, ON L6Y 5X6, Canada",red,Bing Maps,address
+43.6654205,-79.4865799,"3449 DUNDAS STREET WEST, TORONTO, ON, M6S2S5","3449 Dundas St W, Toronto, ON M6S, Canada",teal,Bing Maps,address
+43.6651497,-79.4648132,"2859 DUNDAS ST W, TORONTO, ON, M6P1Y9","2859 Dundas St W, Toronto, ON M6P 1Y9, Canada",teal,Bing Maps,address
+43.6645317,-79.4150467,"640 BLOOR ST W, TORONTO, ON, M6G1K9","640 Bloor St W, Toronto, ON M6G 1K9, Canada",teal,Bing Maps,address
+43.6645164,-79.7314301,"7940 Hurontario Street Brampton, ON","7940 Hurontario St, Brampton, ON L6Y 0B8, Canada",gold,Bing Maps,address
+43.6643677,-79.7348251,"85 Steeles Ave. W Brampton, ON","85 Steeles Ave W, Brampton, ON L6Y 0K3, Canada",gold,Bing Maps,address
+43.6639595,-79.6583099,"6415 Dixie Rd N, Mississauga","6415 Dixie Rd, Mississauga, ON L5T 1A4, Canada",blue,Bing Maps,address
+43.6628914,-79.5930634,"2800 Skymark Avenue Mississauga, ON","2800 Skymark Ave, Mississauga, ON L4W 5A6, Canada",gold,Bing Maps,address
+43.6617699,-79.5197906,"270 The Kingsway, Etobicoke","270 The Kingsway, Etobicoke, ON M9A, Canada",blue,Bing Maps,address
+43.660923,-79.7267838,"7756 Hurontario Street Brampton, ON, L6V3N2","7756 Hurontario St, Brampton, ON L6Y 0C7, Canada",red,Bing Maps,address
+43.6605301,-79.5821762,"120 ERINGATE DR, ETOBICOKE, ON, M9C3Z8","120 Eringate Dr, Etobicoke, ON M9C 3Z8, Canada",teal,Bing Maps,address
+43.6604881,-79.6536636,"1500 Meyerside Dr, Mississauga, ON L5T 1V4","1500 Meyerside Dr, Mississauga, ON L5T 1V4, Canada",green,Bing Maps,address
+43.6604156,-79.7212372,"182 City Centre Dr. Brampton, ON","182 County Court Blvd, Brampton, ON L6W, Canada",gold,Bing Maps,address
+43.6602402,-79.7258682,"Unit 301 7700 Hurontario Street Brampton, ON, L6Y4M3","7700 Hurontario St, Brampton, ON L6Y 4M3, Canada",red,Bing Maps,address
+43.6602402,-79.7258682,"7700 Hurontario St. Unit 602 Brampton, ON, L6Y4M3","7700 Hurontario St, Brampton, ON L6Y 4M3, Canada",red,Bing Maps,address
+43.6602097,-79.6549606,"6266 Dixie Road Mississauga, ON","6266 Dixie Rd, Mississauga, ON L5T 1A7, Canada",gold,Bing Maps,address
+43.6601448,-79.7219772,"209 County Court Blvd, Brampton","209 County Court Blvd, Brampton, ON L6W 4P5, Canada",blue,Bing Maps,address
+43.6596985,-79.6543121,"6240 Dixie Rd, Mississauga","6240 Dixie Rd, Mississauga, ON L5T 1A6, Canada",blue,Bing Maps,address
+43.6588593,-79.7233505,"7685 Hurontario St S, Brampton, ON L6W 0B4","7685 Hurontario St, Brampton, ON L6W, Canada",green,Bing Maps,address
+43.6581612,-79.4430084,"1293 BLOOR ST W, TORONTO, ON, M6H1P1","1293 Bloor St W, Toronto, ON M6H, Canada",teal,Bing Maps,address
+43.6571388,-79.8161011,"9505 MISSISSAUGA RD, BRAMPTON, ON, L6X0Z8","9505 Mississauga Rd, Brampton, ON L6X 0Z8, Canada",teal,Bing Maps,address
+43.6570282,-79.8159637,"9495 Mississauga Rd, Brampton","9495 Mississauga Rd, Brampton, ON L6X 0Z8, Canada",blue,Bing Maps,address
+43.6569633,-79.4343948,"900 DUFFERIN ST, UNIT #607, TORONTO, ON, M6H4B1","900 Dufferin St, Toronto, ON M6H 4B1, Canada",teal,Bing Maps,address
+43.6568184,-79.8156662,"9475 Mississauga Road Brampton, ON","9475 Mississauga Rd, Brampton, ON L6X 0Z8, Canada",gold,Bing Maps,address
+43.6567383,-79.8154297,"9483 Mississauga Road Brampton, ON, L6X0Z8","9483 Mississauga Rd, Brampton, ON L6X 0Z8, Canada",red,Bing Maps,address
+43.6563988,-79.8150864,"9435 Mississauga Rd Unit D, Brampton, ON L6X 0Z8","9435 Mississauga Rd, Brampton, ON L6X 0Z8, Canada",green,Bing Maps,address
+43.655941,-79.6476135,"1525 Britannia Road East, Mississauga, ON, L4W1S5","1525 Britannia Rd E, Mississauga, ON L4W 1S5, Canada",red,Bing Maps,address
+43.655941,-79.6476135,"1525 Britannia Road East Mississauga, ON, L4W1S5","1525 Britannia Rd E, Mississauga, ON L4W 1S5, Canada",red,Bing Maps,address
+43.6557083,-79.4128418,"568 COLLEGE ST, TORONTO, ON, M6G1B3","568 College St, Toronto, ON M6G 1B3, Canada",teal,Bing Maps,address
+43.655674,-79.7443924,"545 STEELES AVE WEST, A-01, BRAMPTON, ON, L6Y4E7","545 Steeles Ave W, Brampton, ON L6Y 4E7, Canada",teal,Bing Maps,address
+43.655674,-79.7443924,"545 Steeles Avenue West, Brampton, ON L6Y 4E7","545 Steeles Ave W, Brampton, ON L6Y 4E7, Canada",green,Bing Maps,address
+43.6553383,-79.6951523,"480 Derry Rd E, Mississauga","480 Derry Rd E, Mississauga, ON L5T 2P3, Canada",blue,Bing Maps,address
+43.6545982,-79.6473923,"1480 Britannia Road East Mississauga, ON, L4W1C8","1480 Britannia Rd E, Mississauga, ON L4W 1C8, Canada",red,Bing Maps,address
+43.6512215,-79.7589666,"495 Charolais Blvd, Brampton","495 Charolais Boulevard, L6Y 0M2, Brampton, ON, CA",blue,Google Maps,address
+43.65065,-79.7595367,"495 Charolais Blvd, Brampton","495 Charolais Blvd, Brampton, ON L6Y 0M2, Canada",blue,Bing Maps,address
+43.6506424,-79.9078293,"171 Guelph St. Georgetown, ON","171 Guelph St, Georgetown, ON L7G 4A1, Canada",gold,Bing Maps,address
+43.6504402,-79.480629,"2330 BLOOR ST W, TORONTO, ON, M6S1P3","2330 Bloor St W, Toronto, ON M6S, Canada",teal,Bing Maps,address
+43.6502419,-79.5278091,"4860 Dundas St W, Etobicoke","4860 Dundas St W, Etobicoke, ON M9A 1B5, Canada",blue,Bing Maps,address
+43.6500893,-79.527153,"4869 Dundas St West, Toronto","4869 Dundas St W, Etobicoke, ON M9A 1B2, Canada",blue,Bing Maps,address
+43.6498108,-79.4197388,"1102 DUNDAS ST W, TORONTO, ON, M6J1X2","1102 Dundas St W, Toronto, ON M6J 1X2, Canada",teal,Bing Maps,address
+43.6497459,-79.8959503,"280 GUELPH ST, UNIT #24, GEORGETOWN, ON, L7G4B1","280 Guelph St, Georgetown, ON L7G 4B1, Canada",teal,Bing Maps,address
+43.6497459,-79.8959503,"280 Guelph Street Unit 14 Georgetown, ON","280 Guelph St, Georgetown, ON L7G 4B1, Canada",gold,Bing Maps,address
+43.6495094,-79.5286026,"4890 DUNDAS ST W, TORONTO, ON, M9A1B5","4890 Dundas St W, Etobicoke, ON M9A 1B5, Canada",teal,Bing Maps,address
+43.6492157,-79.9023285,"10 Mountainview Rd S Georgetown, ON","10 Mountainview Rd S, Georgetown, ON L7G 4J9, Canada",gold,Bing Maps,address
+43.6492119,-79.926178,"82 Main Street S Georgetown, ON","82 Main St S, Georgetown, ON L7G 3H3, Canada",gold,Bing Maps,address
+43.6485596,-79.8813705,"360 Guelph St, Georgetown, ON","360 Guelph St, Georgetown, ON L7G 4B5, Canada",gold,Bing Maps,address
+43.6478348,-79.8518295,"2989 Bovaird Drive Brampton, ON","2989 Bovaird Dr W, Brampton, ON L6X, Canada",gold,Bing Maps,address
+43.64748,-79.512001,"3022 BLOOR ST W, ETOBICOKE, ON, M8X1C4","3022 Bloor St W, Etobicoke, ON M8X 1C4, Canada",teal,Bing Maps,address
+43.6463356,-79.7540054,"7970 Mavis Rd, Brampton","7970 Mavis Rd, Brampton, ON L6Y 5L5, Canada",blue,Bing Maps,address
+43.6454201,-79.705658,"6984 Hurontario Street Mississauga, ON, L5T2Z6","6984 Hurontario St, Mississauga, ON L5W, Canada",red,Bing Maps,address
+43.6454201,-79.5215912,"3286 BLOOR STREET, TORONTO, ON, M8X1C4","3286 Bloor St W, Etobicoke, ON M8X, Canada",teal,Bing Maps,address
+43.6450882,-79.5671463,"401 The West Mall, Etobicoke","401 The West Mall, Etobicoke, ON M9C 5J5, Canada",blue,Bing Maps,address
+43.6437302,-79.7559814,"96 Clementine Dr, Brampton, ON L6Y 0L8","96 Clementine Dr, Brampton, ON L6Y 0L8, Canada",green,Bing Maps,address
+43.6423988,-79.5754623,"141 SATURN RD, ETOBICOKE, ON, M9C2S8","141 Saturn Rd, Toronto, ON M9C, Canada",teal,Bing Maps,address
+43.6419792,-79.6302109,"5330 Dixie Road Mississauga, ON","5330 Dixie Rd, Mississauga, ON L4W 1E3, Canada",gold,Bing Maps,address
+43.6406708,-79.5388412,"3835 BLOOR ST W, ETOBICOKE, ON, M9B1K9","3835 Bloor St W, Etobicoke, ON M9B, Canada",teal,Bing Maps,address
+43.6403351,-79.7153778,"7050 ST. BARBARA BLVD, MISSISSAUGA, ON, L5W0E6","7050 St Barbara Blvd, Mississauga, ON L5W 0E6, Canada",teal,Bing Maps,address
+43.6396751,-79.7146225,"7020 St Barbara Blvd, Mississauga","7020 St Barbara Blvd, Mississauga, ON L5W 0E6, Canada",blue,Bing Maps,address
+43.6389313,-79.6919708,"110 Courtney Park Drive Mississauga, ON, L5T2Y3","110 Courtneypark Dr E, Mississauga, ON L5T 2Y3, Canada",red,Bing Maps,address
+43.6387596,-79.4274292,"1211 KING ST W, TORONTO, ON, M6K1G3","1211 King St W, Toronto, ON M6K 1G3, Canada",teal,Bing Maps,address
+43.6378899,-79.6944733,"6605 HURONTARIO ST, MISSISSAUGA, ON, L5T0A4","6605 Hurontario St, Mississauga, ON L5T 0A4, Canada",teal,Bing Maps,address
+43.6373291,-79.718399,"7070 Mclaughlin Rd, Mississauga","7070 McLaughlin Rd, Mississauga, ON L5W 1W7, Canada",blue,Bing Maps,address
+43.637291,-79.7183533,"7060 Mclaughlin Road, Mississauga, ON L5W 1W7","7060 McLaughlin Rd, Mississauga, ON L5W 1W7, Canada",green,Bing Maps,address
+43.6368637,-80.0286179,"352 Queen St. Acton, ON","352 Queen St, Acton, ON L7J 1R2, Canada",gold,Bing Maps,address
+43.6366615,-79.7178879,"7030 Mclaughlin Rd, Mississauga","7030 McLaughlin Rd, Mississauga, ON L5W 1W7, Canada",blue,Bing Maps,address
+43.6356812,-79.6217804,"5014 Dixie Rd, Mississauga","5014 Dixie Rd, Mississauga, ON L4W 1C9, Canada",blue,Bing Maps,address
+43.6352997,-79.5414505,"5322 Dundas St W, Etobicoke","5322 Dundas St W, Etobicoke, ON M9B 1B3, Canada",blue,Bing Maps,address
+43.6350746,-79.5570068,"280 THE EAST MALL, ETOBICOKE, ON, M9B3Y8","280 The East Mall, Etobicoke, ON M9B, Canada",teal,Bing Maps,address
+43.6348801,-79.6205215,"4900 Dixie Road Mississauga, ON, L4W2R1","4900 Dixie Rd, Mississauga, ON L4W 2R1, Canada",red,Bing Maps,address
+43.6346512,-79.5617599,"290 The West Mall, Etobicoke","290 The West Mall, Etobicoke, ON M9C 1C6, Canada",blue,Bing Maps,address
+43.6328734,-79.8784056,"333 Mountainview Rd S, Georgetown","333 Mountainview Road South, Georgetown, ON L7G 6E8, Canada",blue,Google Maps,address
+43.63274,-79.6183701,"1350 CRESTLAWN DR, MISSISSAUGA, ON, L4W1P8","1350 Crestlawn Dr, Mississauga, ON L4W 1P8, Canada",teal,Bing Maps,address
+43.6322517,-79.5452881,"5470 Dundas St W, Etobicoke","5470 Dundas St W, Etobicoke, ON M9B 1B6, Canada",blue,Bing Maps,address
+43.63094,-79.76898,"1 Presidents Choice Financial Circle, Brampton, ON","1 Presidents Choice Financial Circle, Brampton, ON",gold,Google Maps,address
+43.6307259,-80.0405731,"31 Mill Street E Acton, ON","31 Mill St E, Acton, ON L7J 1H1, Canada",gold,Bing Maps,address
+43.6301689,-79.4815063,"125 THE QUEENSWAY, ETOBICOKE, ON, M8Y1H6","125 The Queensway, Etobicoke, ON M8Y 1H6, Canada",teal,Bing Maps,address
+43.6301003,-79.5501404,"5559 Dundas Street W., Etobicoke, ON, M9B1B9","5559 Dundas St W, Etobicoke, ON M9B 1B9, Canada",teal,Bing Maps,address
+43.6276398,-79.7759094,"1990 Steeles Ave W, Brampton","1990 Steeles Ave W, Brampton, ON L6Y 0R4, Canada",blue,Bing Maps,address
+43.6250801,-79.604599,"4141 Dixie Road Mississauga, ON","4141 Dixie Rd, Mississauga, ON L4W 1V5, Canada",gold,Bing Maps,address
+43.6250801,-79.604599,"4141 Dixie Rd, Mississauga","4141 Dixie Rd, Mississauga, ON L4W 1V5, Canada",blue,Bing Maps,address
+43.625061,-79.6791534,"5980 Hurontario St, Mississauga","5980 Hurontario St, Mississauga, ON L5R 3T6, Canada",blue,Bing Maps,address
+43.6239319,-79.7118835,"745 Courtney Park Dr W And Mavis Mississauga, ON, L5W1L9","Courtneypark Dr W & Mavis Rd, Mississauga, ON L5W, Canada",red,Bing Maps,intersection
+43.6234207,-79.4814606,"2194 LAKE SHORE BLVD W, ETOBICOKE, ON, M8V1A2","2194 Lake Shore Blvd W, Etobicoke, ON M8V 1A2, Canada",teal,Bing Maps,address
+43.6231384,-79.6025696,"4011 Dixie Rd, Mississauga","4011 Dixie Rd, Mississauga, ON L4W 1M3, Canada",blue,Bing Maps,address
+43.6224594,-79.6036682,"1349 Burnahamthorpe Rd E Mississauga, ON, L4Y3V8","1349 Burnhamthorpe Rd E, Mississauga, ON L4Y 3V8, Canada",red,Bing Maps,address
+43.6218681,-79.5241165,"1230 THE QUEENSWAY, ETOBICOKE, ON, M8Z1R8","1230 The Queensway, Etobicoke, ON M8Z, Canada",teal,Bing Maps,address
+43.6216812,-79.7431412,"7235 Bellshire Gate Mississauga, ON","7235 Bellshire Gate, Mississauga, ON L5N 7X1, Canada",gold,Bing Maps,address
+43.6208992,-79.6732483,"25 Milverton Dr, Mississauga","25 Milverton Dr, Mississauga, ON L5R 3G2, Canada",blue,Bing Maps,address
+43.6204605,-79.6724396,"20 Milverton Dr, Mississauga, ON L5R 3G2","20 Milverton Dr, Mississauga, ON L5R 3G2, Canada",green,Bing Maps,address
+43.6195412,-79.6690598,"5651 Hurontario Street Mississauga, ON, L4Z1S7","5651 Hurontario St, Mississauga, ON L4Z 1S7, Canada",red,Bing Maps,address
+43.616539,-79.7029266,"780 Bancroft Drive, Mississauga","780 Bancroft Dr, Mississauga, ON L5V 2Y6, Canada",blue,Bing Maps,address
+43.6164818,-79.6414108,"4685 Central Parkway East Mississauga, ON, L4Z2E4","4685 Central Pkwy E, Mississauga, ON L4Z 2E4, Canada",red,Bing Maps,address
+43.6164589,-79.643219,"445 EGLINTON AVE. E., MISSISSAUGA, ON, L4Z3L4","445 Eglinton Ave E, Mississauga, ON L4Z 3L4, Canada",teal,Bing Maps,address
+43.6155815,-79.6610107,"30 Bristol Road E Mississauga, ON","30 Bristol Rd E, Mississauga, ON L4Z 3K8, Canada",gold,Bing Maps,address
+43.6154366,-79.662178,"40 BRISTOL RD E, MISSISSAUGA, ON, L4Z3K8","40 Bristol Rd E, Mississauga, ON L4Z 3K8, Canada",teal,Bing Maps,address
+43.6147804,-79.6884689,"5970 Mclaughlin Rd. Mississauga, ON","5970 McLaughlin Rd, Mississauga, ON L5R, Canada",gold,Bing Maps,address
+43.6138992,-79.4895172,"2448 LAKESHORE BLVD W, ETOBICOKE, ON, M8V1C8","2448 Lake Shore Blvd W, Etobicoke, ON M8V 1C8, Canada",teal,Bing Maps,address
+43.6123772,-79.5801849,"1530 Dundas St E, Mississauga","1530 Dundas St E, Mississauga, ON L4X 1L4, Canada",blue,Bing Maps,address
+43.6111717,-79.6004868,"1125 Bloor St E, Mississauga","1125 Bloor St, Mississauga, ON L4Y 2N6, Canada",blue,Bing Maps,address
+43.6105499,-79.6986923,"865 Britannia Road West Mississauga, ON, L5V2X8","865 Britannia Rd W, Mississauga, ON L5V 2X8, Canada",red,Bing Maps,address
+43.6097641,-79.5606537,"25 The West Mall, Etobicoke","25 The West Mall, Etobicoke, ON M9C, Canada",blue,Bing Maps,address
+43.609581,-79.58284,"1404 Dundas St E, Mississauga","1404 Dundas St E, Mississauga, ON L4X 1L4, Canada",blue,Bing Maps,address
+43.6090202,-79.698082,"5985 Latimer Drive Mississauga, ON","5985 Latimer Dr, Mississauga, ON L5V, Canada",gold,Bing Maps,address
+43.6088905,-79.5480728,"863 BROWN'S LINE, ETOBICOKE, ON, M8W3V7","863 Browns Line, Etobicoke, ON M8W 3V7, Canada",teal,Bing Maps,address
+43.6088409,-79.7452774,"6880 Financial Dr, Mississauga","6880 Financial Dr, Mississauga, ON L5N 7Y5, Canada",blue,Bing Maps,address
+43.608799,-79.6901398,"700 Matheson Blvd W, Mississauga","700 Matheson Blvd W, Mississauga, ON L5R 3T2, Canada",blue,Bing Maps,address
+43.6083717,-79.6556702,"5008 Hurontario St, Mississauga","5008 Hurontario St, Mississauga, ON L5R 1B2, Canada",blue,Bing Maps,address
+43.6081886,-79.6911011,"5800 MAVIS RD, MISSISSAUGA, ON, L5V3B7","5800 Mavis Rd, Mississauga, ON L5V, Canada",teal,Bing Maps,address
+43.6075287,-79.6533508,"5033 Hurontario St, Mississauga","5033 Hurontario St, Mississauga, ON L4Z 3X7, Canada",blue,Bing Maps,address
+43.6074486,-79.6171112,"3643 CAWTHRA RD, MISSISSAUGA, ON, L5A2Y4","3643 Cawthra Rd, Mississauga, ON L5A 2Y4, Canada",teal,Bing Maps,address
+43.6052895,-79.6534195,"34 Eglinton Avenue West Mississauga, ON, L5R3E7","34 Eglinton Ave W, Mississauga, ON L5R 3E7, Canada",red,Bing Maps,address
+43.6039696,-79.6498108,"25 KINGSBRIDGE GARDENS, MISSISSAUGA, ON, L5R4B1","25 Kingsbridge Garden Cir, Mississauga, ON L5R 4B1, Canada",teal,Bing Maps,address
+43.6038208,-79.6483459,"4557 Hurontario St, Mississauga","4557 Hurontario St, Mississauga, ON L4Z 3L9, Canada",blue,Bing Maps,address
+43.6038094,-79.6483383,"4555 Hurontario St U-C10, Mississauga, ON L4Z 3M1","4555 Hurontario St, Mississauga, ON L4Z 3M1, Canada",green,Bing Maps,address
+43.6020508,-79.7397919,"6711 Mississauga Road Mississauga, ON","6711 Mississauga Rd, Mississauga, ON L5N 2W3, Canada",gold,Bing Maps,address
+43.6014671,-79.6260529,"377 Burnhamthorpe Road E., Mississauga, ON, L5A3Y1","377 Burnhamthorpe Rd E, Mississauga, ON L5A 3Y1, Canada",teal,Bing Maps,address
+43.6014671,-79.6260529,"377 BURNHAMTHORPE RD, MISSISSAUGA, ON, L5A4H2","377 Burnhamthorpe Rd E, Mississauga, ON L5A 3Y1, Canada",teal,Bing Maps,address
+43.6014671,-79.6260529,"377 Burnhamthorpe Rd. E Mississauga, ON","377 Burnhamthorpe Rd E, Mississauga, ON L5A 3Y1, Canada",gold,Bing Maps,address
+43.6011581,-79.5936203,"985 DUNDAS ST E, MISSISSAUGA, ON, L4Y2B9","985 Dundas St E, Mississauga, ON L4Y 2B9, Canada",teal,Bing Maps,address
+43.5999794,-79.7416306,"2000 ARGENTIA RD, PLAZA 1, MISSISSAUGA, ON, L5N1P7","2000 Argentia Rd, Mississauga, ON L5N 1P7, Canada",teal,Bing Maps,address
+43.599514,-79.7143631,"6085 CREDITVIEW RD, UNIT 1, MISSISSAUGA, ON, L5V2A8","6085 Creditview Rd, Mississauga, ON L5V 2A8, Canada",teal,Bing Maps,address
+43.5989304,-79.6802368,"728 Bristol Road West, Mississauga, ON L5R 4A3","728 Bristol Rd W, Mississauga, ON L5R 4A3, Canada",green,Bing Maps,address
+43.5985756,-79.7130585,"6051 Creditview Rd, Mississauga, ON L5V 2A8","6051 Creditview Rd, Mississauga, ON L5V 2A8, Canada",green,Bing Maps,address
+43.5978012,-79.7614899,"7025 Millcreek Dr, Mississauga","7025 Millcreek Dr, Mississauga, ON L5N 3R3, Canada",blue,Bing Maps,address
+43.5977859,-79.7838898,"2965 Argentia Rd, Mississauga","2965 Argentia Rd, Mississauga, ON L5N 0A2, Canada",blue,Bing Maps,address
+43.5975685,-79.7832413,"2980 Argentia Rd, Mississauga","2980 Argentia Rd, Mississauga, ON L5N 8C5, Canada",blue,Bing Maps,address
+43.5973015,-79.7851105,"7540 Winston Churchill Blvd Mississauga, ON, L5N8E1","7540 Winston Churchill Blvd, Mississauga, ON L5N 8E1, Canada",red,Bing Maps,address
+43.5971718,-79.5435028,"198 Browns Line Etobicoke, ON","198 Browns Line, Etobicoke, ON M8W 3T3, Canada",gold,Bing Maps,address
+43.5962906,-79.7851105,"3050 Argentia Rd Mississauga, ON","3050 Argentia Rd, Mississauga, ON L5N 8E1, Canada",gold,Bing Maps,address
+43.5962296,-79.6366882,"#100 Missisauga Executive Centre 2 Robert Speck Parkway Mississauga, ON, L4Z1H8","2 Robert Speck Pkwy, Mississauga, ON L4Z, Canada",red,Bing Maps,address
+43.5957298,-79.5134125,"23 COLONEL SAMUEL SMITH PK D, TORONTO, ON, M8V4B6","23 Colonel Samuel Smith Park Dr, Etobicoke, ON M8V 4B6, Canada",teal,Bing Maps,address
+43.595623,-79.641098,"1 City Centre Drive, Suite 105 Mississauga, ON","1 City Centre Dr, Mississauga, ON L5B 1M2, Canada",gold,Bing Maps,address
+43.5949554,-79.5685654,"1250 S SERVICE RD, MISSISSAUGA, ON, L5E1V4","1250 S Service Rd, Mississauga, ON L5E 1V4, Canada",teal,Bing Maps,address
+43.5949554,-79.5685654,"1250 South Service Road, Unit 6 Mississauga, ON, L5E1V4","1250 S Service Rd, Mississauga, ON L5E 1V4, Canada",red,Bing Maps,address
+43.5949554,-79.5685654,"1250 SOUTH SERVICE ROAD, MISSISSAUGA, ON, L5E1V4","1250 S Service Rd, Mississauga, ON L5E 1V4, Canada",teal,Bing Maps,address
+43.5949554,-79.5685654,"1250 South Service Rd. Mississauga, ON","1250 S Service Rd, Mississauga, ON L5E 1V4, Canada",gold,Bing Maps,address
+43.5948715,-79.788681,"3105 Argentia Road, Unit 7 Mississauga, ON","3105 Argentia Rd, Mississauga, ON L5N 8P7, Canada",gold,Bing Maps,address
+43.5929985,-79.7645187,"2760 Derry Rd W, Mississauga","2760 Derry Rd W, Mississauga, ON L5N 3N5, Canada",blue,Bing Maps,address
+43.5929909,-79.5383911,"3701 LAKESHORE BLVD, TORONTO, ON, M8W1P8","3701 Lake Shore Blvd W, Etobicoke, ON M8W 1P8, Canada",teal,Bing Maps,address
+43.5926781,-79.6685791,"660 Eglinton Avenue West Mississauga, ON, L5R3V2","660 Eglinton Ave W, Mississauga, ON L5R 3V2, Canada",red,Bing Maps,address
+43.5923309,-79.6683502,"4885 Mavis Rd, Mississauga","4885 Mavis Rd, Mississauga, ON L5R 3W4, Canada",blue,Bing Maps,address
+43.5922813,-79.6263199,"1585 Mississauga Valley Boulevard, Mississauga, ON, L5A3W9","1585 Mississauga Valley Blvd, Mississauga, ON L5A 3W9, Canada",teal,Bing Maps,address
+43.592205,-79.6393509,"100 CITY CTR DR, MISSISSAUGA, ON, L5B2C9","100 City Centre Dr, Mississauga, ON L5B 2C9, Canada",teal,Bing Maps,address
+43.592205,-79.6393509,"100 City Centre Drive Mississauga, ON, L5B2C9","100 City Centre Dr, Mississauga, ON L5B 2C9, Canada",red,Bing Maps,address
+43.5912628,-79.5753098,"1077 North Service Road Mississauga, ON, L4Y1A6","1077 N Service Rd, Mississauga, ON L4Y, Canada",red,Bing Maps,address
+43.5908089,-79.6799927,"1010 Dreamcrest Rd. Mississauga, ON","1010 Dream Crest Rd, Mississauga, ON L5V 3A4, Canada",gold,Bing Maps,address
+43.5908089,-79.6717529,"5025 Heatherleigh, MISSISSAUGA, ON, L5V2Y7","5025 Heatherleigh Ave, Mississauga, ON L5V 2Y7, Canada",teal,Bing Maps,address
+43.5900459,-79.6514511,"309 Rathburn Road  Mississauga, ON, L5B4C1","309 Rathburn Rd W, Mississauga, ON L5B 4C1, Canada",red,Bing Maps,address
+43.587841,-79.7417679,"6435 Erin Mills Pkwy, Mississauga, ON L5N 3P3","6435 Erin Mills Pkwy, Mississauga, ON L5N 4H4, Canada",green,Bing Maps,address
+43.58778,-79.6072922,"354 Dundas Hwy E Mississauga, ON, L5A1X2","354 Dundas St E, Mississauga, ON L5A 1X2, Canada",red,Bing Maps,address
+43.5868301,-79.6985168,"1525 BRISTOL ROAD WEST, MISSISSAUGA, ON, L5M4Z1","1525 Bristol Rd W, Mississauga, ON L5M 4Z1, Canada",teal,Bing Maps,address
+43.5855217,-79.741188,"2330 Battleford Rd. Mississauga, ON, L5N3K6","2330 Battleford Rd, Mississauga, ON L5N 3K6, Canada",red,Bing Maps,address
+43.5844688,-79.7606735,"6780 MEADOWVALE TOWN CENTRE CIRCLE, MISSISSAUGA, ON, L5N4B7","6780 Meadowvale Town Centre Cir, Mississauga, ON L5N, Canada",teal,Bing Maps,address
+43.5834961,-79.7769928,"3295 Derry Rd. West Mississauga, ON, L5N7L7","3295 Derry Rd W, Mississauga, ON L5N 7L7, Canada",red,Bing Maps,address
+43.5834808,-79.620163,"3295 Kirwin Avenue Mississauga, ON, L5A4K9","3295 Kirwin Ave, Mississauga, ON L5A 4K9, Canada",red,Bing Maps,address
+43.5832596,-79.778389,"3221 DERRY ROAD, MISSISSAUGA, ON, L5N7L7","3221 Derry Rd W, Mississauga, ON L5N 7L7, Canada",teal,Bing Maps,address
+43.5832596,-79.778389,"3221 DERRY RD W, 16, MISSISSAUGA, ON, L5N7L7","3221 Derry Rd W, Mississauga, ON L5N 7L7, Canada",teal,Bing Maps,address
+43.5832291,-79.716217,"128 Queen Street South,  Mississauga, ON, L5M1K8","128 Queen St S, Mississauga, ON L5M 1K8, Canada",red,Bing Maps,address
+43.5829025,-79.7614484,"6720 Meadowvale Town, Mississauga","6720 Meadowvale Town Centre Circle, Mississauga, ON, CA",blue,Google Maps,address
+43.5817108,-79.7132492,"189 Queen St S, Mississauga","189 Queen St S, Mississauga, ON L5M 1L4, Canada",blue,Bing Maps,address
+43.5815887,-79.7598343,"6677 Meadowvale Town Centre Circle, Mississauga, ON, L5N2R5","6677 Meadowvale Town Centre Cir, Mississauga, ON L5N, Canada",teal,Bing Maps,address
+43.5815887,-79.7598343,"6677 Meadowvale Town Centre Circle Mississauga, ON","6677 Meadowvale Town Centre Cir, Mississauga, ON L5N, Canada",gold,Bing Maps,address
+43.5808182,-79.6165314,"5 Dundas Street E Mississauga, ON","5 Dundas St E, Mississauga, ON L5A 1V9, Canada",gold,Bing Maps,address
+43.5791588,-79.6833267,"1240 Eglinton Ave W, Mississauga","1240 Eglinton Ave W, Mississauga, ON L5V 1N3, Canada",blue,Bing Maps,address
+43.5791588,-79.6833267,"1240 EGLINTON AVE WEST, B7, MISSISSAUGA, ON, L5V1N3","1240 Eglinton Ave W, Mississauga, ON L5V 1N3, Canada",teal,Bing Maps,address
+43.5791588,-79.6833267,"1240 Eglinton Avenue West Building B Mississauga, ON, L5V1N3","1240 Eglinton Ave W, Mississauga, ON L5V 1N3, Canada",red,Bing Maps,address
+43.5791092,-79.6516418,"700 Burnhamthorpe Ro, Mississauga","700 Burnhamthorpe Rd W, Mississauga, ON L5C 2R9, Canada",blue,Bing Maps,address
+43.579071,-79.6150208,"2550 Hurontario Street, Mississauga, ON, L5B1N5","2550 Hurontario St, Mississauga, ON L5B 1N5, Canada",teal,Bing Maps,address
+43.5775986,-79.7330627,"2520 Britannia Rd W, Mississauga","2520 Britannia Rd W, Mississauga, ON L5M 5X7, Canada",blue,Bing Maps,address
+43.5761986,-79.7837372,"6980 Lisgar Dr Mississauga, ON, L5N8C8","6980 Lisgar Dr, Mississauga, ON L5N 8C8, Canada",red,Bing Maps,address
+43.5748291,-79.6447906,"3411 Mavis Rd Mississauga, ON","3411 Mavis Rd, Mississauga, ON L5C 1T7, Canada",gold,Bing Maps,address
+43.5746498,-79.8335419,"7975 Trafalgar Road Hornby, ON, L0P1E0","7975 Trafalgar Rd, Halton Hills, ON L0P, Canada",red,Bing Maps,address
+43.5743713,-79.7396774,"6040 Glen Erin Dr, Mississauga","6040 Glen Erin Dr, Mississauga, ON L5N 3M4, Canada",blue,Bing Maps,address
+43.5735092,-79.608757,"33 Queensway W Mississauga, ON","33 Queensway W, Mississauga, ON L5B 1B5, Canada",gold,Bing Maps,address
+43.5729713,-79.8319778,"7548 Trafalgar Rd Hornby, ON","Trafalgar Rd, Halton Hills, ON L0P, Canada",gold,Bing Maps,street
+43.5705605,-79.660553,"3685 Erindale Station Rd Mississauga, ON, L5C2S9","3685 Erindale Station Rd, Mississauga, ON L5C 2S9, Canada",red,Bing Maps,address
+43.5696907,-79.567009,"645 LAKESHORE RD. EAST, MISSISSAUGA, ON, L5G1J5","645 Lakeshore Rd E, Mississauga, ON L5G 1J5, Canada",teal,Bing Maps,address
+43.5685692,-79.6662292,"4040 Creditview Road Mississauga, ON","4040 Creditview Rd, Mississauga, ON L5C 4E3, Canada",gold,Bing Maps,address
+43.5676384,-79.6336975,"3045 Mavis Rd. Mississauga, ON","3045 Mavis Rd, Mississauga, ON L5C 1T7, Canada",gold,Bing Maps,address
+43.5632515,-79.5721512,"378 LAKESHORE RD E, MISSISSAUGA, ON, L5G1H5","378 Lakeshore Rd E, Mississauga, ON L5G 1H5, Canada",teal,Bing Maps,address
+43.5609016,-79.7328568,"5585 Winston Churchill, Mississauga","5585 Winston Churchill Blvd, Mississauga, ON L5M 7P6, Canada",blue,Bing Maps,address
+43.5607376,-79.7339783,"3015 Thomas St Mississauga, ON","3015 Thomas St, Mississauga, ON L5M 0R4, Canada",gold,Bing Maps,address
+43.5603714,-79.7335968,"3010 THOMAS ST, MISSISSAUGA, ON, L5M0N6","3010 Thomas St, Mississauga, ON L5M 0R4, Canada",teal,Bing Maps,address
+43.5585594,-79.7426987,"5602 Tenth Line W, Mississauga","5602 10th Line W, Mississauga, ON L5M, Canada",blue,Bing Maps,address
+43.5585594,-79.7426987,"5602 10TH LINE WEST, MISSISSAUGA, ON, L5M7L9","5602 10th Line W, Mississauga, ON L5M, Canada",teal,Bing Maps,address
+43.5563622,-79.6442261,"1151 DUNDAS ST W, MISSISSAUGA, ON, L5C1C6","1151 Dundas St W, Mississauga, ON L5C 1C6, Canada",teal,Bing Maps,address
+43.5563507,-79.7028732,"4530 Erin Mills Pkwy, Mississauga","4530 Erin Mills Pkwy, Mississauga, ON L5M 4L9, Canada",blue,Bing Maps,address
+43.5555916,-79.7123795,"5025 Glen Erin Drive Mississauga, ON","5025 Glen Erin Dr, Mississauga, ON L5M, Canada",gold,Bing Maps,address
+43.5547409,-79.7151031,"5010 Glen Erin Dr. Mississauga, ON","5010 Glen Erin Dr, Mississauga, ON L5M, Canada",gold,Bing Maps,address
+43.5518799,-79.7205582,"2955 Hazelton Place, Mississauga","2955 Hazelton Pl, Mississauga, ON L5M 6J3, Canada",blue,Bing Maps,address
+43.5515823,-79.7150116,"2825 EGLINTON AVE W, MISSISSAUGA, ON, L5M6J3","2825 Eglinton Ave W, Mississauga, ON L5M 6J3, Canada",teal,Bing Maps,address
+43.5509186,-79.6895294,"4099 ERIN MILLS PARKWAY, MISSISSAUGA, ON, L5L3P9","4099 Erin Mills Pkwy, Mississauga, ON L5L 3P9, Canada",teal,Bing Maps,address
+43.5500412,-79.6160889,"780 South Sheridan Way Mississauga, ON, L5H1Z6","780 S Sheridan Way, Mississauga, ON L5H 1Z6, Canada",red,Bing Maps,address
+43.546833,-79.6657486,"3359 Mississauga Rd. N. Mississauga, ON, L5L1C6","3359 Mississauga Rd, Mississauga, ON L5L, Canada",red,Bing Maps,address
+43.5459099,-79.5922089,"250 Lakeshore Rd. W Port Credit, ON","250 Lakeshore Rd W, Mississauga, ON L5H 1G6, Canada",gold,Bing Maps,address
+43.54039,-79.7048035,"2979 Unity Gate Mississauga, ON","2979 Unity Gate, Mississauga, ON L5L 3E5, Canada",gold,Bing Maps,address
+43.5351219,-79.8750381,"1005 Maple Avenue. Building Q Milton, ON","1005 Maple Ave, Milton, ON L9T 0A5, Canada",gold,Bing Maps,address
+43.5315819,-79.6081314,"1095 Lakeshore Road W Mississauga, ON","1095 Lakeshore Rd W, Mississauga, ON L5H 1J3, Canada",gold,Bing Maps,address
+43.5308914,-79.6157379,"1150 Lorne Park Road Mississauga, ON","1150 Lorne Park Rd, Mississauga, ON L5H 3A4, Canada",gold,Bing Maps,address
+43.5271721,-79.8874741,"472 Steeles Ave E Milton, ON","472 Steeles Ave E, Milton, ON L9T 3P7, Canada",gold,Bing Maps,address
+43.5262985,-79.8686829,"820 Main St. E Milton, ON","820 Main St E, Milton, ON L9T 8M5, Canada",gold,Bing Maps,address
+43.5204201,-79.6850586,"3125 Dundas Street W Mississauga, ON","3125 Dundas St W, Mississauga, ON L5L 3R8, Canada",gold,Bing Maps,address
+43.5174332,-79.6231918,"1745 Lakeshore Road W Mississauga, ON","1745 Lakeshore Rd W, Mississauga, ON L5J 1J4, Canada",gold,Bing Maps,address
+43.516468,-79.8504105,"9030 Derry Road Milton, ON","9030 Derry Rd W, Milton, ON L9T 7H9, Canada",gold,Bing Maps,address
+43.4844284,-79.7180023,"271 Hays Boulevard Oakville, ON","271 Hays Blvd, Oakville, ON L6H 6Z3, Canada",gold,Bing Maps,address
+43.4814186,-79.7168808,"201 Oak Park Blvd Oakville, ON","201 Oak Park Blvd, Oakville, ON L6H, Canada",gold,Bing Maps,address
+43.4810905,-79.6953583,"1011 Upper Middle Rd. E. Oakville, ON","1011 Upper Middle Rd E, Oakville, ON L6H 4L5, Canada",gold,Bing Maps,address
+43.4791107,-79.6571808,"511 Maple Grove Drive Unit 5 Oakville, ON","511 Maple Grove Dr, Oakville, ON L6J 4W3, Canada",gold,Bing Maps,address
+43.4769974,-79.7264633,"2530 6th Line Oakville, ON","2530 6th Line, Oakville, ON L6H, Canada",gold,Bing Maps,address
+
