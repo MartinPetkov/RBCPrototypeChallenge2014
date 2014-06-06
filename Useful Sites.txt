@@ -33,3 +33,6 @@ http://bit.ly/1iCg5Sc
 
 Python Documentation:
 https://docs.python.org/2/index.html
+
+Markdown Syntax:
+http://daringfireball.net/projects/markdown/syntax
