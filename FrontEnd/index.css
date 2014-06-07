@@ -8,3 +8,11 @@
   min-width: 500px;
   margin: 10px auto;
 }
+
+.well p {
+  margin-bottom: 0px;
+}
+
+p, h1, button {
+  font-family: 'Open Sans', sans-serif;
+}

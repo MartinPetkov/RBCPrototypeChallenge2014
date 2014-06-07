@@ -1,5 +1,9 @@
 var atmapper = angular.module("ATMapper", ["leaflet-directive"]);
 
+function create_cord(v){
+  return {lat: v.lat, lon: v.lng};
+}
+
 atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
     $scope.center = {
       lat: 43.7044,
@@ -35,8 +39,10 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
         { lat: 0, lng: 0 },
         { lat: 0, lng: 0 },
         { lat: 0, lng: 0 },
+        { lat: 0, lng: 0 },
         { lat: 0, lng: 0 }
-      ]
+      ],
+      mouse_start: { lat: 0, lng: 0 }
     };
 
     leafletData.getMap().then(function(map) {
@@ -44,11 +50,12 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
 
       map.on('mousedown', function(e){
         if($scope.drawing) {
+          $scope.paths.draw.mouse_start = e.latlng;
           $scope.paths.draw.latlngs[0] = e.latlng;
           $scope.paths.draw.latlngs[1] = e.latlng;
           $scope.paths.draw.latlngs[2] = e.latlng;
           $scope.paths.draw.latlngs[3] = e.latlng;
-
+          $scope.paths.draw.latlngs[4] = e.latlng;
           down = true;
         }
       });
@@ -56,28 +63,41 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
       map.on('mouseup', function(e){
         if($scope.drawing) {
           down = false;
+          var senddata = {
+            NE: create_cord($scope.paths.draw.latlngs[0]),
+            NW: create_cord($scope.paths.draw.latlngs[1]),
+            SE: create_cord($scope.paths.draw.latlngs[2]),
+            SW: create_cord($scope.paths.draw.latlngs[3])
+          }
+          console.log(JSON.stringify(senddata));
         }
       });
 
       map.on('mousemove', function(e){
         if($scope.drawing) {
           if(down) { 
-            $scope.paths.draw.latlngs[1] = angular.copy(e.latlng);
+            $scope.paths.draw.latlngs[0] = angular.copy($scope.paths.draw.mouse_start);
+            $scope.paths.draw.latlngs[1] = angular.copy($scope.paths.draw.mouse_start);
             $scope.paths.draw.latlngs[2] = angular.copy(e.latlng);
             $scope.paths.draw.latlngs[3] = angular.copy(e.latlng);
 
-            var c1 = angular.copy($scope.paths.draw.latlngs[0]);
-            var c2 = angular.copy($scope.paths.draw.latlngs[1]);
+            var c1 = e.latlng;
+            var c2 = $scope.paths.draw.mouse_start;
             var delta = { x: (c2.lat - c1.lat)/2.0, y: (c2.lng - c1.lng)/2.0};
-            console.log(delta);
 
-            $scope.paths.draw.latlngs[2].lat += delta.y;
-            $scope.paths.draw.latlngs[2].lng -= delta.x;
+            $scope.paths.draw.latlngs[0].lat += delta.y;
+            $scope.paths.draw.latlngs[0].lng -= delta.x;
 
-            $scope.paths.draw.latlngs[3].lat -= delta.y;
-            $scope.paths.draw.latlngs[3].lng += delta.x;
+            $scope.paths.draw.latlngs[1].lat -= delta.y;
+            $scope.paths.draw.latlngs[1].lng += delta.x;
 
+            $scope.paths.draw.latlngs[2].lat -= delta.y;
+            $scope.paths.draw.latlngs[2].lng += delta.x;
 
+            $scope.paths.draw.latlngs[3].lat += delta.y;
+            $scope.paths.draw.latlngs[3].lng -= delta.x;
+
+            $scope.paths.draw.latlngs[4] = $scope.paths.draw.latlngs[0];
 
 
 
@@ -111,8 +131,11 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
             { lat: 0, lng: 0 },
             { lat: 0, lng: 0 },
             { lat: 0, lng: 0 },
+            { lat: 0, lng: 0 },
             { lat: 0, lng: 0 }
           ];
+
+          $scope.paths.draw.mouse_start = { lat: 0, lng: 0 };
         }
       });
     }
