@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ATMapper">
   <head>
     <title>ATMapper</title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css">
     <link rel="stylesheet" href="./index.css">
 
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+    <script src="./js/angular-leaflet-directive.min.js"></script>
     <script src="./js/controller.js"></script>
   </head>
   <body ng-controller="ATMapperCtrl">
-    <leaflet></leaflet>
     <br />
     <div class="middle" >
-      <img src="./assets/logo_small.png" class="pull-left" />
-      <img src="./assets/rbc_small.png" class="pull-right" />
-
-      <h1 class="centering">{{title}}</h1>
+      <img src="./assets/logo_small.png" alt="Ulysses Boogaloo" class="pull-left" />
+      <img src="./assets/rbc_small.png" alt="RBC" class="pull-right" />
+      <h1 class="centering">ATMapper</h1>
       <div class="clearfix" ></div>
       <br />
       <div class="well">
         <p>introductory paragraph about how to use the ATM mapper, on the side are gifs describing usage. lorum ipsum gtk warning advedium clustrer do poodo</p>
       </div>
       <div class="well">
+        <leaflet maxbounds="maxbounds" center="center" defaults="defaults" width="100%" height="480px" paths="paths"></leaflet>
       </div>
-      <button class="btn btn-primary btn-lg btn-block">Start Drawing</button>
+      <button class="btn btn-primary btn-lg btn-block" ng-click="draw()" >{{ draw_button_name }}</button>
     </div>
   </body>
 </html>
