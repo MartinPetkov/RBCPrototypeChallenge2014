@@ -33,7 +33,7 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData) {
   //
 });
 
-ULYSSES.controller('IndexCtrl', function ($scope, leafletData) {
+ULYSSES.controller('IndexCtrl', function ($scope, $location, leafletData) {
     $scope.center = {
       lat: 43.7044,
       lng: -79.7331,
@@ -99,6 +99,7 @@ ULYSSES.controller('IndexCtrl', function ($scope, leafletData) {
             SW: create_cord($scope.paths.draw.latlngs[3])
           }
           console.log(JSON.stringify(senddata));
+          $location.path("/loading");
         }
       });
 
