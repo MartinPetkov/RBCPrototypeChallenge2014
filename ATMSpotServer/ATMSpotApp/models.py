@@ -28,7 +28,7 @@ class ATM(models.Model):
 	trans_per_month = models.IntegerField();
 	surcharge_type = models.CharField(max_length=10, choices=SURCHARGE_TYPES)
 	average_surchage = models.CharField(max_length=50)
-	cluster_id = models.ForeignKey(Cluster)
+	cluster_id = models.ForeignKey(Cluster, null=True)
 
 	def __str__(self):
 		return "[Owner: %s | Address: %s | Coordinates: (%s, %s) | Montly Transactions: %s | Surcharge: %s, %s | Cluster: %s]" % (self.owner, self.address, self.lat, self.lon, self.trans_per_month, self.surcharge_type, self.average_surchage, self.cluster_id)
