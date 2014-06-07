@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="ATMapper">
+<html ng-app="ULYSSES">
   <head>
     <title>ULYSSES</title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -22,21 +22,8 @@
       <h4 class="centering">Decision Support System for ATM Placement</h1>
       <div class="clearfix" ></div>
       <br />
-      <div ng-controller="ATMapperCtrl">
-        <div class="well">
-          <p>Welcome to ULYSSES, RBC's ATM construction planner. Given a region of space, ULYSSES will identify prime locations for new ATMs. To use the tool follow these steps: </p>
-          <ol>
-            <li>Center the map over the region you'd like to search</li>
-            <li>Click the blue "Define Region" button</li>
-            <li>Click and drag over the map to select the search area</li>
-          </ol>
-          <p>Releasing the mouse will begin the search.</p>
-        </div>
-        <button class="btn btn-primary btn-lg btn-block" ng-click="draw()" >{{ draw_button_name }}</button>
-        <br/>
-        <div class="well">
-          <leaflet maxbounds="maxbounds" center="center" defaults="defaults" width="100%" height="480px" paths="paths"></leaflet>
-        </div>
+      <div ng-view >
+        
       </div>
     </div>
   </body>

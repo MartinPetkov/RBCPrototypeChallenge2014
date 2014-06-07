@@ -1,10 +1,39 @@
-var atmapper = angular.module("ATMapper", ["leaflet-directive"]);
+var ULYSSES = angular.module("ULYSSES", ["ngRoute", "leaflet-directive"]);
 
 function create_cord(v){
   return {lat: v.lat, lon: v.lng};
 }
 
-atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
+ULYSSES.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/', {
+        templateUrl: 'partials/index.html',
+        controller: 'IndexCtrl'
+      }).
+      when('/loading', {
+        templateUrl: 'partials/loading.html',
+        controller: 'LoadingCtrl'
+      }).
+      when('/results', {
+        templateUrl: 'partials/results.html',
+        controller: 'ResultsCtrl'
+      }).
+      otherwise({
+        redirectTo: '/'
+      });
+  }
+]);
+
+ULYSSES.controller('LoadingCtrl', function ($scope, leafletData) {
+  //
+});
+
+ULYSSES.controller('ResultsCtrl', function ($scope, leafletData) {
+  //
+});
+
+ULYSSES.controller('IndexCtrl', function ($scope, leafletData) {
     $scope.center = {
       lat: 43.7044,
       lng: -79.7331,

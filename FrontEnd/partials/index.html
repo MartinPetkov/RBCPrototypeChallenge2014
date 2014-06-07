@@ -1,0 +1,14 @@
+<div class="well">
+  <p>Welcome to ULYSSES, RBC's ATM construction planner. Given a region of space, ULYSSES will identify prime locations for new ATMs. To use the tool follow these steps: </p>
+  <ol>
+    <li>Center the map over the region you'd like to search</li>
+    <li>Click the blue "Define Region" button</li>
+    <li>Click and drag over the map to select the search area</li>
+  </ol>
+  <p>Releasing the mouse will begin the search.</p>
+</div>
+<button class="btn btn-primary btn-lg btn-block" ng-click="draw()" >{{ draw_button_name }}</button>
+<br/>
+<div class="well">
+  <leaflet maxbounds="maxbounds" center="center" defaults="defaults" width="100%" height="480px" paths="paths"></leaflet>
+</div>
