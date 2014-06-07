@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ATM SPOT</title>
+    <title>ATMapper</title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css">
     <link rel="stylesheet" href="./index.css">
+
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+    <script src="./js/controller.js"></script>
   </head>
-  <body>
+  <body ng-controller="ATMapperCtrl">
+    <leaflet></leaflet>
     <br />
     <div class="middle" >
       <img src="./assets/logo_small.png" class="pull-left" />
       <img src="./assets/rbc_small.png" class="pull-right" />
 
-      <h1 class="centering">ATMapper</h1>
+      <h1 class="centering">{{title}}</h1>
       <div class="clearfix" ></div>
       <br />
       <div class="well">
         <p>introductory paragraph about how to use the ATM mapper, on the side are gifs describing usage. lorum ipsum gtk warning advedium clustrer do poodo</p>
       </div>
       <div class="well">
-        
       </div>
       <button class="btn btn-primary btn-lg btn-block">Start Drawing</button>
     </div>
