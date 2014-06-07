@@ -1,3 +1,10 @@
 .centering {
   text-align: center;
 }
+
+.middle {
+  width: 50%;
+  max-width: 800px;
+  min-width: 500px;
+  margin: 10px auto;
+}
