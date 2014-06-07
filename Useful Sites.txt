@@ -36,3 +36,11 @@ https://docs.python.org/2/index.html
 
 Markdown Syntax:
 http://daringfireball.net/projects/markdown/syntax
+
+Server URL:
+http://192.168.158.241:1234/
+
+Server Admin Interface (for manually modifying tables):
+http://192.168.158.241:1234/admin/
+Username: superuser
+Password: password
