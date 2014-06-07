@@ -8,20 +8,25 @@ class Cluster(models.Model):
 	score = models.IntegerField()
 
 	def __str__(self):
-		return "[midpoint_latint: (%s, %s) | Score: %s]" % (self.midpoint_lat, self.midpoint_lon, self.score)
+		return "[Midpoint: (%s, %s) | Score: %s]" % (self.midpoint_lat, self.midpoint_lon, self.score)
 
 	class Admin:
 		pass
 
 
 class ATM(models.Model):
+	SURCHARGE_TYPES = (
+		('N', 'None'),
+		('F', 'Flat'),
+		('R', 'Rate'),
+	)
 	atm_id = models.AutoField(primary_key=True, unique=True)
 	owner = models.CharField(max_length=50)
 	address = models.CharField(max_length=50)
 	lat = models.IntegerField()
 	lon = models.IntegerField()
 	trans_per_month = models.IntegerField();
-	surcharge_type = models.CharField(max_length=10)
+	surcharge_type = models.CharField(max_length=10, choices=SURCHARGE_TYPES)
 	average_surchage = models.CharField(max_length=50)
 	cluster_id = models.ForeignKey(Cluster)
 
@@ -33,8 +38,12 @@ class ATM(models.Model):
 
 
 class Reason(models.Model):
+	ALIGNMENTS = (
+		('G', 'Good'),
+		('B', 'Bad')
+		)
 	reason_id = models.AutoField(primary_key=True, unique=True)
-	alignment = models.BooleanField()
+	alignment = models.CharField(max_length=50, choices=ALIGNMENTS)
 	reason_text = models.CharField(max_length=50)
 	cluster_id = models.ForeignKey(Cluster)
 
