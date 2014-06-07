@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="ATMapper">
+  <head>
+    <title>ULYSSES</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+    <script src="./js/angular-leaflet-directive.min.js"></script>
+    <script src="./js/controller.js"></script>
+  </head>
+  <body>
+    <br />
+    <div class="middle" >
+      <img src="./assets/logo_small.png" alt="Ulysses Boogaloo" class="icons pull-left" />
+      <img src="./assets/rbc_small.png" alt="RBC" class="icons pull-right" />
+      <h1 class="centering">ULYSSES</h1>
+      <h4 class="centering">Decision Support System for ATM Placement</h1>
+      <div class="clearfix" ></div>
+      <br />
+      <div ng-controller="ATMapperCtrl">
+        <div class="well">
+          <p>Welcome to ULYSSES, RBC's ATM construction planner. Given a region of space, ULYSSES will identify prime locations for new ATMs. To use the tool follow these steps: </p>
+          <ol>
+            <li>Center the map over the region you'd like to search</li>
+            <li>Click the blue "Define Region" button</li>
+            <li>Click and drag over the map to select the search area</li>
+          </ol>
+          <p>Releasing the mouse will begin the search.</p>
+        </div>
+        <button class="btn btn-primary btn-lg btn-block" ng-click="draw()" >{{ draw_button_name }}</button>
+        <br/>
+        <div class="well">
+          <leaflet maxbounds="maxbounds" center="center" defaults="defaults" width="100%" height="480px" paths="paths"></leaflet>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
