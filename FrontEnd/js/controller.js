@@ -28,12 +28,12 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
     };
 
     $scope.drawing = false;
-    $scope.draw_button_name = "Start Drawing";
+    $scope.draw_button_name = "Define Region";
 
     $scope.paths = {};
 
     $scope.paths.draw = {
-      color: 'teal',
+      color: '#408289',
       weight: 4,
       latlngs: [
         { lat: 0, lng: 0 },
@@ -125,7 +125,7 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
           map.scrollWheelZoom.enable();
           map.boxZoom.enable();
           map.keyboard.enable();
-          $scope.draw_button_name = "Start Drawing";
+          $scope.draw_button_name = "Define Region";
 
           $scope.paths.draw.latlngs = [
             { lat: 0, lng: 0 },
