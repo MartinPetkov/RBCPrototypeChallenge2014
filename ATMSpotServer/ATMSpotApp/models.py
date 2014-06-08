@@ -22,7 +22,7 @@ class ATM(models.Model):
 	)
 	atm_id = models.AutoField(primary_key=True, unique=True)
 	owner = models.CharField(max_length=50)
-	address = models.CharField(max_length=50)
+	address = models.CharField(max_length=255)
 	lat = models.FloatField()
 	lon = models.FloatField()
 	trans_per_month = models.IntegerField();
