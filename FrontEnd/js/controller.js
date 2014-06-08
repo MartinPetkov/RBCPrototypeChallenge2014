@@ -108,7 +108,7 @@ ULYSSES.service('searchService', function($http,$location) {
 
 });
 
-ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) {
+ULYSSES.controller('ResultsCtrl', function ($scope, $timeout, leafletData, searchService) {
   $scope.predicate = '-score';
 
   $scope.center = {
@@ -138,7 +138,7 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
   searchService.getSearch().success(function(data){
     console.log(data);
 
-    setTimeout(function(){
+    $timeout(function(){
       leafletData.getMap().then(function(map) {
         var r = data.region;
         map.fitBounds([
@@ -227,14 +227,14 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
         $scope.center.lat = cluster.midpoint_lat;
         $scope.center.lng = cluster.midpoint_lon;
         $scope.center.zoom = 16;
-        setTimeout(function(){
+        $timeout(function(){
         $scope.markers["id_"+String(cluster.cluster_id)].focus = true;
         }, 30);
       }
       
       cluster.ATMs.forEach(function(atm){
         var message = atm.address + '<br />' + atm.owner + "<br/>";
-        message += "TPM: " + atm.trans_per_month + "<br/>";
+        message += "Transactions/Month: " + atm.trans_per_month + "<br/>";
         if(atm.owner == "RBC") {
           message = '<img class="pull-right" src="./assets/rbc_smallest.png" />' + message;
         }
@@ -267,7 +267,7 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
 
 });
 
-ULYSSES.controller('IndexCtrl', function ($scope, $location, leafletData, searchService) {
+ULYSSES.controller('IndexCtrl', function ($scope, $location, $timeout, leafletData, searchService) {
   $scope.center = {
     lat: 43.7044,
     lng: -79.7331,
