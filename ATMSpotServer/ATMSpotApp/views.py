@@ -104,9 +104,11 @@ def populate_db(request):
 	populateDB("Scotia", path_prefix + "Scotia/positions.csv")
 	populateDB("TD", path_prefix + "TD/positions.csv")
 
+	calculate_clusters()
+
 	return HttpResponse("DB has been populated")
 
-def calculate_clusters(request):
+def calculate_clusters():
 	# require all ATM objects from database (syntax?)
 	atm_list = list(ATM.objects.all())
 
