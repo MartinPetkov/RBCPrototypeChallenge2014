@@ -90,3 +90,7 @@ h1 {
 .advanced label {
   display: block;
 }
+
+.advanced .fields {
+margin-top: 10px;
+}
