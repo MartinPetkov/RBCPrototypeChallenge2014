@@ -91,6 +91,7 @@ def clusters_in_box(request):
 
 
 	clusters["clusters"] = cluster_list
+	clusters["region"] = coordinates
 	response = HttpResponse(json.dumps(clusters), content_type="application/json")
 	response['Access-Control-Allow-Origin'] = '*'
 	response['X-Frame-Options'] = ''
@@ -232,7 +233,7 @@ def calculate_score(request, cluster):
 		# Create good reason for trans_rbc_high
 		reasons.append({"alignment": 'G', "reason_text": GOOD_REASONS.get('trans_rbc_high')})
 
-	tot_num_non_RBC, w_trans_non_RBC = calc_RBC(cluster)
+	tot_num_non_RBC, w_trans_non_RBC = calc_non_RBC(cluster)
 	# Update reasons if needed
 	if tot_num_non_RBC <= tot_num_non_RBC_low:
 		# Create bad reason for non_rbc_low
@@ -250,7 +251,6 @@ def calculate_score(request, cluster):
 		# Create good reason for trans_non_rbc_high
 		reasons.append({"alignment": 'G', "reason_text": GOOD_REASONS.get('trans_non_rbc_high')})
 
-	#pdb.set_trace()
 	#tot_num_RBC += 1
 	tot_num_non_RBC += 1
 
