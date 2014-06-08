@@ -25,10 +25,10 @@ ULYSSES.service('searchService', function($http) {
   var promise = {};
 
   var doSearch = function(data) {
-      promise = $http.post({
-        urls: 'http://localhost',
-        data: data,
-        responseType: 'json'
+      promise = $http({
+        method: 'POST',
+        url: 'http://192.168.190.12/',
+        data: data
       });
   }
 
