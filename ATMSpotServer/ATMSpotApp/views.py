@@ -35,9 +35,9 @@ def clusters_in_box(request):
 	#coordinates["SW"] = SW
 	#coordinates["SE"] = SE
 	coordinates["NW"] = {"lat": 0.0, "lon": 0.0}
-	coordinates["NE"] = {"lat": 4.0, "lon": 0.0}
-	coordinates["SW"] = {"lat": 0.0, "lon": 4.0}
-	coordinates["SE"] = {"lat": 4.0, "lon": 4.0}
+	coordinates["NE"] = {"lat": 0.0, "lon": 20.0}
+	coordinates["SW"] = {"lat": 20.0, "lon": 20.0}
+	coordinates["SE"] = {"lat": 20.0, "lon": 0.0}
 	new_cluster_list = filter_db_cluster_list(db_cluster_list, coordinates)
 	cluster_list = []
 
@@ -145,17 +145,21 @@ def filter_db_cluster_list(db_cluster_list, coordinates):
 	new_cluster_list = []
 
 	if(nw and ne and sw and se):
-		box = Path([[nw.get("lat"), nw.get("lon")], [ne.get("lat"), ne.get("lon")], [sw.get("lat"), sw.get("lon")], [se.get("lat"), se.get("lon")]])
+		box = Path([(nw.get("lat"), nw.get("lon")), (ne.get("lat"), ne.get("lon")), (sw.get("lat"), sw.get("lon")), (se.get("lat"), se.get("lon"))])
 
 		#pdb.set_trace()
 
 		# Do magic and filter
 		for cluster in db_cluster_list:
 			midpoint = [cluster.midpoint_lat, cluster.midpoint_lon]
-			if(box.contains_point(midpoint)):
+			if(contains_point(box, midpoint)):
 				new_cluster_list.append(cluster)
 
 	return new_cluster_list
 
 def dist(a_lat, a_lon,b_lat, b_lon):
 		return sqrt((a_lon-b_lon)**2 + (a_lat-b_lat)**2)
+
+def contains_point(box, midpoint):
+	contains = box.contains_point(midpoint)
+	return contains
