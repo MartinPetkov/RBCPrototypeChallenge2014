@@ -9,35 +9,26 @@ from django.db.models.query import QuerySet
 from matplotlib.path import Path
 from math import sqrt
 import pdb
+from django.views.decorators.csrf import csrf_exempt
 
 
 # Create your views here.
+@csrf_exempt
 def homepage(request):
 	# Return the homepage
 	return render_to_response("homepage.html")
 
-
+@csrf_exempt
 def clusters_in_box(request):
 	# Return the clusters info as a JSON response
-	NW = request.META.get('NW')
-	NE = request.META.get('NE')
-	SW = request.META.get('SW')
-	SE = request.META.get('SE')
 
 	clusters = {}
 
 	# Select clusters whose midpoints fall within the give coordinates
 	db_cluster_list = Cluster.objects.all()
 
-	coordinates = {}
-	#coordinates["NW"] = NW
-	#coordinates["NE"] = NE
-	#coordinates["SW"] = SW
-	#coordinates["SE"] = SE
-	coordinates["NW"] = {"lat": 0.0, "lon": 0.0}
-	coordinates["NE"] = {"lat": 4.0, "lon": 0.0}
-	coordinates["SW"] = {"lat": 0.0, "lon": 4.0}
-	coordinates["SE"] = {"lat": 4.0, "lon": 4.0}
+	coordinates = json.loads(request.body)
+	#pdb.set_trace()
 	new_cluster_list = filter_db_cluster_list(db_cluster_list, coordinates)
 	cluster_list = []
 
@@ -84,7 +75,10 @@ def clusters_in_box(request):
 
 
 	clusters["clusters"] = cluster_list
-	return HttpResponse(json.dumps(clusters), content_type="application/json")
+	response = HttpResponse(json.dumps(clusters), content_type="application/json")
+	response['Access-Control-Allow-Origin'] = '*'
+	response['X-Frame-Options'] = ''
+	return response
 
 def calculate_clusters(request):
 	# require all ATM objects from database (syntax?)
@@ -145,17 +139,21 @@ def filter_db_cluster_list(db_cluster_list, coordinates):
 	new_cluster_list = []
 
 	if(nw and ne and sw and se):
-		box = Path([[nw.get("lat"), nw.get("lon")], [ne.get("lat"), ne.get("lon")], [sw.get("lat"), sw.get("lon")], [se.get("lat"), se.get("lon")]])
+		box = Path([(nw.get("lat"), nw.get("lon")), (ne.get("lat"), ne.get("lon")), (sw.get("lat"), sw.get("lon")), (se.get("lat"), se.get("lon"))])
 
 		#pdb.set_trace()
 
 		# Do magic and filter
 		for cluster in db_cluster_list:
 			midpoint = [cluster.midpoint_lat, cluster.midpoint_lon]
-			if(box.contains_point(midpoint)):
+			if(contains_point(box, midpoint)):
 				new_cluster_list.append(cluster)
 
 	return new_cluster_list
 
 def dist(a_lat, a_lon,b_lat, b_lon):
 		return sqrt((a_lon-b_lon)**2 + (a_lat-b_lat)**2)
+
+def contains_point(box, midpoint):
+	contains = box.contains_point(midpoint)
+	return contains

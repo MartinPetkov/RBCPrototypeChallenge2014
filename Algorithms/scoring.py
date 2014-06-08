@@ -7,10 +7,24 @@
 ## owner
 
 # put each cluster's score into cluster.score
+#atm_list = ATM.objects.all()
+#cluster_list = list(Cluster.objects.all())
 
+# dummy class code for testing!
+class ATM():
+	owner = ''
+	address = ''
+	lat = 0.
+	lon = 0.
+	trans_per_month = 0
+	surcharge_type = ''
+	average_surcharge = 0.
+	cluster_id = None
 
-atm_list = ATM.objects.all()
-cluster_list = Cluster.objects.all()
+class Cluster():
+	midpoint_lat = 0.
+	midpoint_lon = 0.
+	score = 0.
 
 # calculate surcharge per month
 def calc_monthly_surcharge(atm):
@@ -30,11 +44,11 @@ def calc_num_RBC_cluster(cluster):
 def calc_num_non_RBC_cluster(cluster):
 	count = 0
 	for atm in atm_list:
-		if atm.cluster_id == cluster.cluster_id atm.owner != RBC:
+		if atm.cluster_id == cluster.cluster_id and atm.owner != RBC:
 			count += 1
 	return count
 
-# weight: todo: adjust depending on other values
+# weight: todo: adjust depending on other values?
 surcharge_weight = 1.0
 rbc_weight = 1.0
 non_RBC_weight = 1.0
@@ -43,7 +57,9 @@ for cluster in cluster_list:
 	sur_tot = 0
 	for atm in cluster:
 		sur_tot += calc_monthly_surcharge(atm)
-	cluster.score = (sur_tot*surcharge_weight - calc_num_rbc_cluster(cluster)*rbc_weight + calc_num_non_RBC_cluster(cluster)*non_RBC_weight)
+	cluster.score = (sur_tot * surcharge_weight - 
+					 calc_num_rbc_cluster(cluster) * rbc_weight + 
+					 calc_num_non_RBC_cluster(cluster) * non_RBC_weight)
 
 
 

@@ -1,0 +1,7 @@
+git pull  # Update the repo
+
+git push origin master  # Upload your commits to the repo
+
+git add [filename]  # Start version controlling a file, can type *
+
+git commit [files...]  # Commit changes
