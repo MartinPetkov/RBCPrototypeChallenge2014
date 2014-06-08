@@ -134,11 +134,25 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
 
       var pin_img = generate_image("R0lGODlhHwAyAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfADIAAAKwlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdijcfrcRsHh4JdcrkYVNPU6izNK0HHtrw5EwPGa2pxvF0MX53cHWKgHqPKx1/ahMGj1WFSHCNEoOfnHQ6S5Kef5mRkq+kSqh2bpSaa6CtbqanrKggQbWts5K7ioS8vbG9MBfCk8LJhrbJMcs8zsWQAAOw==", cluster.cluster_id);
 
-      var dot_img = generate_image("R0lGODlhHwAdAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfAB0AAAJzlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdhjtxv8RptDhTHsU0y1E6NkbYVTEVlcNCa3q1h1PQyfd2bi1PXxFkhSY6gmpbhIF7RYAAA7", cluster.cluster_id);
-      // img = "data:image/gif;base64,"
+      // var dot_img = generate_image("R0lGODlhHwAdAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfAB0AAAJzlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdhjtxv8RptDhTHsU0y1E6NkbYVTEVlcNCa3q1h1PQyfd2bi1PXxFkhSY6gmpbhIF7RYAAA7", cluster.cluster_id);
+      
+      // $scope.markers["id_"+String(cluster.cluster_id)] = {
+      //   lat: cluster.midpoint_lat,
+      //   lng: cluster.midpoint_lon,
+      //   focus: false,
+      //   draggable: false,
+      //   message: "this is a cluster",
+      //   icon: {
+      //     iconUrl: dot_img,
+      //     shadowUrl: '',
+      //     iconSize:     [25, 25],
+      //     shadowSize:   [0, 0],
+      //     iconAnchor:   [12, 12],
+      //     shadowAnchor: [4, 62]
+      //   }
+      // };
+
       cluster.ATMs.forEach(function(atm){
-
-
         var message = atm.address + '<br />' + atm.owner;
         if(atm.owner == "RBC") {
           message = '<img class="pull-right" src="./assets/rbc_smallest.png" />' + message;
@@ -150,8 +164,9 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
           focus: false,
           draggable: false,
           message: message,
+          group: "id_"+String(cluster.cluster_id),
           icon: {
-            iconUrl: img,
+            iconUrl: pin_img,
             shadowUrl: '',
             iconSize:     [25, 40],
             shadowSize:   [0, 0],
