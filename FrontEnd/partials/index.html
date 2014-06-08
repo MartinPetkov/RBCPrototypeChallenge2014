@@ -5,7 +5,7 @@
     <li>Click the blue "Define Region" button</li>
     <li>Click and drag over the map to select the search area</li>
   </ol>
-  <p>Releasing the mouse will begin the search.</p>
+  <p>Releasing the mouse will begin the search. For more advanced options, check the "Use Advanced Settings" box at the bottom of the page.</p>
 </div>
 <button class="btn btn-primary btn-lg btn-block" ng-click="draw()" >{{ draw_button_name }}</button>
 <br/>
@@ -15,7 +15,7 @@
 <div class="well">
   <div class="pull-right">
     <input type="checkbox" id="useadvance" ng-model="advanced">
-    <label for="useadvance">Use advanced settings</label>
+    <label for="useadvance">Use Advanced Settings</label>
   </div>
   <h4>Advanced Search Settings</h4>
   <div class="row advanced" ng-show="advanced">
