@@ -7,6 +7,8 @@ from ATMSpotApp.models import ATM
 from ATMSpotApp.models import Reason
 from django.db.models.query import QuerySet
 from matplotlib.path import Path
+from math import sqrt
+import pdb
 
 
 # Create your views here.
@@ -32,10 +34,10 @@ def clusters_in_box(request):
 	#coordinates["NE"] = NE
 	#coordinates["SW"] = SW
 	#coordinates["SE"] = SE
-	coordinates["NW"] = {"lat": 0, "lon": 0}
-	coordinates["NE"] = {"lat": 20, "lon": 0}
-	coordinates["SW"] = {"lat": 0, "lon": 20}
-	coordinates["SE"] = {"lat": 20, "lon": 20}
+	coordinates["NW"] = {"lat": 0.0, "lon": 0.0}
+	coordinates["NE"] = {"lat": 0.0, "lon": 20.0}
+	coordinates["SW"] = {"lat": 20.0, "lon": 20.0}
+	coordinates["SE"] = {"lat": 20.0, "lon": 0.0}
 	new_cluster_list = filter_db_cluster_list(db_cluster_list, coordinates)
 	cluster_list = []
 
@@ -63,7 +65,7 @@ def clusters_in_box(request):
 				one_atm["lon"] = atm.lon
 				one_atm["trans_per_month"] = atm.trans_per_month
 				one_atm["surcharge_type"] = atm.surcharge_type
-				one_atm["average_surchage"] = atm.average_surchage
+				one_atm["average_surcharge"] = atm.average_surcharge
 
 				atms_list.append(one_atm)
 
@@ -84,6 +86,52 @@ def clusters_in_box(request):
 	clusters["clusters"] = cluster_list
 	return HttpResponse(json.dumps(clusters), content_type="application/json")
 
+def calculate_clusters(request):
+	# require all ATM objects from database (syntax?)
+	atm_list = list(ATM.objects.all())
+
+	eps = 0.5 # distance threshold value; make editable, maybe?
+
+	length = len(atm_list)
+	for i in range(length):
+		atm = atm_list[i]
+		if not atm.cluster_id:
+			c = Cluster(midpoint_lat=0, midpoint_lon=0, score=0)
+			c.save()
+			atm.cluster_id = c
+			atm.save()
+		
+		for j in range(i+1, length):
+			# check that the ATM is within a given neighbourhood
+			other_atm = atm_list[j]
+			if not other_atm.cluster_id:
+				if dist(atm.lat, atm.lon, other_atm.lat, other_atm.lon) < eps:
+					# update the atm's cluster ID in database
+					other_atm.cluster_id = atm.cluster_id
+					other_atm.save()
+
+	# this is a list of all the final clusters; may want to throw in database
+	cluster_list = Cluster.objects.all()
+
+	for cluster in cluster_list:
+		atms_for_cluster = ATM.objects.filter(cluster_id_id=cluster.cluster_id)
+		num_atms = atms_for_cluster.count()
+		
+		if num_atms > 0:
+			sum_lat = 0
+			for a in atms_for_cluster:
+				sum_lat += a.lat
+
+			sum_lon = 0
+			for a in atms_for_cluster:
+				sum_lon += a.lon
+
+			# update cluster midpoint values in database
+			cluster.midpoint_lat, cluster.midpoint_lon = sum_lat/num_atms, sum_lon/num_atms
+
+		cluster.save()
+
+	return HttpResponse("Clusters have been calculated")
 
 
 
@@ -97,13 +145,21 @@ def filter_db_cluster_list(db_cluster_list, coordinates):
 	new_cluster_list = []
 
 	if(nw and ne and sw and se):
-		box = Path([[nw.get("lat"), nw.get("lon")], [ne.get("lat"), ne.get("lon")], [sw.get("lat"), sw.get("lon")], [se.get("lat"), se.get("lon")]])
+		box = Path([(nw.get("lat"), nw.get("lon")), (ne.get("lat"), ne.get("lon")), (sw.get("lat"), sw.get("lon")), (se.get("lat"), se.get("lon"))])
+
+		#pdb.set_trace()
 
 		# Do magic and filter
 		for cluster in db_cluster_list:
 			midpoint = [cluster.midpoint_lat, cluster.midpoint_lon]
-			if(box.contains_point(midpoint)):
+			if(contains_point(box, midpoint)):
 				new_cluster_list.append(cluster)
 
-	#return db_cluster_list
 	return new_cluster_list
+
+def dist(a_lat, a_lon,b_lat, b_lon):
+		return sqrt((a_lon-b_lon)**2 + (a_lat-b_lat)**2)
+
+def contains_point(box, midpoint):
+	contains = box.contains_point(midpoint)
+	return contains

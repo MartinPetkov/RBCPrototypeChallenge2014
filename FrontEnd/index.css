@@ -17,7 +17,7 @@
   background-color: #F2F0EC;
 }
 
-p, h4, button, li {
+p, h3, h4, button, li {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -46,4 +46,11 @@ h1 {
 
   background-color: #2D6D73;
   border-color: #2D6D73;
- }
+}
+
+.spinner {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 5px auto;
+}

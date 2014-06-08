@@ -1,10 +1,58 @@
-var atmapper = angular.module("ATMapper", ["leaflet-directive"]);
+var ULYSSES = angular.module("ULYSSES", ["ngRoute", "leaflet-directive"]);
 
 function create_cord(v){
   return {lat: v.lat, lon: v.lng};
 }
 
-atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
+ULYSSES.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/', {
+        templateUrl: 'partials/index.html',
+        controller: 'IndexCtrl'
+      }).
+      when('/results', {
+        templateUrl: 'partials/results.html',
+        controller: 'ResultsCtrl'
+      }).
+      otherwise({
+        redirectTo: '/'
+      });
+  }
+]);
+
+ULYSSES.service('searchService', function($http) {
+  var promise = {};
+
+  var doSearch = function(data) {
+      promise = $http({
+        method: 'POST',
+        url: 'http://192.168.190.12/',
+        data: data
+      });
+  }
+
+  var getSearch = function(){
+      return promise;
+  }
+
+  return {
+    doSearch: doSearch,
+    getSearch: getSearch
+  };
+
+});
+
+ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) {
+  $scope.loaded = false;
+  searchService.getSearch().success(function(){
+    $scope.loaded = true;
+  }).error(function(){
+    alert("ERROR");
+  });
+});
+
+ULYSSES.controller('IndexCtrl', function ($scope, $location, leafletData, searchService) {
     $scope.center = {
       lat: 43.7044,
       lng: -79.7331,
@@ -69,7 +117,8 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
             SE: create_cord($scope.paths.draw.latlngs[2]),
             SW: create_cord($scope.paths.draw.latlngs[3])
           }
-          console.log(JSON.stringify(senddata));
+          searchService.doSearch(senddata);
+          $location.path("/results");
         }
       });
 
