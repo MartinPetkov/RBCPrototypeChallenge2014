@@ -10,10 +10,10 @@ from matplotlib.path import Path
 from math import sqrt
 import pdb
 from django.views.decorators.csrf import csrf_exempt
+import csv
 
 
 # Create your views here.
-@csrf_exempt
 def homepage(request):
 	# Return the homepage
 	return render_to_response("homepage.html")
@@ -84,7 +84,7 @@ def calculate_clusters(request):
 	# require all ATM objects from database (syntax?)
 	atm_list = list(ATM.objects.all())
 
-	eps = 0.5 # distance threshold value; make editable, maybe?
+	eps = 0.001 # distance threshold value; make editable, maybe?
 
 	length = len(atm_list)
 	for i in range(length):
@@ -128,6 +128,16 @@ def calculate_clusters(request):
 	return HttpResponse("Clusters have been calculated")
 
 
+def populate_db(request):
+	path_prefix = "../DataScraping/ATMs_in_brampton/"
+	populateDB("RBC", path_prefix + "RBC/positions.csv")
+	populateDB("CIBC", path_prefix + "CIBC/positions.csv")
+	populateDB("BMO", path_prefix + "BMO/positions.csv")
+	populateDB("Scotia", path_prefix + "Scotia/positions.csv")
+	populateDB("TD", path_prefix + "TD/positions.csv")
+
+	return HttpResponse("DB Has been populated")
+
 
 ########################################## Helper Methods ######################################################################
 def filter_db_cluster_list(db_cluster_list, coordinates):
@@ -157,3 +167,21 @@ def dist(a_lat, a_lon,b_lat, b_lon):
 def contains_point(box, midpoint):
 	contains = box.contains_point(midpoint)
 	return contains
+
+def populateDB(owner, csvFileName):
+	with open(csvFileName, 'r') as csvFile:
+		mrReader = csv.reader(csvFile, delimiter = ',', quotechar = '"')
+		next(mrReader, None)  # skip the headers
+		for row in mrReader:
+			if len(row) < 4:
+				continue
+			p = ATM(
+				owner = owner,
+				address = row[3],
+				lat = row[0],
+				lon = row[1],
+				trans_per_month = 10,
+				surcharge_type = 'Flat',
+				average_surcharge = 1.0,
+				)
+			p.save()
