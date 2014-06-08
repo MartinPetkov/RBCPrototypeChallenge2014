@@ -107,6 +107,7 @@ ULYSSES.service('searchService', function($http,$location) {
 });
 
 ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) {
+  $scope.predicate = '-score';
 
   $scope.center = {
     lat: 43.7044,
@@ -135,6 +136,8 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
   searchService.getSearch().success(function(data){
     console.log(data);
 
+    $scope.clusters = data.clusters;
+
     data.clusters.forEach(function(cluster){
       
 
@@ -151,7 +154,8 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
         var bad_reasons = [];
 
         cluster.Reasons.forEach(function(reason) {
-          var reason_text = reason.reason_text.replace(/<b>/,"<i>").replace(/<i>/,"<b>");
+          //fuck you guys lmao
+          var reason_text = reason.reason_text.replace(/<b>/,"<i>").replace(/<\/b>/,"</i>");
           if(reason.alignment == "B") {
             bad_reasons.push();
           } else {
