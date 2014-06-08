@@ -14,11 +14,11 @@ import random
 
 R = 6367.4447 # radius of Earth in km (changing the units of this changes the
 BAD_REASONS = {
-	"monthly_surcharge_low": "- Too few people paying surcharges on non-<a href='http://www.rbc.com/caribbean.html'>RBC</a> ATMs in this area",
-	"total_num_rbc_high": "- Large number of <a href='http://www.rbc.com/caribbean.html'>RBC</a> ATMs in this area",
-	"non_rbc_low": "- Too few non-<a href='http://www.rbc.com/caribbean.html'>RBC</a> ATMs in the area",
-	"trans_rbc_low": "- Too few <a href='http://www.rbc.com/caribbean.html'>RBC</a> transactions from <a href='http://www.rbc.com/caribbean.html'>RBC</a> ATMs in this area",
-	"trans_non_rbc_low": "- Too few transactions from <a href='http://www.rbc.com/caribbean.html'>RBC</a> customers through non-RBC ATMs in this area",
+	"monthly_surcharge_low": "- Too few people paying surcharges on non-RBC ATMs in this area",
+	"total_num_rbc_high": "- Large number of RBC ATMs in this area",
+	"non_rbc_low": "- Too few non-RBC ATMs in the area",
+	"trans_rbc_low": "- Too few RBC transactions from RBC ATMs in this area",
+	"trans_non_rbc_low": "- Too few transactions from RBC customers through non-RBC ATMs in this area",
 }
 
 GOOD_REASONS = {
@@ -248,11 +248,15 @@ def calculate_score(request, cluster):
 		# Create good reason for trans_non_rbc_high
 		reasons.append({"alignment": 'G', "reason_text": GOOD_REASONS.get('trans_non_rbc_high')})
 
-	tot_num_RBC += 1
-	w_num_rat = num_ratio_w * tot_num_non_RBC/tot_num_RBC
+	#pdb.set_trace()
+	#tot_num_RBC += 1
+	tot_num_non_RBC += 1
 
 	# Higher is better
-	cluster.score = (w_num_rat*(w_sur_tot - w_trans_RBC + w_trans_non_RBC))
+	cluster.score = (w_sur_tot - w_trans_RBC + w_trans_non_RBC)
+	if tot_num_RBC > 0:
+		cluster.score = random.random()
+
 	cluster.save()
 
 	return reasons
@@ -309,14 +313,23 @@ def populateDB(owner, csvFileName):
 		for row in mrReader:
 			if len(row) < 4:
 				continue
+
+			rand_owner = owner
+			if random.random() > 0.7:
+				rand_owner = "Other"
+
+			avg_surcharge = 0.0
+			if rand_owner != 'RBC':
+				avg_surcharge = ((abs(((random.random() + random.random())/2.0)-0.5))*2) * 3.5 + 1.5 # 1.5-5.0, leaning low
+
 			p = ATM(
-				owner = owner,
+				owner = rand_owner,
 				address = row[3],
 				lat = row[0],
 				lon = row[1],
 				trans_per_month = random.randint(10, 1000),
 				surcharge_type = 'Flat',
-				average_surcharge = ((abs(((random.random() + random.random())/2.0)-0.5))*2) * 3.5 + 1.5, # 1.5-5.0, leaning low
+				average_surcharge = float(avg_surcharge),
 				)
 			p.save()
 
