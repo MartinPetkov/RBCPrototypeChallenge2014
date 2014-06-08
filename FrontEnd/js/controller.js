@@ -190,10 +190,12 @@ ULYSSES.controller('ResultsCtrl', function ($scope, $timeout, leafletData, searc
       var pin_img = generate_image("R0lGODlhHwAyAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfADIAAAKwlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdijcfrcRsHh4JdcrkYVNPU6izNK0HHtrw5EwPGa2pxvF0MX53cHWKgHqPKx1/ahMGj1WFSHCNEoOfnHQ6S5Kef5mRkq+kSqh2bpSaa6CtbqanrKggQbWts5K7ioS8vbG9MBfCk8LJhrbJMcs8zsWQAAOw==", cluster.colors);
 
       var dotbase = "R0lGODlhHwAdAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfAB0AAAJzlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdhjtxv8RptDhTHsU0y1E6NkbYVTEVlcNCa3q1h1PQyfd2bi1PXxFkhSY6gmpbhIF7RYAAA7";
-      if(cluster_index == cluster_arry.length-1){
+      var last = (cluster_index == cluster_arry.length-1);
+      var first = (cluster_index == 0);
+      if(last && !first){
         dotbase = "R0lGODlhIAAfAKEBAP///wAAAAAAAAAAACH5BAEKAAIALAAAAAAgAB8AAAKElINoy30ZWAI0OTerEoF6fS3I50UjCV4nmqGp1LmaXEZiTK+5rcvt3nMpcDRAUPgoKkkbDnHps92gO9WTapRirstm6FgNwaheMVio/XKL5caZnZ5imfE31GsnS9fMe1L5E8XRZcJXMggnl4MoOLYI1ubUyBX5x3SDYyHmlFkGEWcGwVAAADs=";
       }
-      if(cluster_index == 0) {
+      if(first && !last) {
         dotbase = "R0lGODlhIAAfAKECAP///wAAALVPT7VPTyH5BAEKAAIALAAAAAAgAB8AAAJ9lI8Zke1/AgAM2ifp3WpWvi2TBl6ZV5ojmTriuLTuisod/dnGCefuAgwCaR6hkUdMKnHDpTMZE7yez2gESWX+sFQgpJmlWL9cqM8yXY5D5dXa1O6l4u5Sukg8k5n3N4ZnhANy4nVFyPFSiNDkpyCh6Pio19G4+Mg22QBpUAAAOw==";
       }
       var dot_img = generate_image(dotbase, cluster.colors);
