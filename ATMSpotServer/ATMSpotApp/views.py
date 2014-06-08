@@ -165,9 +165,9 @@ def calculate_score(request, cluster):
 
 	# Add default values if not set
 	thresholds = json.loads(request.body)
-	if thresholds.get("w_surt_tot"):
-		w_sur_tot_low = thresholds.get("w_surt_tot").get("low")
-		w_sur_tot_high = thresholds.get("w_surt_tot").get("high")
+	if thresholds.get("w_sur_tot"):
+		w_sur_tot_low = thresholds.get("w_sur_tot").get("low")
+		w_sur_tot_high = thresholds.get("w_sur_tot").get("high")
 	else:
 		w_sur_tot_low = 100.
 		w_sur_tot_high = 1000.
