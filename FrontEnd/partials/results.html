@@ -14,6 +14,7 @@
         <div class="well" ng-repeat="cluster in clusters | orderBy:predicate:reverse">
           <button class="btn btn-primary btn-sm pull-right" ng-click="cluster.view()" >View</button>
           <img alt="Best Position" src="assets/star.png" class="pull-right" ng-show="$first" ></img>
+          <img alt="Best Position" src="assets/bad.png" class="pull-right" ng-show="$last" ></img>
           <h4>{{ cluster.ATMs[0].address }}</h4>
           <div class="clearfix"></div>
           <div class="well colourswatch" ng-style="{backgroundColor:cluster.color}"></div>
