@@ -11,10 +11,6 @@ ULYSSES.config(['$routeProvider',
         templateUrl: 'partials/index.html',
         controller: 'IndexCtrl'
       }).
-      when('/loading', {
-        templateUrl: 'partials/loading.html',
-        controller: 'LoadingCtrl'
-      }).
       when('/results', {
         templateUrl: 'partials/results.html',
         controller: 'ResultsCtrl'
@@ -25,15 +21,38 @@ ULYSSES.config(['$routeProvider',
   }
 ]);
 
-ULYSSES.controller('LoadingCtrl', function ($scope, leafletData) {
-  //
+ULYSSES.service('searchService', function($http) {
+  var promise = {};
+
+  var doSearch = function(data) {
+      promise = $http.post({
+        urls: 'http://localhost',
+        data: data,
+        responseType: 'json'
+      });
+  }
+
+  var getSearch = function(){
+      return promise;
+  }
+
+  return {
+    doSearch: doSearch,
+    getSearch: getSearch
+  };
+
 });
 
-ULYSSES.controller('ResultsCtrl', function ($scope, leafletData) {
-  //
+ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) {
+  $scope.loaded = false;
+  searchService.getSearch().success(function(){
+    $scope.loaded = true;
+  }).error(function(){
+    alert("ERROR");
+  });
 });
 
-ULYSSES.controller('IndexCtrl', function ($scope, $location, $http, leafletData) {
+ULYSSES.controller('IndexCtrl', function ($scope, $location, leafletData, searchService) {
     $scope.center = {
       lat: 43.7044,
       lng: -79.7331,
@@ -98,7 +117,7 @@ ULYSSES.controller('IndexCtrl', function ($scope, $location, $http, leafletData)
             SE: create_cord($scope.paths.draw.latlngs[2]),
             SW: create_cord($scope.paths.draw.latlngs[3])
           }
-          console.log(JSON.stringify(senddata));
+          searchService.doSearch(senddata);
           $location.path("/results");
         }
       });
