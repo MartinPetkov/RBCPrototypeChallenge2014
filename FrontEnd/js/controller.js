@@ -10,11 +10,50 @@ Math.seed = function(s) {
     }
 };
 
+function HSVtoRGB(h, s, v) {
+    var r, g, b, i, f, p, q, t;
+    if (h && s === undefined && v === undefined) {
+        s = h.s, v = h.v, h = h.h;
+    }
+    i = Math.floor(h * 6);
+    f = h * 6 - i;
+    p = v * (1 - s);
+    q = v * (1 - f * s);
+    t = v * (1 - (1 - f) * s);
+    switch (i % 6) {
+        case 0: r = v, g = t, b = p; break;
+        case 1: r = q, g = v, b = p; break;
+        case 2: r = p, g = v, b = t; break;
+        case 3: r = p, g = q, b = v; break;
+        case 4: r = t, g = p, b = v; break;
+        case 5: r = v, g = p, b = q; break;
+    }
+    return {
+        r: Math.floor(r * 255),
+        g: Math.floor(g * 255),
+        b: Math.floor(b * 255)
+    };
+}
+
+function generate_image(base, seed) {
+  var b64 = atob(base).split("");
+
+  Math.seed(seed);
+  var colors = HSVtoRGB(Math.random()*360000, Math.random(), 1);
+
+  b64[13] = String.fromCharCode(colors.r);
+  b64[14] = String.fromCharCode(colors.g);
+  b64[15] = String.fromCharCode(colors.b);
+
+  return "data:image/gif;base64," + btoa(b64.join(""));
+}
+
 ULYSSES.config(['$httpProvider', function($httpProvider) {
         $httpProvider.defaults.useXDomain = true;
         // delete $httpProvider.defaults.headers.common['X-Requested-With'];
     }
 ]);
+
 
 ULYSSES.config(['$routeProvider',
   function($routeProvider) {
@@ -88,25 +127,29 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
   $scope.markers = {};
   $scope.loaded = false;
   searchService.getSearch().success(function(data){
+    console.log(data);
 
     data.clusters.forEach(function(cluster){
+      
+
+      var pin_img = generate_image("R0lGODlhHwAyAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfADIAAAKwlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdijcfrcRsHh4JdcrkYVNPU6izNK0HHtrw5EwPGa2pxvF0MX53cHWKgHqPKx1/ahMGj1WFSHCNEoOfnHQ6S5Kef5mRkq+kSqh2bpSaa6CtbqanrKggQbWts5K7ioS8vbG9MBfCk8LJhrbJMcs8zsWQAAOw==", cluster.cluster_id);
+
+      var dot_img = generate_image("R0lGODlhHwAdAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfAB0AAAJzlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdhjtxv8RptDhTHsU0y1E6NkbYVTEVlcNCa3q1h1PQyfd2bi1PXxFkhSY6gmpbhIF7RYAAA7", cluster.cluster_id);
+      // img = "data:image/gif;base64,"
       cluster.ATMs.forEach(function(atm){
-        var hash = "";
-        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-        Math.seed(cluster.cluster_id);
-
-        for( var i=0; i < 3; i++ )
-            hash += possible.charAt(Math.floor(Math.random() * possible.length));
 
 
-        img = "data:image/gif;base64,R0lGODlhHwAyAKEAAP"+hash+"wAAAP///////yH5BAEKAAIALAAAAAAfADIAAAKwlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdijcfrcRsHh4JdcrkYVNPU6izNK0HHtrw5EwPGa2pxvF0MX53cHWKgHqPKx1/ahMGj1WFSHCNEoOfnHQ6S5Kef5mRkq+kSqh2bpSaa6CtbqanrKggQbWts5K7ioS8vbG9MBfCk8LJhrbJMcs8zsWQAAOw=="
+        var message = atm.address + '<br />' + atm.owner;
+        if(atm.owner == "RBC") {
+          message = '<img class="pull-right" src="./assets/rbc_smallest.png" />' + message;
+        }
 
         $scope.markers["id_"+String(atm.atm_id)] = {
           lat: atm.lat,
           lng: atm.lon,
           focus: false,
           draggable: false,
-          message: atm.address + '<br />' + atm.owner,
+          message: message,
           icon: {
             iconUrl: img,
             shadowUrl: '',
@@ -119,9 +162,9 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
       });
     });
 
-    console.log($scope.markers);
-
     $scope.loaded = true;
+
+    window.dispatchEvent(new Event('resize'));
   }).error(function(){
     alert("ERROR");
   });
