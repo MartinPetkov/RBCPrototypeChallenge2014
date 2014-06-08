@@ -5,4 +5,20 @@
   <br />
 </div>
 <div ng-show="loaded" >
+  <div class="bigger row">
+    <div class="well col-md-8">
+      <leaflet maxbounds="maxbounds" center="center" markers="markers" defaults="defaults" width="100%" height="680px"></leaflet>
+    </div>
+    <div class=" col-md-4">
+      <div class="cluster-list">
+        <div class="well" ng-repeat="cluster in clusters | orderBy:predicate:reverse">
+          {{ cluster.ATMs[0].address }}
+
+          <ul>
+            <li>{{}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

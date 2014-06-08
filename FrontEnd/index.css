@@ -54,3 +54,16 @@ h1 {
   display: block;
   margin: 5px auto;
 }
+
+.bigger {
+  width: 150%;
+  margin-left: -25%;
+}
+
+.cluster-list {
+  height: 720px;
+  overflow-y: scroll;
+  padding-right: 10px;
+  border-bottom: 1px solid #DDD;
+  border-radius: 6px;
+}
