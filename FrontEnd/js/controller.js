@@ -118,7 +118,7 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
   };
 
   $scope.defaults = {
-    minZoom: $scope.center.zoom,
+    minZoom: 12,
     zoomControl: false
   };
 
@@ -137,6 +137,19 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
   $scope.loaded = false;
   searchService.getSearch().success(function(data){
     console.log(data);
+
+    setTimeout(function(){
+      leafletData.getMap().then(function(map) {
+        var r = data.region;
+        map.fitBounds([
+          [r.NW.lat, r.NW.lon],
+          [r.NE.lat, r.NE.lon],
+          [r.SE.lat, r.SE.lon],
+          [r.SW.lat, r.SW.lon]
+        ]);
+      });
+    }, 500);
+
 
     $scope.clusters = data.clusters;
 
@@ -214,7 +227,9 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
         $scope.center.lat = cluster.midpoint_lat;
         $scope.center.lng = cluster.midpoint_lon;
         $scope.center.zoom = 16;
+        setTimeout(function(){
         $scope.markers["id_"+String(cluster.cluster_id)].focus = true;
+        }, 30);
       }
       
       cluster.ATMs.forEach(function(atm){
