@@ -99,7 +99,7 @@ ULYSSES.service('searchService', function($http,$location) {
   var doSearch = function(data) {
       promise = $http({
         method: 'POST',
-        url: 'http://127.0.0.1:1236/ATMapper/clusters/',
+        url: 'http://192.168.158.241:1236/ATMapper/clusters/',
         data: data
       });
   }
