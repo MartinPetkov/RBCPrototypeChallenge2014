@@ -1,0 +1,24 @@
+presentation outline:
+
+(15 sec tops) Who You Are:
+introduction, ULYSSES!
+
+(35 sec tops) How it Works:
+information, details, specifications
+
+> ULYSSES 
+> take database
+> group based on distance
+> eval algorithm
+> show groupings based on rank decided by algorithm
+
+(35 sec tops) Why it's Unique:
+differentiation & value to RBC
+> specific algorithm geared towards RBC
+> specific application of finding ATMs
+> preserve customer privacy w/ anonymized data
+
+DEMO
+
+> show a demonstration; let someone else go through it?
+> hook up computer to projector
