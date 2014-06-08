@@ -4,6 +4,12 @@ function create_cord(v){
   return {lat: v.lat, lon: v.lng};
 }
 
+Math.seed = function(s) {
+    Math.random = function() {
+        s = Math.sin(s) * 10000; return s - Math.floor(s);
+    }
+};
+
 ULYSSES.config(['$httpProvider', function($httpProvider) {
         $httpProvider.defaults.useXDomain = true;
         // delete $httpProvider.defaults.headers.common['X-Requested-With'];
@@ -56,12 +62,6 @@ ULYSSES.service('searchService', function($http) {
 });
 
 ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) {
-  $scope.loaded = false;
-  searchService.getSearch().success(function(){
-    $scope.loaded = true;
-  }).error(function(){
-    alert("ERROR");
-  });
 
   $scope.center = {
     lat: 43.7044,
@@ -84,6 +84,57 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
       lng: -79.5952606201
     }
   };
+
+  $scope.markers = {};
+  $scope.loaded = false;
+  searchService.getSearch().success(function(data){
+
+    data.clusters.forEach(function(cluster){
+      cluster.ATMs.forEach(function(atm){
+        var hash = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        Math.seed(cluster.cluster_id);
+
+        for( var i=0; i < 3; i++ )
+            hash += possible.charAt(Math.floor(Math.random() * possible.length));
+
+
+        img = "data:image/gif;base64,R0lGODlhHwAyAKEAAP"+hash+"wAAAP///////yH5BAEKAAIALAAAAAAfADIAAAKwlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdijcfrcRsHh4JdcrkYVNPU6izNK0HHtrw5EwPGa2pxvF0MX53cHWKgHqPKx1/ahMGj1WFSHCNEoOfnHQ6S5Kef5mRkq+kSqh2bpSaa6CtbqanrKggQbWts5K7ioS8vbG9MBfCk8LJhrbJMcs8zsWQAAOw=="
+
+        $scope.markers["id_"+String(atm.atm_id)] = {
+          lat: atm.lat,
+          lng: atm.lon,
+          focus: false,
+          draggable: false,
+          message: atm.address + '<br />' + atm.owner,
+          icon: {
+            iconUrl: img,
+            shadowUrl: '',
+            iconSize:     [25, 40],
+            shadowSize:   [0, 0],
+            iconAnchor:   [12, 40],
+            shadowAnchor: [4, 62]
+          }
+        };
+      });
+    });
+
+    console.log($scope.markers);
+
+    $scope.loaded = true;
+  }).error(function(){
+    alert("ERROR");
+  });
+
+  // $scope.markers = {
+  //   osloMarker: {
+  //     lat: 59.91,
+  //     lng: 10.75,
+  //     message: "I want to travel here!",
+  //     focus: true,
+  //     draggable: false
+  //   }
+  // };
 });
 
 ULYSSES.controller('IndexCtrl', function ($scope, $location, leafletData, searchService) {
