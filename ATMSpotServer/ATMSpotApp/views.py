@@ -9,20 +9,22 @@ from django.db.models.query import QuerySet
 from matplotlib.path import Path
 from math import sqrt
 import pdb
+from django.views.decorators.csrf import csrf_exempt
 
 
 # Create your views here.
+@csrf_exempt
 def homepage(request):
 	# Return the homepage
 	return render_to_response("homepage.html")
 
-
+@csrf_exempt
 def clusters_in_box(request):
 	# Return the clusters info as a JSON response
-	NW = request.META.get('NW')
-	NE = request.META.get('NE')
-	SW = request.META.get('SW')
-	SE = request.META.get('SE')
+	NW = request.POST.get('NW')
+	NE = request.POST.get('NE')
+	SW = request.POST.get('SW')
+	SE = request.POST.get('SE')
 
 	clusters = {}
 
@@ -30,14 +32,15 @@ def clusters_in_box(request):
 	db_cluster_list = Cluster.objects.all()
 
 	coordinates = {}
-	#coordinates["NW"] = NW
-	#coordinates["NE"] = NE
-	#coordinates["SW"] = SW
-	#coordinates["SE"] = SE
-	coordinates["NW"] = {"lat": 0.0, "lon": 0.0}
-	coordinates["NE"] = {"lat": 0.0, "lon": 20.0}
-	coordinates["SW"] = {"lat": 20.0, "lon": 20.0}
-	coordinates["SE"] = {"lat": 20.0, "lon": 0.0}
+	coordinates["NW"] = NW
+	coordinates["NE"] = NE
+	coordinates["SW"] = SW
+	coordinates["SE"] = SE
+	pdb.set_trace()
+	#coordinates["NW"] = {"lat": 0.0, "lon": 0.0}
+	#coordinates["NE"] = {"lat": 0.0, "lon": 20.0}
+	#coordinates["SW"] = {"lat": 20.0, "lon": 20.0}
+	#coordinates["SE"] = {"lat": 20.0, "lon": 0.0}
 	new_cluster_list = filter_db_cluster_list(db_cluster_list, coordinates)
 	cluster_list = []
 
@@ -84,7 +87,10 @@ def clusters_in_box(request):
 
 
 	clusters["clusters"] = cluster_list
-	return HttpResponse(json.dumps(clusters), content_type="application/json")
+	response = HttpResponse(json.dumps(clusters), content_type="application/json")
+	response['Access-Control-Allow-Origin'] = '*'
+	response['X-Frame-Options'] = ''
+	return response
 
 def calculate_clusters(request):
 	# require all ATM objects from database (syntax?)
