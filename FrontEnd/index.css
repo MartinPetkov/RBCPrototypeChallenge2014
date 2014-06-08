@@ -5,14 +5,52 @@
 .middle {
   width: 50%;
   max-width: 800px;
-  min-width: 500px;
+  min-width: 600px;
   margin: 10px auto;
 }
 
-.well p {
+.well p:last-child {
   margin-bottom: 0px;
 }
 
-p, h1, button {
+.well {
+  background-color: #F2F0EC;
+}
+
+p, h3, h4, button, li {
   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'FF Meta', sans-serif;
+  font-size: 54px;
+  margin-bottom: -14px;
+}
+
+.leaflet-bottom.leaflet-right {
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none; 
+}
+
+.icons {
+  margin-top: 6px;
+}
+
+.btn-primary {
+  background-color: #408289;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+
+  background-color: #2D6D73;
+  border-color: #2D6D73;
+}
+
+.spinner {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 5px auto;
 }

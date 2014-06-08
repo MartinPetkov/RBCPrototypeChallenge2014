@@ -1,10 +1,39 @@
-var atmapper = angular.module("ATMapper", ["leaflet-directive"]);
+var ULYSSES = angular.module("ULYSSES", ["ngRoute", "leaflet-directive"]);
 
 function create_cord(v){
   return {lat: v.lat, lon: v.lng};
 }
 
-atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
+ULYSSES.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/', {
+        templateUrl: 'partials/index.html',
+        controller: 'IndexCtrl'
+      }).
+      when('/loading', {
+        templateUrl: 'partials/loading.html',
+        controller: 'LoadingCtrl'
+      }).
+      when('/results', {
+        templateUrl: 'partials/results.html',
+        controller: 'ResultsCtrl'
+      }).
+      otherwise({
+        redirectTo: '/'
+      });
+  }
+]);
+
+ULYSSES.controller('LoadingCtrl', function ($scope, leafletData) {
+  //
+});
+
+ULYSSES.controller('ResultsCtrl', function ($scope, leafletData) {
+  //
+});
+
+ULYSSES.controller('IndexCtrl', function ($scope, $location, leafletData) {
     $scope.center = {
       lat: 43.7044,
       lng: -79.7331,
@@ -28,12 +57,12 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
     };
 
     $scope.drawing = false;
-    $scope.draw_button_name = "Start Drawing";
+    $scope.draw_button_name = "Define Region";
 
     $scope.paths = {};
 
     $scope.paths.draw = {
-      color: 'teal',
+      color: '#408289',
       weight: 4,
       latlngs: [
         { lat: 0, lng: 0 },
@@ -70,6 +99,7 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
             SW: create_cord($scope.paths.draw.latlngs[3])
           }
           console.log(JSON.stringify(senddata));
+          $location.path("/loading");
         }
       });
 
@@ -125,7 +155,7 @@ atmapper.controller('ATMapperCtrl', function ($scope, leafletData) {
           map.scrollWheelZoom.enable();
           map.boxZoom.enable();
           map.keyboard.enable();
-          $scope.draw_button_name = "Start Drawing";
+          $scope.draw_button_name = "Define Region";
 
           $scope.paths.draw.latlngs = [
             { lat: 0, lng: 0 },
