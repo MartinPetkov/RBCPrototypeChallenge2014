@@ -17,7 +17,7 @@
   background-color: #F2F0EC;
 }
 
-p, h3, h4, button, li {
+p, h3, h4, button, li, label {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -80,4 +80,13 @@ h1 {
 
 .colourswatch {
   margin-bottom: 0px;
+}
+
+.advanced input {
+  width: 45%;
+  margin: 0;
+  display: inline-block;
+}
+.advanced label {
+  display: block;
 }

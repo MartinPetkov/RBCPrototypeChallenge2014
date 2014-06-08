@@ -12,3 +12,37 @@
 <div class="well">
   <leaflet maxbounds="maxbounds" center="center" defaults="defaults" width="100%" height="480px" paths="paths"></leaflet>
 </div>
+<div class="well">
+  <div class="pull-right">
+    <input type="checkbox" id="useadvance" ng-model="advanced">
+    <label for="useadvance">Use advanced settings</label>
+  </div>
+  <h4>Advanced Search Settings</h4>
+  <div class="row advanced" ng-show="advanced">
+    <div class="col-md-4">
+      <label>w_sur_tot</label>
+      <input type="text" ng-model="advanced_settings.w_sur_tot.high" />
+      <input type="text" ng-model="advanced_settings.w_sur_tot.low" />
+    </div>
+    <div class="col-md-4">
+      <label>tot_num_RBC</label>
+      <input type="text" ng-model="advanced_settings.tot_num_RBC.high" />
+      <input type="text" ng-model="advanced_settings.tot_num_RBC.low" />
+    </div>
+    <div class="col-md-4">
+      <label>w_trans_RBC</label>
+      <input type="text" ng-model="advanced_settings.w_trans_RBC.high" />
+      <input type="text" ng-model="advanced_settings.w_trans_RBC.low" />
+    </div>
+    <div class="col-md-4">
+      <label>tot_num_non_RBC</label>
+      <input type="text" ng-model="advanced_settings.tot_num_non_RBC.high" />
+      <input type="text" ng-model="advanced_settings.tot_num_non_RBC.low" />
+    </div>
+    <div class="col-md-4">
+      <label>w_trans_non_RBC</label>
+      <input type="text" ng-model="advanced_settings.w_trans_non_RBC.high" />
+      <input type="text" ng-model="advanced_settings.w_trans_non_RBC.low" />
+    </div>
+  </div>
+</div>

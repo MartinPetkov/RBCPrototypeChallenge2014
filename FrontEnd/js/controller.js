@@ -40,6 +40,13 @@ function gen_color(seed) {
   return HSVtoRGB(Math.random()*360000, Math.random(), 1);
 }
 
+function merge_options(obj1,obj2){
+    var obj3 = {};
+    for (var attrname in obj1) { obj3[attrname] = obj1[attrname]; }
+    for (var attrname in obj2) { obj3[attrname] = obj2[attrname]; }
+    return obj3;
+}
+
 function generate_image(base, colors) {
   var b64 = atob(base).split("");
 
@@ -92,7 +99,7 @@ ULYSSES.service('searchService', function($http,$location) {
   var doSearch = function(data) {
       promise = $http({
         method: 'POST',
-        url: 'http://localhost:1236/ATMapper/clusters/',
+        url: 'http://192.168.158.241:1236/ATMapper/clusters/',
         data: data
       });
   }
@@ -290,6 +297,7 @@ ULYSSES.controller('IndexCtrl', function ($scope, $location, $timeout, leafletDa
     }
   };
 
+  $scope.advanced = false;
   $scope.drawing = false;
   $scope.draw_button_name = "Define Region";
 
@@ -307,6 +315,8 @@ ULYSSES.controller('IndexCtrl', function ($scope, $location, $timeout, leafletDa
     ],
     mouse_start: { lat: 0, lng: 0 }
   };
+
+  $scope.advanced_settings ={};
 
   leafletData.getMap().then(function(map) {
     var down = false;
@@ -332,6 +342,10 @@ ULYSSES.controller('IndexCtrl', function ($scope, $location, $timeout, leafletDa
           SW: create_cord($scope.paths.draw.latlngs[3]),
           SE: create_cord($scope.paths.draw.latlngs[2])
         }
+        if($scope.advanced){
+          senddata = merge_options(senddata, $scope.advanced_settings);
+        }
+
         searchService.doSearch(senddata);
         $location.path("/results");
       }
