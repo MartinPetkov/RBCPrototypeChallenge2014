@@ -12,11 +12,10 @@
     <div class=" col-md-4">
       <div class="cluster-list">
         <div class="well" ng-repeat="cluster in clusters | orderBy:predicate:reverse">
-          {{ cluster.ATMs[0].address }}
-
-          <ul>
-            <li>{{}}</li>
-          </ul>
+          <button class="btn btn-primary btn-sm pull-right" ng-click="cluster.view()" >View</button>
+          <h4>{{ cluster.ATMs[0].address }}</h4>
+          <div class="clearfix"></div>
+          <div class="well colourswatch" ng-style="{backgroundColor:cluster.color}"></div>
         </div>
       </div>
     </div>

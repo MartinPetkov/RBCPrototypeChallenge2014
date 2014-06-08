@@ -35,11 +35,13 @@ function HSVtoRGB(h, s, v) {
     };
 }
 
-function generate_image(base, seed) {
-  var b64 = atob(base).split("");
-
+function gen_color(seed) {
   Math.seed(seed);
-  var colors = HSVtoRGB(Math.random()*360000, Math.random(), 1);
+  return HSVtoRGB(Math.random()*360000, Math.random(), 1);
+}
+
+function generate_image(base, colors) {
+  var b64 = atob(base).split("");
 
   b64[13] = String.fromCharCode(colors.r);
   b64[14] = String.fromCharCode(colors.g);
@@ -139,25 +141,42 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
     $scope.clusters = data.clusters;
 
     data.clusters.forEach(function(cluster){
-      
+      cluster.colors = gen_color(cluster.cluster_id);
+      cluster.color = function(){
+        var mainstring = "#"
+        if(cluster.colors.r < 16) {
+          mainstring += "0"; 
+        }
+        mainstring += cluster.colors.r.toString(16);
+        if(cluster.colors.g < 16) {
+          mainstring += "0"; 
+        }
+        mainstring += cluster.colors.g.toString(16);
+        if(cluster.colors.b < 16) {
+          mainstring += "0"; 
+        }
+        mainstring += cluster.colors.b.toString(16);
 
-      var pin_img = generate_image("R0lGODlhHwAyAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfADIAAAKwlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdijcfrcRsHh4JdcrkYVNPU6izNK0HHtrw5EwPGa2pxvF0MX53cHWKgHqPKx1/ahMGj1WFSHCNEoOfnHQ6S5Kef5mRkq+kSqh2bpSaa6CtbqanrKggQbWts5K7ioS8vbG9MBfCk8LJhrbJMcs8zsWQAAOw==", cluster.cluster_id);
+        return mainstring;
+      }();
 
-      var dot_img = generate_image("R0lGODlhHwAdAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfAB0AAAJzlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdhjtxv8RptDhTHsU0y1E6NkbYVTEVlcNCa3q1h1PQyfd2bi1PXxFkhSY6gmpbhIF7RYAAA7", cluster.cluster_id);
+
+      var pin_img = generate_image("R0lGODlhHwAyAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfADIAAAKwlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdijcfrcRsHh4JdcrkYVNPU6izNK0HHtrw5EwPGa2pxvF0MX53cHWKgHqPKx1/ahMGj1WFSHCNEoOfnHQ6S5Kef5mRkq+kSqh2bpSaa6CtbqanrKggQbWts5K7ioS8vbG9MBfCk8LJhrbJMcs8zsWQAAOw==", cluster.colors);
+
+      var dot_img = generate_image("R0lGODlhHwAdAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfAB0AAAJzlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdhjtxv8RptDhTHsU0y1E6NkbYVTEVlcNCa3q1h1PQyfd2bi1PXxFkhSY6gmpbhIF7RYAAA7", cluster.colors);
 
 
       var cluster_message = function(){
-        var main_message = "<b>Score: </b>" + cluster.score;
-        main_message += "<br />";
+        var main_message = "";
 
         var good_reasons = [];
         var bad_reasons = [];
 
         cluster.Reasons.forEach(function(reason) {
           //fuck you guys lmao
-          var reason_text = reason.reason_text.replace(/<b>/,"<i>").replace(/<\/b>/,"</i>");
+          var reason_text = reason.reason_text;
           if(reason.alignment == "B") {
-            bad_reasons.push();
+            bad_reasons.push(reason.reason_text);
           } else {
             good_reasons.push(reason.reason_text);
           }
@@ -166,6 +185,7 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
         main_message += "<b>Pros</b><br/>";
         main_message += good_reasons.join("<br/>");
 
+        main_message += "<br/>";
         main_message += "<br/>";
         main_message += "<b>Cons</b><br/>";
         main_message += bad_reasons.join("<br/>");
@@ -190,6 +210,13 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
         }
       };
 
+      cluster.view = function(){
+        $scope.center.lat = cluster.midpoint_lat;
+        $scope.center.lng = cluster.midpoint_lon;
+        $scope.center.zoom = 16;
+        $scope.markers["id_"+String(cluster.cluster_id)].focus = true;
+      }
+      
       cluster.ATMs.forEach(function(atm){
         var message = atm.address + '<br />' + atm.owner + "<br/>";
         message += "TPM: " + atm.trans_per_month + "<br/>";
