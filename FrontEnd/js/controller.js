@@ -72,9 +72,15 @@ ULYSSES.config(['$routeProvider',
   }
 ]);
 
-ULYSSES.service('searchService', function($http) {
+ULYSSES.service('searchService', function($http,$location) {
   var promise = {
-
+    success: function(){
+      $location.path("/");
+      return this;
+    },
+    error: function(){
+      $location.path("/");
+    }
   };
 
   var reset = function(){
@@ -134,26 +140,55 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
 
       var pin_img = generate_image("R0lGODlhHwAyAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfADIAAAKwlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdijcfrcRsHh4JdcrkYVNPU6izNK0HHtrw5EwPGa2pxvF0MX53cHWKgHqPKx1/ahMGj1WFSHCNEoOfnHQ6S5Kef5mRkq+kSqh2bpSaa6CtbqanrKggQbWts5K7ioS8vbG9MBfCk8LJhrbJMcs8zsWQAAOw==", cluster.cluster_id);
 
-      // var dot_img = generate_image("R0lGODlhHwAdAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfAB0AAAJzlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdhjtxv8RptDhTHsU0y1E6NkbYVTEVlcNCa3q1h1PQyfd2bi1PXxFkhSY6gmpbhIF7RYAAA7", cluster.cluster_id);
+      var dot_img = generate_image("R0lGODlhHwAdAKEAAP///wAAAP///////yH5BAEKAAIALAAAAAAfAB0AAAJzlI8Sy5sPTZszRgay3oDZ03Bi1ljYiHbOc6aolyzuvILBjNey2752Srm9AhJgUDgi7kTH3iaUbCI5UKZ0uKResdhjtxv8RptDhTHsU0y1E6NkbYVTEVlcNCa3q1h1PQyfd2bi1PXxFkhSY6gmpbhIF7RYAAA7", cluster.cluster_id);
+
+
+      var cluster_message = function(){
+        var main_message = "<b>Score: </b>" + cluster.score;
+        main_message += "<br />";
+
+        var good_reasons = [];
+        var bad_reasons = [];
+
+        cluster.Reasons.forEach(function(reason) {
+          var reason_text = reason.reason_text.replace(/<b>/,"<i>").replace(/<i>/,"<b>");
+          if(reason.alignment == "B") {
+            bad_reasons.push();
+          } else {
+            good_reasons.push(reason.reason_text);
+          }
+        });
+
+        main_message += "<b>Pros</b><br/>";
+        main_message += good_reasons.join("<br/>");
+
+        main_message += "<br/>";
+        main_message += "<b>Cons</b><br/>";
+        main_message += bad_reasons.join("<br/>");
+
+        return main_message;
+      }();
       
-      // $scope.markers["id_"+String(cluster.cluster_id)] = {
-      //   lat: cluster.midpoint_lat,
-      //   lng: cluster.midpoint_lon,
-      //   focus: false,
-      //   draggable: false,
-      //   message: "this is a cluster",
-      //   icon: {
-      //     iconUrl: dot_img,
-      //     shadowUrl: '',
-      //     iconSize:     [25, 25],
-      //     shadowSize:   [0, 0],
-      //     iconAnchor:   [12, 12],
-      //     shadowAnchor: [4, 62]
-      //   }
-      // };
+      $scope.markers["id_"+String(cluster.cluster_id)] = {
+        lat: cluster.midpoint_lat,
+        lng: cluster.midpoint_lon,
+        focus: false,
+        draggable: false,
+        message: cluster_message,
+        bl_group: "clusters",
+        icon: {
+          iconUrl: dot_img,
+          shadowUrl: '',
+          iconSize:     [25, 25],
+          shadowSize:   [0, 0],
+          iconAnchor:   [12, 12],
+          shadowAnchor: [4, 62]
+        }
+      };
 
       cluster.ATMs.forEach(function(atm){
-        var message = atm.address + '<br />' + atm.owner;
+        var message = atm.address + '<br />' + atm.owner + "<br/>";
+        message += "TPM: " + atm.trans_per_month + "<br/>";
         if(atm.owner == "RBC") {
           message = '<img class="pull-right" src="./assets/rbc_smallest.png" />' + message;
         }
@@ -164,7 +199,7 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
           focus: false,
           draggable: false,
           message: message,
-          group: "id_"+String(cluster.cluster_id),
+          bl_group: "atms",
           icon: {
             iconUrl: pin_img,
             shadowUrl: '',
@@ -184,15 +219,6 @@ ULYSSES.controller('ResultsCtrl', function ($scope, leafletData, searchService) 
     alert("ERROR");
   });
 
-  // $scope.markers = {
-  //   osloMarker: {
-  //     lat: 59.91,
-  //     lng: 10.75,
-  //     message: "I want to travel here!",
-  //     focus: true,
-  //     draggable: false
-  //   }
-  // };
 });
 
 ULYSSES.controller('IndexCtrl', function ($scope, $location, leafletData, searchService) {
