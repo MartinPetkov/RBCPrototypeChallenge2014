@@ -21,26 +21,14 @@ def homepage(request):
 @csrf_exempt
 def clusters_in_box(request):
 	# Return the clusters info as a JSON response
-	NW = request.POST.get('NW')
-	NE = request.POST.get('NE')
-	SW = request.POST.get('SW')
-	SE = request.POST.get('SE')
 
 	clusters = {}
 
 	# Select clusters whose midpoints fall within the give coordinates
 	db_cluster_list = Cluster.objects.all()
 
-	coordinates = {}
-	coordinates["NW"] = NW
-	coordinates["NE"] = NE
-	coordinates["SW"] = SW
-	coordinates["SE"] = SE
-	pdb.set_trace()
-	#coordinates["NW"] = {"lat": 0.0, "lon": 0.0}
-	#coordinates["NE"] = {"lat": 0.0, "lon": 20.0}
-	#coordinates["SW"] = {"lat": 20.0, "lon": 20.0}
-	#coordinates["SE"] = {"lat": 20.0, "lon": 0.0}
+	coordinates = json.loads(request.body)
+	#pdb.set_trace()
 	new_cluster_list = filter_db_cluster_list(db_cluster_list, coordinates)
 	cluster_list = []
 
