@@ -1,4 +1,6 @@
 import csv
+from model import ATM
+
 
 def populateDB(owner, csvFileName):
     with open(csvFileName, 'r') as csvFile:
@@ -10,6 +12,9 @@ def populateDB(owner, csvFileName):
                 address = row[3]
                 lat = row[0]
                 lon = row[1]
+
+                )
+
             p.save()
 
 
