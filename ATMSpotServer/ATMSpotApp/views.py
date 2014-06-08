@@ -17,7 +17,7 @@ BAD_REASONS = {
 	"monthly_surcharge_low": "- Too few people paying surcharges on non-RBC ATMs in this area",
 	"total_num_rbc_high": "- Large number of RBC ATMs in this area",
 	"non_rbc_low": "- Too few non-RBC ATMs in the area",
-	"trans_rbc_low": "- Too few RBC transactions from RBC ATMs in this area",
+	"trans_rbc_low": "- Too few transactions from RBC customers through RBC ATMs in this area",
 	"trans_non_rbc_low": "- Too few transactions from RBC customers through non-RBC ATMs in this area",
 }
 
