@@ -35,20 +35,3 @@ class ATM(models.Model):
 
 	class Admin:
 		pass
-
-
-class Reason(models.Model):
-	ALIGNMENTS = (
-		('G', 'Good'),
-		('B', 'Bad')
-		)
-	reason_id = models.AutoField(primary_key=True, unique=True)
-	alignment = models.CharField(max_length=50, choices=ALIGNMENTS)
-	reason_text = models.CharField(max_length=50)
-	cluster_id = models.ForeignKey(Cluster)
-
-	def __str__(self):
-		return "[Alignment: %s | Details: %s | Cluster: %s]" % (self.alignment, self.reason_text, self.cluster_id)
-
-	class Admin:
-		pass
