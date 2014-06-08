@@ -10,11 +10,12 @@ def populateDB(owner, csvFileName):
                 address = row[3]
                 lat = row[0]
                 lon = row[1]
-            p.save
+            p.save()
 
 
-populateDB("RBC", "RBC/positions.csv")
-populateDB("CIBC", "CIBC/positions.csv")
-populateDB("BMO", "BMO/positions.csv")
-populateDB("Scotia", "Scotia/positions.csv")
-populateTD("TD", "TD/positions.csv")
+path_prefix = "DataScript/ATMs_in_brampton/"
+populateDB("RBC", path_prefix + "RBC/positions.csv")
+populateDB("CIBC", path_prefix + "CIBC/positions.csv")
+populateDB("BMO", path_prefix + "BMO/positions.csv")
+populateDB("Scotia", path_prefix + "Scotia/positions.csv")
+populateTD("TD", path_prefix + "TD/positions.csv")

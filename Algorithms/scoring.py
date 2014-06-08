@@ -55,11 +55,9 @@ def calc_non_RBC(cluster):
 
 
 # create some values for testing (don't have to be accurate)	
-c1 = Cluster(2,1,0)
-atm1 = ATM('RBC', '15 Front St.', 2.,3.,4,'flat',c1)
-atm2 = ATM('BMO', '15 Front St.', 2.,2.9,6,'flat',c1)
-
-# check if RBC ATMs have more transactions than other ATMs
+#c1 = Cluster(2,1,0)
+#atm1 = ATM('RBC', '15 Front St.', 2.,3.,4,'flat',c1)
+#atm2 = ATM('BMO', '15 Front St.', 2.,2.9,6,'flat',c1)
 
 # weight: todo: adjust depending on other values?
 surcharge_weight = 1.0
@@ -67,6 +65,7 @@ RBC_trans_w = 1.0
 non_RBC_trans_w = 1.0
 num_ratio_w = 1.0
 
+cluster_list = Cluster.objects.all()
 for cluster in cluster_list:
 	# score for cluster: combination of weighted surcharge total, 
 	# minus weighted number of RBC machines,
@@ -81,6 +80,7 @@ for cluster in cluster_list:
 	w_num_rat = num_ratio_w * tot_num_non_RBC/tot_num_RBC
 
 	cluster.score = (w_num_rat*(w_sur_tot - w_trans_RBC + w_trans_non_RBC))
+	cluster.save()
 
 
 
