@@ -67,3 +67,17 @@ h1 {
   border-bottom: 1px solid #DDD;
   border-radius: 6px;
 }
+
+.cluster-list h4 {
+  margin-top: 0;
+
+}
+
+.cluster-list .btn {
+  margin-left: 10px;
+
+}
+
+.colourswatch {
+  margin-bottom: 0px;
+}
