@@ -63,9 +63,9 @@ atm2 = ATM('BMO', '15 Front St.', 2.,2.9,6,'flat',c1)
 
 # weight: todo: adjust depending on other values?
 surcharge_weight = 1.0
-RBC_num_w = 1.0
-non_RBC_num_w = 1.0
-trans_ratio_w = 1.0
+RBC_trans_w = 1.0
+non_RBC_trans_w = 1.0
+num_ratio_w = 1.0
 
 for cluster in cluster_list:
 	# score for cluster: combination of weighted surcharge total, 
@@ -74,13 +74,13 @@ for cluster in cluster_list:
 	# multiplied by the weighted ratio of transactions of non-RBC machines to
 	# transactions on RBC machines
 	w_sur_tot = calc_monthly_surcharge(cluster) * surcharge_weight
-	w_num_RBC, tot_trans_RBC = calc_RBC(cluster)
-	w_num_RBC *= RBC_num_w
-	w_num_non_RBC, tot_trans_non_RBC = calc_RBC(cluster)
-	w_num_non_RBC *= non_RBC_num_w
-	w_trans_rat = trans_ratio_w * tot_trans_non_RBC/tot_trans_RBC
+	tot_num_RBC, w_trans_RBC = calc_RBC(cluster)
+	w_trans_RBC *= RBC_trans_w
+	tot_num_non_RBC, w_trans_non_RBC = calc_RBC(cluster)
+	w_trans_non_RBC *= non_RBC_trans_w
+	w_num_rat = num_ratio_w * tot_num_non_RBC/tot_num_RBC
 
-	cluster.score = (w_trans_rat*(w_sur_tot - w_num_RBC + w_num_non_RBC))
+	cluster.score = (w_num_rat*(w_sur_tot - w_trans_RBC + w_trans_non_RBC))
 
 
 
